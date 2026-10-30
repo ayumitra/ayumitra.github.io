@@ -1,0 +1,213 @@
+<!doctype html>
+<!-- Built from src/help/api-keys.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adding your API keys · Ayumitra help</title>
+<meta name="description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic or OpenRouter key to use a cloud model of your choice in Ayumitra.">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../help.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" fill="#23574B"/><circle cx="32" cy="24" r="6.5" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="../index.html#watch">Watch it work</a>
+      <a href="../index.html#privacy">Privacy</a>
+      <a class="header-cta" href="../index.html#download">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="help">
+  <div class="container help-wrap">
+
+    <article class="doc">
+      <p class="crumb"><a href="../index.html">Home</a> <span aria-hidden="true">/</span> Help</p>
+      <h1>Adding your API keys</h1>
+      <p class="doc-lede">Ayumitra works fully on your phone without any keys. Keys are optional: one turns on web search for general questions, the others let you use a cloud model of your choice.</p>
+
+      <aside class="note note-calm">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+        <p><strong>Your keys stay on your phone.</strong> They’re kept in the phone’s secure storage and are never sent to Ayumitra. Saving a key sends nothing; it’s only used when you choose web search or a cloud model. You pay the provider directly.</p>
+      </aside>
+
+      <h2 id="choose">Which key do you need?</h2>
+      <div class="pick">
+        <a class="pick-card" href="#search">
+          <span class="mark m-brave" aria-hidden="true">B</span>
+          <span><strong>Brave Search</strong><small>Web search for general questions</small></span>
+        </a>
+        <a class="pick-card" href="#search">
+          <span class="mark m-tavily" aria-hidden="true">T</span>
+          <span><strong>Tavily</strong><small>Web search, with a free plan</small></span>
+        </a>
+        <a class="pick-card" href="#cloud">
+          <span class="mark m-openai" aria-hidden="true">O</span>
+          <span><strong>OpenAI</strong><small>GPT models</small></span>
+        </a>
+        <a class="pick-card" href="#cloud">
+          <span class="mark m-anthropic" aria-hidden="true">A</span>
+          <span><strong>Anthropic</strong><small>Claude models</small></span>
+        </a>
+        <a class="pick-card" href="#cloud">
+          <span class="mark m-openrouter" aria-hidden="true">R</span>
+          <span><strong>OpenRouter</strong><small>Many models, including free ones</small></span>
+        </a>
+      </div>
+
+      <!-- Web search -->
+      <section class="howto" id="search" aria-labelledby="search-title">
+        <h2 id="search-title">Turn on web search with Brave Search or Tavily</h2>
+        <p>With a key for Brave Search or Tavily, Ayumitra can look up general health information online, such as “what is ferritin”. Only general, public questions are sent. Your reports, names and conversations stay on your phone. Web search doesn’t need cloud AI.</p>
+
+        <div class="split">
+          <ol class="steps-list">
+            <li>
+              <h3>Get a key</h3>
+              <p>Either one works. For <b>Brave Search</b>, sign up for the <a href="https://brave.com/search/api/" rel="noopener">Brave Search API</a>, choose a plan and copy your key from the dashboard. For <b>Tavily</b>, sign up at <a href="https://app.tavily.com/home" rel="noopener">app.tavily.com</a>, which has a free plan, and copy your key. Tavily says it may keep the questions it receives to improve its search.</p>
+            </li>
+            <li>
+              <h3>Open Looking things up</h3>
+              <p>In Ayumitra, open <b>Settings</b> and find <b>Looking things up</b>. Tap <b>Add</b> next to <b>Brave Search</b> or <b>Tavily</b>.</p>
+            </li>
+            <li>
+              <h3>Paste and save</h3>
+              <p>Paste the key into <b>API key</b> and tap <b>Save key</b>. You’ll see “Tavily key saved. Web search uses it now.”</p>
+            </li>
+            <li>
+              <h3>Check it’s on</h3>
+              <p>It now says <b>On · searches with your Tavily key</b> (or your Brave Search key). Ayumitra searches on its own when a question needs it. With both keys saved, the one saved last searches; tap the circle beside the other to switch.</p>
+            </li>
+          </ol>
+
+          <figure class="shot" aria-label="Ayumitra Settings: Looking things up, with Brave Search and Tavily">
+            <div class="phone-mini"><div class="pm-screen">
+              <div class="pm-bar"><span class="pm-back" aria-hidden="true"></span><strong>Settings</strong></div>
+              <p class="pm-group">Looking things up</p>
+              <ul class="pm-list">
+                <li><span class="mark m-brave">B</span><span><b>Brave Search</b><small>Web search for general questions</small></span><em>Add</em></li>
+                <li class="hl"><span class="mark m-tavily">T</span><span><b>Tavily</b><small>Web search for general questions</small></span><em>Add</em></li>
+              </ul>
+              <div class="pm-sheet">
+                <strong>Tavily API key</strong>
+                <span class="pm-field"><span class="pm-label">API key</span>tvly-•••••••••••••</span>
+                <small>Stored only in this phone’s secure storage.</small>
+                <span class="pm-btn">Save key</span>
+              </div>
+            </div></div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Cloud -->
+      <section class="howto" id="cloud" aria-labelledby="cloud-title">
+        <h2 id="cloud-title">Use a cloud model of your choice</h2>
+        <p>By default, every answer and every report is handled on your phone. If you’d like a larger model, add a key from OpenAI, Anthropic or OpenRouter. Cloud stays off until you turn it on.</p>
+
+        <div class="table-wrap">
+          <table class="providers">
+            <thead><tr><th scope="col">Provider</th><th scope="col">Good for</th><th scope="col">Where to get a key</th></tr></thead>
+            <tbody>
+              <tr><td><span class="mark m-openai" aria-hidden="true">O</span>OpenAI</td><td>GPT models</td><td><a href="https://platform.openai.com/api-keys" rel="noopener">platform.openai.com</a> › API keys</td></tr>
+              <tr><td><span class="mark m-anthropic" aria-hidden="true">A</span>Anthropic</td><td>Claude models</td><td><a href="https://console.anthropic.com/settings/keys" rel="noopener">Claude Console</a> › API keys</td></tr>
+              <tr><td><span class="mark m-openrouter" aria-hidden="true">R</span>OpenRouter</td><td>Many models, including free ones</td><td><a href="https://openrouter.ai/settings/keys" rel="noopener">openrouter.ai</a> › Keys</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <ol class="steps-list">
+          <li>
+            <h3>Open Cloud AI</h3>
+            <p>Open <b>Settings</b>, then <b>Cloud AI</b>.</p>
+          </li>
+          <li>
+            <h3>Save the key</h3>
+            <p>Choose the company, tap <b>Add key</b>, paste the key and tap <b>Save key</b>. Saving a key sends nothing and turns nothing on.</p>
+          </li>
+          <li>
+            <h3>Read the agreement</h3>
+            <p>Tap <b>Read the agreement and turn on</b>. Cloud AI turns on only once you agree; it covers each company, and a free model asks for one more agreement first.</p>
+          </li>
+          <li>
+            <h3>Pick your model</h3>
+            <p>In a chat, tap <b>On this phone · Gemma 4</b> at the top and pick your cloud model. For reports, pick it under <b>Read reports and photos with</b> when you add one. You can switch back at any time.</p>
+          </li>
+        </ol>
+
+        <aside class="note note-calm">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>
+          <p><strong>Privacy shield.</strong> With it on, real names are swapped for imaginary ones on your phone before anything goes to a cloud model, and swapped back in replies. Names printed on page images can’t be swapped.</p>
+        </aside>
+
+        <aside class="note note-caution">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg>
+          <p><strong>What a cloud model receives.</strong> Chat sends your messages and the health details that matter for the question. Reading a report also sends page images and extracted text. The provider’s charges and retention policies apply. With OpenRouter, free models may keep or learn from what you send, so a paid model is the safer choice for health details.</p>
+        </aside>
+      </section>
+
+      <section class="howto" id="manage" aria-labelledby="manage-title">
+        <h2 id="manage-title">Replace or remove a key</h2>
+        <p>A saved key shows <b>Saved on this phone</b>, with <b>Replace</b> to paste a new one and <b>Remove</b>. AI companies’ keys are in <b>Settings › Cloud AI</b>; removing one takes chat and reading back to this phone. Brave Search and Tavily are under <b>Settings › Looking things up</b>; removing the one in use hands searching to the other, and removing both turns web search off.</p>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Questions</h2>
+        <details>
+          <summary>Do I need any key to use Ayumitra?</summary>
+          <p>No. Reading reports, search, answers, medicines and vaccines all work on your phone without a key.</p>
+        </details>
+        <details>
+          <summary>Does saving a key send my health data anywhere?</summary>
+          <p>No. Saving a key sends nothing. Data is only sent when you choose a cloud model, after a one-time notice, or when web search sends a general question.</p>
+        </details>
+        <details>
+          <summary>Who do I pay?</summary>
+          <p>The provider whose key you use, on their pricing. Ayumitra doesn’t add a charge.</p>
+        </details>
+        <details>
+          <summary>Something isn’t working</summary>
+          <p>Check the key was copied in full, and that your provider account has an active plan or credit. If a cloud request fails, Ayumitra stops and tells you; it never switches provider by itself.</p>
+        </details>
+      </section>
+    </article>
+
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <a href="#choose">Which key do you need?</a>
+      <a href="#search">Web search with Brave Search or Tavily</a>
+      <a href="#cloud">Cloud model of your choice</a>
+      <a href="#manage">Replace or remove a key</a>
+      <a href="#faq-title">Questions</a>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="../impressum.html">Impressum</a>
+        <a href="../privacy.html">Privacy policy</a>
+        <a href="api-keys.html" aria-current="page">Help</a>
+        <a href="mailto:support@ayumitra.app">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+</body>
+</html>

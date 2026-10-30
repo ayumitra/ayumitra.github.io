@@ -1,0 +1,733 @@
+<!doctype html>
+<!-- Built from src/index.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayumitra, the health companion for your family</title>
+<meta name="description" content="Ayumitra is a health companion for the whole family: medicines, reports, vaccines, doctor’s appointments and the readings your phone and watch record, for each person, kept on your phone. Ask anything in plain words and see where every answer came from. No account, no ads.">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#top" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" fill="#23574B"/><circle cx="32" cy="24" r="6.5" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="#watch">Watch it work</a>
+      <a href="#readings">Readings</a>
+      <a href="#keeps">What it keeps</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#plans">Pricing</a>
+      <a class="header-cta" href="#download">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero: a person's papers and the readings her phone brought in, and an answer that points to both -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>A health companion that knows your family.</h1>
+        <p class="lede">Ayumitra keeps each person’s reports, medicines, vaccines and appointments, and the readings their phone and watch record, on your phone. Ask anything in plain words and see where every answer came from.</p>
+        <div class="stores">
+          <!-- Placeholders until the app is in the stores: then links with the official badges and the real store URLs (see README). -->
+          <span class="store is-soon" aria-label="Ayumitra for iPhone: coming soon to the App Store">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+            <span><strong>iPhone</strong><small>Coming soon to the App Store</small></span>
+          </span>
+          <span class="store is-soon" aria-label="Ayumitra for Android: coming soon to Google Play">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5v17l13.5-8.5z"/></svg>
+            <span><strong>Android</strong><small>Coming soon to Google Play</small></span>
+          </span>
+        </div>
+        <p class="hero-note">The AI runs on your phone. No account, no ads.</p>
+      </div>
+
+      <figure class="file" aria-labelledby="file-caption">
+        <figcaption id="file-caption" class="sr-only">Meera’s blood test report, her prescription, and this week’s morning blood sugars from her meter, which came in through Health Connect. Ayumitra’s answer to “Is her sugar better than in June?”: yes, her HbA1c fell from 7.4% in June to 6.8% on 12 October, and her morning readings this week stayed between 96 and 118 mg/dL. One citation points to the HbA1c line of the report, the other to the week’s readings.</figcaption>
+        <div class="file-canvas" aria-hidden="true">
+
+          <div class="paper paper-rx">
+            <span class="rx-mark">Rx</span>
+            <p class="rx-line"><b>Metformin 500 mg</b></p>
+            <p class="rx-line">twice daily, with meals</p>
+            <p class="rx-line">from 4 July</p>
+            <svg class="rx-sign" viewBox="0 0 120 30"><path d="M4 22c10-14 16-16 18-8s-4 12 2 6 10-16 14-10-2 12 4 8 8-10 12-8 2 8 8 6 12-6 18-4 14 2 22-2" fill="none" stroke="#3B4A46" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+
+          <div class="paper paper-lab">
+            <div class="lab-head">
+              <span class="lab-title">Blood chemistry</span>
+              <span class="lab-date">12 Oct 2026</span>
+            </div>
+            <p class="lab-patient">Patient: Meera K., 52 years</p>
+            <table class="lab-table">
+              <thead><tr><th>Test</th><th>Result</th><th>Unit</th><th>Reference</th></tr></thead>
+              <tbody>
+                <tr><td>Glucose, fasting</td><td class="num">108</td><td>mg/dL</td><td>70–99</td></tr>
+                <tr class="lab-hit"><td>HbA1c</td><td class="num">6.8</td><td>%</td><td>below 5.7</td></tr>
+                <tr><td>Creatinine</td><td class="num">0.8</td><td>mg/dL</td><td>0.6–1.1</td></tr>
+                <tr><td>eGFR</td><td class="num">94</td><td>mL/min</td><td>above 90</td></tr>
+                <tr><td>LDL</td><td class="num">104</td><td>mg/dL</td><td>below 100</td></tr>
+              </tbody>
+            </table>
+            <p class="lab-page">Page 1 of 2</p>
+          </div>
+
+          <!-- Not paper: a measure's page from the app, so it stands straight -->
+          <div class="readings">
+            <div class="readings-head"><b>Blood sugar</b><span>Health Connect</span></div>
+            <ol class="readings-rows">
+              <li><span>Today 7:10 am</span><b>98</b></li>
+              <li><span>Fri 7:25 am</span><b>112</b></li>
+              <li><span>Thu 7:05 am</span><b>118</b></li>
+              <li><span>Wed 7:30 am</span><b>96</b></li>
+            </ol>
+            <p class="readings-foot">mg/dL, from the meter</p>
+          </div>
+
+          <div class="answer">
+            <div class="answer-bar">
+              <svg width="16" height="16" viewBox="0 0 64 64"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" fill="#23574B"/><circle cx="32" cy="24" r="6.5" fill="#C98A2B"/></svg>
+              <span>Meera</span>
+              <span class="answer-local"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>On this phone</span>
+            </div>
+            <p class="answer-ask">Is her sugar better than in June?</p>
+            <p class="answer-text">Yes. Her HbA1c fell from <b>7.4%</b> in June to <b>6.8%</b> on 12 October, and her morning readings this week stayed between <b>96</b> and <b>118 mg/dL</b>.</p>
+            <div class="answer-cites">
+              <span class="answer-cite" data-cite="lab">Blood chemistry, 12 Oct, p. 1</span>
+              <span class="answer-cite" data-cite="readings">Blood sugar, this week</span>
+            </div>
+          </div>
+
+          <svg class="thread"><path data-thread="lab" d=""/><path data-thread="readings" d=""/></svg>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Watch it work: four short demos, each played while on screen -->
+  <section class="watch" id="watch" aria-labelledby="watch-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="watch-title">Watch it work</h2>
+        <p>Four things Ayumitra does every day, shown with sample records.</p>
+      </div>
+      <div class="demos">
+
+        <!-- 1. A photographed report, read on the phone -->
+        <figure class="demo" data-demo="read" aria-labelledby="demo-read">
+          <div class="screen" aria-hidden="true">
+            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this phone</span></div>
+            <div class="screen-body">
+              <div class="scan">
+                <div class="scan-page">
+                  <i></i><i></i><i class="short"></i><i></i><i></i><i class="short"></i><i></i><i></i>
+                  <span class="scan-line"></span>
+                </div>
+                <ol class="mini-steps">
+                  <li data-s>Finding the pages</li>
+                  <li data-s>Reading the results</li>
+                  <li data-s>Checking the date</li>
+                </ol>
+              </div>
+              <ul class="results">
+                <li data-r><span>Haemoglobin</span><b>12.1</b><small>g/dL</small></li>
+                <li data-r><span>Ferritin</span><b>28</b><small>ng/mL</small></li>
+                <li data-r><span>Vitamin B12</span><b>410</b><small>pg/mL</small></li>
+              </ul>
+              <span class="saved" data-done>Saved to John’s reports, 12 Oct</span>
+            </div>
+          </div>
+          <figcaption id="demo-read"><h3>Reads a report from a photo</h3><p>Photograph a lab report or add a PDF. It’s read on the phone, with each value, unit and date kept.</p></figcaption>
+        </figure>
+
+        <!-- 2. A question, its steps, and an answer with its source -->
+        <figure class="demo" data-demo="ask" aria-labelledby="demo-ask">
+          <div class="screen" aria-hidden="true">
+            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this phone</span></div>
+            <div class="screen-body chat">
+              <p class="bubble" data-bubble>Is his haemoglobin better than in June?</p>
+              <ol class="mini-steps live" data-steps>
+                <li data-s>Understood: whether his haemoglobin is better than in June</li>
+                <li data-s>Searching John’s reports</li>
+                <li data-s>Comparing 3 blood counts with the lab’s range</li>
+              </ol>
+              <div class="reply" data-done>
+                <p>Yes. It rose from <b>10.8</b> in June to <b>12.1 g/dL</b> in October, now inside the lab’s range.</p>
+                <svg class="mini-trend" viewBox="0 0 240 56" preserveAspectRatio="none"><rect x="0" y="4" width="240" height="30" rx="5" fill="#DCEBE5"/><polyline points="8,50 120,42 232,30" fill="none" stroke="#23574B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="50" r="3.6" fill="#fff" stroke="#23574B" stroke-width="2"/><circle cx="120" cy="42" r="3.6" fill="#fff" stroke="#23574B" stroke-width="2"/><circle cx="232" cy="30" r="4" fill="#23574B"/></svg>
+                <span class="cite">Blood count, 12 Oct, p. 1</span>
+              </div>
+            </div>
+            <div class="composer"><span class="field"><span data-typed></span><span class="caret"></span><span class="placeholder" data-placeholder>Ask about John…</span></span><span class="send" data-send></span></div>
+          </div>
+          <figcaption id="demo-ask"><h3>Answers with the source</h3><p>Ask in plain words. It says what it understood, shows each step, and the answer points to the report it came from.</p></figcaption>
+        </figure>
+
+        <!-- 3. A prescription, turned into a course and reminders to confirm -->
+        <figure class="demo" data-demo="rx" aria-labelledby="demo-rx">
+          <div class="screen" aria-hidden="true">
+            <div class="screen-bar"><span class="avatar a2">M</span><b>Meera</b><span class="local">On this phone</span></div>
+            <div class="screen-body">
+              <div class="rx-photo">
+                <span class="rx-photo-mark">Rx</span>
+                <svg viewBox="0 0 160 46"><path d="M4 12c14-6 30 4 44-2s22 2 36-1 30 3 40 0M4 26c18-4 26 3 42 0s24 2 34-1M4 40c12-3 22 2 30-1" fill="none" stroke="#5C6B66" stroke-width="1.6" stroke-linecap="round"/></svg>
+                <span class="scan-line"></span>
+              </div>
+              <div class="course" data-r>
+                <b>Amoxicillin 500 mg</b>
+                <span>3 times a day, for 7 days</span>
+                <small>From the prescription of 21 Oct</small>
+              </div>
+              <div class="times" data-r>
+                <span>Reminders</span>
+                <i data-t>8 am</i><i data-t>2 pm</i><i data-t>8 pm</i>
+              </div>
+              <span class="button" data-press>Add the course and reminders</span>
+              <span class="saved" data-done>Added. You can undo this.</span>
+            </div>
+          </div>
+          <figcaption id="demo-rx"><h3>Turns a prescription into reminders</h3><p>The course and its dose times are read from the photo. Nothing is added until you check it and say so.</p></figcaption>
+        </figure>
+
+        <!-- 4. Warning signs: the app's own callout, before the answer -->
+        <figure class="demo" data-demo="urgent" aria-labelledby="demo-urgent">
+          <div class="screen" aria-hidden="true">
+            <div class="screen-bar"><span class="avatar a3">R</span><b>Riya</b><span class="local">On this phone</span></div>
+            <div class="screen-body chat">
+              <p class="bubble" data-bubble>Fever since last night and now she’s very hard to wake</p>
+              <div class="urgent" data-r>
+                <b>Get urgent help now</b>
+                <span>Being very hard to wake needs a doctor straight away.</span>
+                <span class="call">Call 112</span>
+                <small>From Ayumitra’s safety checks, not the AI model.</small>
+              </div>
+              <div class="reply" data-done>
+                <p>While help is on the way, stay with her, keep her lying on her side, and note when the fever started.</p>
+              </div>
+            </div>
+            <div class="composer"><span class="field"><span data-typed></span><span class="caret"></span><span class="placeholder" data-placeholder>Ask about Riya…</span></span><span class="send" data-send></span></div>
+          </div>
+          <figcaption id="demo-urgent"><h3>Puts warning signs first</h3><p>When something sounds urgent, the app’s own check shows what to do and your local emergency number before any answer.</p></figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Readings: a day as Ayumitra keeps it, from the phone and the watch -->
+  <section class="day" id="readings" aria-labelledby="day-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="day-title">Readings come in by themselves</h2>
+        <p>Import once from Health Connect or Apple Health, and new readings from the phone, the watch and the meters you already use keep coming into the right person’s record: blood pressure, blood sugar, oxygen, weight, temperature, heart rate, steps and sleep.</p>
+      </div>
+
+      <figure class="day-panel" aria-labelledby="day-caption">
+        <figcaption id="day-caption" class="sr-only">Meera’s day so far, as Ayumitra keeps it, checked for new readings 4 minutes ago. Sleep from her watch, 11:10 pm to 6:40 am, 7 hours 10 minutes. Heart rate from her watch, each hour’s lowest and highest, 52 to 118 today. Blood pressure 134/85 at 9:05 pm yesterday, told in chat, and 126/80 at 7:50 am from her blood pressure monitor. Blood sugar 104 at 7:20 am and 142 at 1:45 pm from her meter. Steps, 6,412 so far today, Health Connect’s total for the day.</figcaption>
+        <div class="day-top" aria-hidden="true">
+          <span class="avatar a2">M</span><b>Meera</b><span class="day-when">Today, 4:10 pm</span>
+          <span class="day-checked">Checked for new readings 4 min ago</span>
+        </div>
+
+        <div class="strip" aria-hidden="true">
+          <div class="axis">
+            <span style="--at:0.0">8 pm</span>
+            <span style="--at:0.1667">midnight</span>
+            <span style="--at:0.3333">4 am</span>
+            <span style="--at:0.5">8 am</span>
+            <span style="--at:0.6667">noon</span>
+            <span style="--at:0.8333">4 pm</span>
+            <span style="--at:1.0">8 pm</span>
+          </div>
+          <div class="grid-lines">
+            <i style="--at:0.1667"></i>
+            <i style="--at:0.3333"></i>
+            <i style="--at:0.5"></i>
+            <i style="--at:0.6667"></i>
+            <i style="--at:0.8333"></i>
+            <span class="later" style="--at:0.8403"></span>
+          </div>
+
+          <div class="lane-name" style="grid-row:2"><b>Sleep</b><span>7 h 10 min</span></div>
+          <div class="track track-sleep" style="grid-row:2">
+            <span class="band" style="--from:0.1319;--to:0.4444">11:10 pm – 6:40 am</span>
+            <span class="src" style="--at:0.4444">Watch</span>
+          </div>
+
+          <div class="lane-name" style="grid-row:3"><b>Heart rate</b><span>52–118 <small>today</small></span></div>
+          <div class="track track-hr" style="grid-row:3">
+            <div class="bars">
+              <i style="--at:0.0208;--lo:0.338;--hi:0.537"></i>
+              <i style="--at:0.0625;--lo:0.287;--hi:0.487"></i>
+              <i style="--at:0.1042;--lo:0.237;--hi:0.388"></i>
+              <i style="--at:0.1458;--lo:0.163;--hi:0.312"></i>
+              <i style="--at:0.1875;--lo:0.113;--hi:0.212"></i>
+              <i style="--at:0.2292;--lo:0.087;--hi:0.188"></i>
+              <i style="--at:0.2708;--lo:0.1;--hi:0.175"></i>
+              <i style="--at:0.3125;--lo:0.087;--hi:0.2"></i>
+              <i style="--at:0.3542;--lo:0.113;--hi:0.225"></i>
+              <i style="--at:0.3958;--lo:0.125;--hi:0.263"></i>
+              <i style="--at:0.4375;--lo:0.163;--hi:0.362"></i>
+              <i style="--at:0.4792;--lo:0.388;--hi:0.912"></i>
+              <i style="--at:0.5208;--lo:0.312;--hi:0.637"></i>
+              <i style="--at:0.5625;--lo:0.287;--hi:0.487"></i>
+              <i style="--at:0.6042;--lo:0.263;--hi:0.463"></i>
+              <i style="--at:0.6458;--lo:0.275;--hi:0.512"></i>
+              <i style="--at:0.6875;--lo:0.312;--hi:0.588"></i>
+              <i style="--at:0.7292;--lo:0.338;--hi:0.613"></i>
+              <i style="--at:0.7708;--lo:0.287;--hi:0.5"></i>
+              <i style="--at:0.8125;--lo:0.263;--hi:0.438"></i>
+              <i style="--at:0.8542;--lo:0.275;--hi:0.362"></i>
+              <span class="hr-high" style="--at:0.4792;--y:0.912">118</span>
+              <span class="hr-low" style="--at:0.2292;--y:0.087">52</span>
+            </div>
+            <span class="src" style="--at:0.875">Watch</span>
+          </div>
+
+          <div class="lane-name" style="grid-row:4"><b>Blood pressure</b><span>126/80 <small>latest</small></span></div>
+          <div class="track track-pt" style="grid-row:4">
+            <span class="pt" style="--at:0.0451"><b>134/85</b><small>Told in chat</small></span>
+            <span class="pt" style="--at:0.4931"><b>126/80</b><small>BP monitor</small></span>
+          </div>
+
+          <div class="lane-name" style="grid-row:5"><b>Blood sugar</b><span>104–142 <small>mg/dL</small></span></div>
+          <div class="track track-pt" style="grid-row:5">
+            <span class="pt" style="--at:0.4722"><b>104</b><small>Meter</small></span>
+            <span class="pt" style="--at:0.7396"><b>142</b><small>Meter</small></span>
+          </div>
+
+          <div class="lane-name" style="grid-row:6"><b>Steps</b><span>6,412 <small>so far</small></span></div>
+          <div class="track track-sleep" style="grid-row:6">
+            <span class="band band-day" style="--from:0.1667;--to:0.8403"><span>So far today</span><span>Health Connect</span></span>
+          </div>
+
+          <div class="now-line" style="--at:0.8403"><span>Now</span></div>
+        </div>
+        <p class="day-key" aria-hidden="true">Sleep shows when it began and ended. Heart rate keeps each hour’s lowest and highest. Steps are the day so far, as the phone adds them up.</p>
+
+        <!-- Narrow screens: the same day as the app lists it, with its time column -->
+        <ol class="daylist" aria-hidden="true">
+          <li><span class="when">9:05 pm<small>Yesterday</small></span><span class="what"><b>Blood pressure</b>134/85</span><span class="from">Told in chat</span></li>
+          <li class="is-span"><span class="when">11:10 pm<i></i>6:40 am</span><span class="what"><b>Sleep</b>7 h 10 min</span><span class="from">Watch</span></li>
+          <li><span class="when">7:20 am</span><span class="what"><b>Blood sugar</b>104 mg/dL</span><span class="from">Meter</span></li>
+          <li><span class="when">7:50 am</span><span class="what"><b>Blood pressure</b>126/80</span><span class="from">BP monitor</span></li>
+          <li><span class="when">1:45 pm</span><span class="what"><b>Blood sugar</b>142 mg/dL</span><span class="from">Meter</span></li>
+          <li class="is-day"><span class="when">Today</span><span class="what"><b>Heart rate</b>52–118</span><span class="from">Watch, each hour’s lowest and highest</span></li>
+          <li class="is-day"><span class="when">So far</span><span class="what"><b>Steps</b>6,412</span><span class="from">Health Connect</span></li>
+        </ol>
+      </figure>
+
+      <div class="day-facts">
+        <div>
+          <h3>It keeps checking</h3>
+          <p>While Ayumitra is open, it looks for new readings by itself. On Android it can also check about once an hour while it’s closed, if you allow it in Health Connect.</p>
+        </div>
+        <div>
+          <h3>Named, and never twice</h3>
+          <p>Each reading says which app recorded it, and one app’s same reading is kept once. A night two apps both recorded shows under each, and counts once.</p>
+        </div>
+        <div>
+          <h3>Into the right person</h3>
+          <p>Readings go into the profile you choose and are read on the phone only. Nothing is written back. Picked the wrong person? Undo takes the import back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What it keeps: one ruled row per kind of record, a figure on the right edge -->
+  <section class="keeps" id="keeps" aria-labelledby="keeps-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="keeps-title">One record for each person in the family</h2>
+        <p>Add a profile for each person. Their records, reminders and answers stay apart.</p>
+      </div>
+      <ul class="ledger">
+        <li>
+          <h3>Reports and scans</h3>
+          <p>Lab reports, prescriptions and scans are read on the phone, so you can find any test, value or date.</p>
+          <span class="figure">12.1 <small>g/dL</small></span>
+        </li>
+        <li>
+          <h3>Medicines</h3>
+          <p>Photograph a prescription and the course and its reminders are set up for you to check.</p>
+          <span class="figure">Day 4 <small>of 7</small></span>
+        </li>
+        <li>
+          <h3>Vaccines</h3>
+          <p>Your country’s schedule from birth, with what’s done and what’s due next.</p>
+          <span class="figure">Due <small>3 Nov</small></span>
+        </li>
+        <li>
+          <h3>Measurements</h3>
+          <p>Temperature, blood pressure, sugar, weight, heart rate and more: logged with a tap, told in chat or brought in from the phone. Every entry can be corrected.</p>
+          <span class="figure">37.4 <small>°C</small></span>
+        </li>
+        <li>
+          <h3>Sleep</h3>
+          <p>Each night with when it began and ended, from the watch or logged yourself, and a chart of the nights.</p>
+          <span class="figure">7 h 10 <small>min</small></span>
+        </li>
+        <li>
+          <h3>Growth</h3>
+          <p>Height and weight against the WHO growth charts, from birth to 19.</p>
+          <span class="figure">60th <small>percentile</small></span>
+        </li>
+        <li>
+          <h3>Cycle</h3>
+          <p>Periods with the next one as a range of days, never a guess, and states like pregnancy that pause predictions.</p>
+          <span class="figure">Day 20</span>
+        </li>
+        <li>
+          <h3>Visits</h3>
+          <p>Appointments and check-ins, and a brief to take to the doctor, written from the records.</p>
+          <span class="figure">Tue <small>10:30</small></span>
+        </li>
+        <li>
+          <h3>Shared with the other parent</h3>
+          <p>Share a child’s record with the other parent’s phone. The two phones catch up on your home Wi‑Fi, never through a server, and each of you keeps your own chats.</p>
+          <span class="figure">2 <small>phones</small></span>
+        </li>
+        <li>
+          <h3>Health memory</h3>
+          <p>One timeline of what happened, linked across reports and conversations, kept for life.</p>
+          <span class="figure">Since <small>2019</small></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Ask: six languages, then how an answer earns trust -->
+  <section class="ask" aria-labelledby="ask-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="ask-title">Ask in your own words, in your own language</h2>
+        <p>The whole app comes in English, हिन्दी, Deutsch, Français, Español and Nederlands: its screens, its reminders and its answers. Ask in any of them and the answer comes back in the same language. You can also speak your question in English.</p>
+      </div>
+      <ul class="questions">
+        <li><span>English</span><q lang="en">When is her next vaccine due?</q></li>
+        <li><span>Hindi</span><q lang="hi">क्या उसका बुखार उतर रहा है?</q></li>
+        <li><span>German</span><q lang="de">Was hat die Ärztin im März verschrieben?</q></li>
+        <li><span>Dutch</span><q lang="nl">Is mijn bloeddruk deze maand hoger?</q></li>
+        <li><span>French</span><q lang="fr">Que dit la dernière prise de sang ?</q></li>
+        <li><span>Spanish</span><q lang="es">¿Cuándo empezó su tos?</q></li>
+      </ul>
+      <div class="trust">
+        <div>
+          <h3>It says what it understood</h3>
+          <p>The first step says what it took your question to mean. If it can’t tell, it asks you one short question instead of guessing.</p>
+        </div>
+        <div>
+          <h3>A source for every answer</h3>
+          <p>You see each step as it works, and each answer points to the report, reading or conversation it came from. Tap it to open the report at that line.</p>
+        </div>
+        <div>
+          <h3>Warning signs come first</h3>
+          <p>If something you describe needs urgent care, the app says so before the answer, with the number to call. That check is built into the app, not left to the AI.</p>
+        </div>
+        <div>
+          <h3>Wherever you are</h3>
+          <p>Each person has their own suitcase: while they travel, the emergency numbers shown for them are the country’s they’re in, with WHO’s and CDC’s health advice for it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy: what "yours to control" means in practice -->
+  <section class="privacy" id="privacy" aria-labelledby="privacy-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="privacy-title">Your records are yours to control</h2>
+        <p>There’s no account and no Ayumitra server holding your health records. In practice:</p>
+      </div>
+      <ul class="facts">
+        <li><h3>Stored on your phone, encrypted</h3><p>Records, photos and conversations are kept in an encrypted vault on the phone.</p></li>
+        <li><h3>Read on your phone</h3><p>The AI that reads reports and answers questions runs on the phone itself, and works without a connection.</p></li>
+        <li><h3>Health data stays on the phone</h3><p>Health Connect and Apple Health are read on the phone, into the profile you choose. Nothing is written back to them.</p></li>
+        <li><h3>Cloud only if you choose</h3><p>You can use OpenAI, Anthropic or OpenRouter with your own key. It stays off until you agree and turn it on, and names are swapped before anything is sent.</p></li>
+        <li><h3>See what was sent</h3><p>With a cloud model on, Settings shows the exact text sent this session, with the app’s own check that no family name left the phone.</p></li>
+        <li><h3>Shared only between your phones</h3><p>A child’s record shared with the other parent goes straight from phone to phone on your Wi‑Fi, encrypted. Chats are never shared.</p></li>
+        <li><h3>Backups only you can open</h3><p>Backups are encrypted with six words that only you keep. Without them nobody can open a backup, including us.</p></li>
+        <li><h3>Delete anything</h3><p>Delete a report, a conversation, a person or everything. What a conversation taught Ayumitra goes with it.</p></li>
+        <li><h3>No ads, trackers or account</h3><p>The app has no advertising, analytics or crash reporting. This website sets no cookies and loads nothing from other servers.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Why it exists -->
+  <section class="story" id="story" aria-labelledby="story-title">
+    <div class="container story-grid">
+      <h2 id="story-title">Why we made Ayumitra</h2>
+      <div class="story-text">
+        <p>When our son was born, we needed an AI-powered app for his health: one place for his records that could also help us understand them.</p>
+        <p>We found none that kept a health record and also offered total privacy and data protection. So we built one ourselves.</p>
+        <p>Ayumitra is that app, now for your family too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What it isn't -->
+  <section class="isnt" aria-labelledby="isnt-title">
+    <div class="container">
+      <h2 id="isnt-title">What Ayumitra isn’t</h2>
+      <ul>
+        <li><b>A doctor.</b> It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it isn’t a medical device.</li>
+        <li><b>A source of children’s doses.</b> For a child it never gives a dose; it says to check the label or ask a doctor or pharmacist.</li>
+        <li><b>An emergency service.</b> If someone is seriously unwell, call your local emergency number.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- What it costs -->
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="plans-title">Free, with every feature</h2>
+        <p>No feature will ever be paywalled. All we’ll ever sell is the managed service below and, later, an AI model trained for Ayumitra. Nothing else.</p>
+      </div>
+      <div class="plan-list">
+        <article class="plan">
+          <h3>Ayumitra</h3>
+          <p class="price">Free</p>
+          <p>Everything on this page. The AI runs on your phone, or on a cloud model with your own key.</p>
+        </article>
+        <article class="plan plan-soon">
+          <h3>Ayumitra Pro <span class="soon">Coming soon</span></h3>
+          <p class="price">A small monthly fee</p>
+          <p>Not every phone is powerful enough to run AI models. With Pro, we run the AI for you, so anyone can use Ayumitra with no keys to manage. The promise stays the same: total privacy and zero data retention, so nothing you send is kept.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get the app -->
+  <section class="download" id="download" aria-labelledby="download-title">
+    <div class="container">
+    <div class="download-grid">
+      <div>
+        <h2 id="download-title">Get Ayumitra</h2>
+        <p class="lede">For iPhone and Android, in the EU, India and the USA.</p>
+      </div>
+      <div class="download-side">
+        <div class="stores">
+          <span class="store is-soon" aria-label="Ayumitra for iPhone: coming soon to the App Store">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+            <span><strong>iPhone</strong><small>Coming soon to the App Store</small></span>
+          </span>
+          <span class="store is-soon" aria-label="Ayumitra for Android: coming soon to Google Play">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5v17l13.5-8.5z"/></svg>
+            <span><strong>Android</strong><small>Coming soon to Google Play</small></span>
+          </span>
+        </div>
+        <p class="needs">Because the AI runs on the phone, it needs a recent one: an Android phone with 8 GB of memory or an iPhone with 6 GB, and about 12 GB free. The model, about 2.6 GB, downloads over Wi‑Fi the first time. On other phones Ayumitra can use a cloud model of your choice instead, and soon Ayumitra Pro.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="help/api-keys.html">Help</a>
+        <a href="mailto:support@ayumitra.app">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+
+<script>
+/* The threads: from each of the answer's citations to what it cites, the
+   report's line and the week's readings. Drawn once on load (a highlight
+   sweeps each, then its thread draws), redrawn without motion on resize.
+   With reduced motion, they are simply there. */
+(function () {
+  var canvas = document.querySelector(".file-canvas");
+  if (!canvas) return;
+  var svg = canvas.querySelector(".thread");
+  // The report's line is above and to the left of the answer, the week's
+  // readings beside it on the right: each thread leaves its citation on
+  // that side, around the answer's text, and meets the nearer end.
+  var links = [["lab", ".lab-hit", true], ["readings", ".readings-rows", false]].map(function (l) {
+    return {
+      path: svg.querySelector('[data-thread="' + l[0] + '"]'),
+      cite: canvas.querySelector('[data-cite="' + l[0] + '"]'),
+      to: canvas.querySelector(l[1]),
+      west: l[2]
+    };
+  });
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function draw() {
+    var box = canvas.getBoundingClientRect();
+    if (!box.width) return [];
+    svg.setAttribute("viewBox", "0 0 " + box.width + " " + box.height);
+    var out = Math.max(28, box.width * 0.07);
+    return links.map(function (l) {
+      var c = l.cite.getBoundingClientRect(), h = l.to.getBoundingClientRect();
+      if (!h.width) { l.path.setAttribute("d", ""); return 0; }
+      var west = l.west;
+      var x1 = (west ? c.left + 6 : c.right - 6) - box.left, y1 = c.top - box.top + c.height / 2;
+      var left = h.left - box.left + 4, right = h.right - box.left - 4;
+      var toLeft = Math.abs(x1 - left) < Math.abs(x1 - right);
+      var x2 = toLeft ? left : right, y2 = h.top - box.top + h.height / 2;
+      l.path.setAttribute("d", "M" + x1 + " " + y1 + " C" + (west ? x1 - out : x1 + out) + " " + y1 + " " + (toLeft ? x2 - out : x2 + out) + " " + y2 + " " + x2 + " " + y2);
+      return l.path.getTotalLength();
+    });
+  }
+
+  function start() {
+    var lengths = draw();
+    if (reduce || !lengths[0]) { canvas.classList.add("is-done"); return; }
+    links.forEach(function (l, i) {
+      l.path.style.strokeDasharray = lengths[i];
+      l.path.style.strokeDashoffset = lengths[i];
+    });
+    canvas.getBoundingClientRect();
+    canvas.classList.add("is-playing");
+  }
+
+  (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function () {
+    requestAnimationFrame(start);
+  });
+  var pending;
+  window.addEventListener("resize", function () {
+    clearTimeout(pending);
+    pending = setTimeout(function () {
+      links.forEach(function (l) { l.path.style.strokeDasharray = "none"; l.path.style.strokeDashoffset = "0"; });
+      draw();
+    }, 120);
+  });
+})();
+
+/* Watch it work: each demo plays its timeline while it is on screen and
+   the tab is visible, holds the finished state, then plays again. Before
+   it is first seen, with reduced motion or without JavaScript, the
+   finished state shows. */
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function all(root, s) { return Array.prototype.slice.call(root.querySelectorAll(s)); }
+  function on(el, cls, yes) { if (el) el.classList.toggle(cls, !!yes); }
+
+  function typing(root, t, at) {
+    var bubble = root.querySelector("[data-bubble]"), typed = root.querySelector("[data-typed]"),
+        placeholder = root.querySelector("[data-placeholder]"), send = root.querySelector("[data-send]");
+    var text = bubble.textContent;
+    at(t, function () { on(placeholder, "hide", true); on(root, "typing", true); });
+    for (var i = 1; i <= text.length; i++) {
+      (function (n) { at(t + n * 38, function () { typed.textContent = text.slice(0, n); }); })(i);
+    }
+    t += text.length * 38 + 300;
+    at(t, function () { on(send, "active", true); });
+    t += 350;
+    at(t, function () {
+      typed.textContent = ""; on(send, "active", false); on(placeholder, "hide", false);
+      on(root, "typing", false); on(bubble, "on", true);
+    });
+    return t + 350;
+  }
+
+  function stepsAt(steps, t, at, each) {
+    steps.forEach(function (s, i) {
+      at(t + i * each, function () { s.className = "is-live"; });
+      at(t + (i + 1) * each - 60, function () { s.className = "is-done"; });
+    });
+    return t + steps.length * each;
+  }
+
+  var timelines = {
+    read: function (root, at) {
+      var t = stepsAt(all(root, "[data-s]"), 400, at, 950);
+      at(300, function () { on(root, "scanning", true); });
+      at(t, function () { on(root, "scanning", false); });
+      all(root, "[data-r]").forEach(function (r, i) { at(t + 250 + i * 380, function () { on(r, "on", true); }); });
+      at(t + 1600, function () { on(root.querySelector("[data-done]"), "on", true); });
+      return t + 6200;
+    },
+    ask: function (root, at) {
+      var t = typing(root, 500, at);
+      var list = root.querySelector("[data-steps]");
+      at(t, function () { on(list, "on", true); });
+      t = stepsAt(all(root, "[data-s]"), t + 150, at, 900);
+      at(t + 150, function () { on(list, "on", false); on(root.querySelector("[data-done]"), "on", true); });
+      return t + 6000;
+    },
+    rx: function (root, at) {
+      at(300, function () { on(root, "scanning", true); });
+      at(1900, function () { on(root, "scanning", false); });
+      var rows = all(root, "[data-r]");
+      at(2100, function () { on(rows[0], "on", true); });
+      at(2700, function () { on(rows[1], "on", true); });
+      all(root, "[data-t]").forEach(function (c, i) { at(2900 + i * 220, function () { on(c, "on", true); }); });
+      var press = root.querySelector("[data-press]");
+      at(3900, function () { on(press, "on", true); });
+      at(4700, function () { on(press, "pressed", true); });
+      at(5000, function () { on(press, "on", false); on(root.querySelector("[data-done]"), "on", true); });
+      return 10000;
+    },
+    urgent: function (root, at) {
+      var t = typing(root, 500, at);
+      var r = root.querySelector("[data-r]");
+      at(t + 500, function () { on(r, "on", true); });
+      at(t + 1900, function () { on(root.querySelector("[data-done]"), "on", true); });
+      return t + 7200;
+    }
+  };
+
+  function reset(root) {
+    ["scanning", "typing", "fade"].forEach(function (c) { on(root, c, false); });
+    all(root, ".on, .pressed").forEach(function (el) { el.classList.remove("on", "pressed"); });
+    all(root, "[data-s]").forEach(function (s) { s.className = ""; });
+    all(root, "[data-placeholder]").forEach(function (p) { on(p, "hide", false); });
+    all(root, "[data-typed]").forEach(function (t) { t.textContent = ""; });
+  }
+  function finished(root) {
+    reset(root);
+    all(root, "[data-bubble], [data-r], [data-t], [data-done]").forEach(function (el) { el.classList.add("on"); });
+    all(root, "[data-s]").forEach(function (s) { s.className = "is-done"; });
+  }
+
+  all(document, "[data-demo]").forEach(function (root) {
+    var timeline = timelines[root.getAttribute("data-demo")];
+    var timers = [], running = false, visible = false;
+    function at(ms, fn) { timers.push(setTimeout(fn, ms)); }
+    function stop() { timers.forEach(clearTimeout); timers = []; running = false; }
+    function play() {
+      stop(); reset(root); running = true;
+      var end = timeline(root, at);
+      at(end, function () { on(root, "fade", true); });
+      at(end + 500, function () { running = false; if (visible && !document.hidden) play(); });
+    }
+    function update() {
+      var go = visible && !document.hidden;
+      if (go && !running) play();
+      if (!go && running) { stop(); finished(root); }
+    }
+    finished(root);
+    if (reduce) return;
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (e) { visible = e[0].isIntersecting; update(); }, { threshold: 0.5 }).observe(root);
+    } else { visible = true; update(); }
+    document.addEventListener("visibilitychange", update);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<!-- Built from src/privacy.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Ayumitra</title>
+<meta name="description" content="How the Ayumitra website and app handle personal data: health records stay encrypted on your phone, and nothing is sent to us.">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="help.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" fill="#23574B"/><circle cx="32" cy="24" r="6.5" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <a class="header-cta" href="index.html#download">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<!--
+  Written from how the app works as of 30 October 2026 (web search with
+  Brave Search or Tavily, sharing a child's profile between two phones,
+  GitHub Pages as the host). Have it reviewed by a lawyer before launch
+  (controller roles for the optional cloud services, third-country
+  transfers), and keep it in step with the app: any new service the app
+  contacts must be added here first. A German translation should follow.
+-->
+<main id="main" class="help">
+  <div class="container help-wrap single">
+    <article class="doc">
+      <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Privacy policy</p>
+      <h1>Privacy policy</h1>
+      <p class="doc-lede">Ayumitra keeps your family’s health records on your phone, encrypted. They are never sent to us. This page explains what that means for the app and for this website.</p>
+      <p class="updated">Last updated: 30 October 2026</p>
+
+      <h2 id="who">Who is responsible</h2>
+      <address>
+        Kriti Rai<br>
+        Annenallee 5<br>
+        12555 Berlin, Germany<br>
+        Email: <a href="mailto:support@ayumitra.app">support@ayumitra.app</a>
+      </address>
+      <p>Full details are in the <a href="impressum.html">Impressum</a>.</p>
+
+      <h2 id="short">In short</h2>
+      <ul>
+        <li>There is no Ayumitra account and no Ayumitra server that receives your health records. We can’t see, share or sell them.</li>
+        <li>The app stores everything in an encrypted vault on your phone, and its AI runs on the phone.</li>
+        <li>The app contacts other companies only for what you choose: downloading its AI model, a cloud AI model or web search with your own key, importing from Health Connect or Apple Health, health advice for a country you travel to, and backups to a place you pick. Each is described below.</li>
+        <li>If you share a child’s profile with the other parent, your two phones exchange it directly on your Wi‑Fi. It never reaches us.</li>
+        <li>This website sets no cookies, has no analytics and loads nothing from other servers.</li>
+      </ul>
+
+      <h2 id="app">The Ayumitra app</h2>
+
+      <h3>Your records stay on your phone</h3>
+      <p>Profiles, reports, scans and photos, conversations, measurements, medicines, vaccines, cycle logs, reminders and everything else you add are stored in an encrypted vault on your phone. The key is kept in the phone’s secure storage. We have no copy of the key and no access to the vault.</p>
+
+      <h3>The AI runs on your phone</h3>
+      <p>Reading reports and answering questions happens on the phone with an on-device model. It works without a connection.</p>
+
+      <h3>Downloading the AI model</h3>
+      <p>The first time you set up Ayumitra, it downloads its model files (about 2.6 GB and 165 MB) from Hugging Face, Inc. (USA). Like any download, this shares your phone’s IP address and the request with Hugging Face, which may process it in the USA. No health data, name or other record is sent. The legal basis is Art. 6(1)(b) GDPR: the download is needed for the app to work.</p>
+
+      <h3>A cloud AI model, only if you turn it on</h3>
+      <p>Cloud AI is off until you agree to it and turn it on. If you do, you add your own key for OpenAI, Anthropic or OpenRouter. Your question, and the parts of your records needed to answer it, are then sent from your phone directly to the provider you chose, under your own account with them and their terms. Before anything is sent, real names are replaced with made-up ones; you can see what is sent. Nothing passes through us. These providers may process data in the USA. The legal basis is your explicit consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR). You can withdraw it at any time by turning cloud AI off in the app; nothing more is sent from then on.</p>
+
+      <h3>Web search, only with your own key</h3>
+      <p>If you add a key for Brave Search or Tavily, the app can look up general public information, such as a medicine’s label or a guideline, with that service: Brave Software, Inc. (USA), or AlphaAI Technologies Inc., doing business as Tavily (USA). With both keys saved, each search goes to the one you picked, never to both. The app writes the search words itself and is designed to leave out names, dates and other personal details. The service receives your IP address and the search words; Tavily says it may keep the questions it receives and use them to improve its service. The legal basis is your consent (Art. 6(1)(a) GDPR), given by adding the key; remove the key to stop.</p>
+
+      <h3>Health Connect and Apple Health</h3>
+      <p>Only when you tap Import and allow it, the app reads the last 30 days of weight, height, blood pressure, oxygen, temperature, heart rate, resting heart rate, blood sugar, daily steps and sleep from Health Connect (Android) or Apple Health (iPhone) into the profile you choose, on the phone. Each reading keeps the name of the app that recorded it.</p>
+      <p>If you leave “Keep checking for new readings” on, the app then reads new readings into that profile by itself while it is open. On Android, if you also allow Health Connect’s reading in the background, it checks about once an hour while it is closed; this is a separate permission you can withdraw in Health Connect at any time. Turning Keep checking off, deleting that profile or deleting everything stops it.</p>
+      <p>It is read only: nothing is written back to Health Connect or Apple Health. What is read stays in the encrypted vault on the phone and goes to a cloud model only if you have turned cloud AI on.</p>
+
+      <h3>Travelling abroad, only if you turn it on</h3>
+      <p>When you turn on Travelling for a country, when you change the country, when you open Travelling a day or more after the last check, and when you tap Check again, the app downloads the World Health Organization’s list of disease outbreak news (WHO, Switzerland) and the U.S. Centers for Disease Control and Prevention’s travel page for that country (CDC, USA). Like any download, this shares your phone’s IP address and the request with them; the CDC address names the country. Nothing about your family is sent. The legal basis is Art. 6(1)(b) GDPR: the download is needed for the feature you turned on. Turn Travelling off to stop.</p>
+
+      <h3>Sharing a child’s profile, only if you set it up</h3>
+      <p>You can share a child’s profile with one other person you live with, usually the other parent, after you both agree on your phones with a one-time code. The child’s record (reports, measurements, medicines, vaccines, appointments, reminders and health memory, with who added each item) then goes directly between your two phones on the same Wi‑Fi or one phone’s hotspot, encrypted. It never passes through us or any cloud service. Your chats, settings, keys and other profiles stay on your own phone. What has reached the other phone stays there even if you stop sharing, and either of you can stop managing the profile at any time.</p>
+
+      <h3>Backups</h3>
+      <p>Backups are encrypted with a six-word passphrase that only you have. You choose where they are saved, on the phone or in a cloud drive you use. That provider holds only the encrypted file. Without your six words nobody can open it, including us.</p>
+
+      <h3>Exports, sharing and emails you send</h3>
+      <p>When you export or share a file, it goes only where you choose, and the file itself isn’t encrypted. If you report an answer to us, the app opens your own email app with a draft you can read and change before you send it.</p>
+
+      <h3>Permissions</h3>
+      <p>The app asks for each permission only when you use the feature that needs it: the camera and photos to add reports, the microphone for voice input (speech is recognised on the phone), notifications for reminders, and health data for imports. Call buttons open your phone’s own dialler.</p>
+
+      <h3>No tracking</h3>
+      <p>The app has no advertising, no analytics, no crash reporting and no tracking code from other companies.</p>
+
+      <h3>Children</h3>
+      <p>A child’s profile is created and managed by a parent or carer on their own phone, and stays on that phone unless they share it with the other parent’s phone (see above).</p>
+
+      <h3>Deleting your data</h3>
+      <p>You can delete a report, a conversation, a profile or everything from within the app. Uninstalling the app removes its data from the phone. Backups you made stay where you saved them until you delete them.</p>
+
+      <h2 id="website">This website</h2>
+
+      <h3>Hosting and server logs</h3>
+      <p>This website is hosted on GitHub Pages by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit, GitHub logs your IP address and stores it for security purposes, along with the usual details of a request (the page and the time), under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>. This is needed to deliver the site and keep it secure (Art. 6(1)(f) GDPR, our legitimate interest in a working, secure website). GitHub may process it in the USA; for transfers out of the EEA it relies on the EU–U.S. Data Privacy Framework and the EU’s standard contractual clauses. We don’t receive these logs.</p>
+
+      <h3>No cookies, no analytics, nothing from other servers</h3>
+      <p>The site stores nothing on your device and reads nothing from it, so no consent banner is needed. Fonts and images are served from this site, not loaded from elsewhere.</p>
+
+      <h3>Email</h3>
+      <p>If you email us, we use your address and message to reply (Art. 6(1)(b) GDPR when it concerns the app you use, otherwise Art. 6(1)(f)). We delete them when they are no longer needed, unless the law requires us to keep them.</p>
+
+      <h3>App stores</h3>
+      <p>The download links take you to Apple’s App Store or Google Play. Their own privacy policies apply there.</p>
+
+      <h2 id="rights">Your rights</h2>
+      <p>Under the GDPR you have the right to access (Art. 15), correction (Art. 16), deletion (Art. 17), restriction (Art. 18), data portability (Art. 20) and to object (Art. 21), and to withdraw consent at any time (Art. 7(3)). Write to us at <a href="mailto:support@ayumitra.app">support@ayumitra.app</a>.</p>
+      <p>Because your health records exist only on your phone, you see, correct, export and delete them yourself in the app. We can’t do it for you, because we never have them.</p>
+      <p>You can also complain to a data protection authority, for example the one responsible for us: Berliner Beauftragte für Datenschutz und Informationsfreiheit, Alt-Moabit 59–61, 10555 Berlin, Germany.</p>
+
+      <h2 id="changes">Changes</h2>
+      <p>If the app or this website starts handling data differently, this page is updated first, with a new date above.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html" aria-current="page">Privacy policy</a>
+        <a href="help/api-keys.html">Help</a>
+        <a href="mailto:support@ayumitra.app">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+</body>
+</html>
