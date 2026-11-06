@@ -7,6 +7,19 @@
 <title>Adding your API keys · Ayumitra help</title>
 <meta name="description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic or OpenRouter key to use a cloud model of your choice in Ayumitra.">
 <meta name="theme-color" content="#FAF7F2">
+<link rel="canonical" href="https://ayumitra.app/help/api-keys.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayumitra">
+<meta property="og:title" content="Adding your API keys · Ayumitra help">
+<meta property="og:description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic or OpenRouter key to use a cloud model of your choice in Ayumitra.">
+<meta property="og:url" content="https://ayumitra.app/help/api-keys.html">
+<meta property="og:image" content="https://ayumitra.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -24,7 +37,7 @@
     </a>
     <nav class="header-nav" aria-label="Main">
       <a href="../index.html#watch">Watch it work</a>
-      <a href="../index.html#privacy">Privacy</a>
+      <a href="../privacy.html">Privacy</a>
       <a class="header-cta" href="../index.html#download">Get the app</a>
     </nav>
   </div>
@@ -36,7 +49,7 @@
     <article class="doc">
       <p class="crumb"><a href="../index.html">Home</a> <span aria-hidden="true">/</span> Help</p>
       <h1>Adding your API keys</h1>
-      <p class="doc-lede">Ayumitra works fully on your phone without any keys. Keys are optional: one turns on web search for general questions, the others let you use a cloud model of your choice.</p>
+      <p class="doc-lede">On a phone that can run its on-device AI, Ayumitra works fully without any keys. Keys are optional: built-in web search needs none, a search key finds wider, fresher results, and the others let you use a cloud model of your choice.</p>
 
       <aside class="note note-calm">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
@@ -69,8 +82,8 @@
 
       <!-- Web search -->
       <section class="howto" id="search" aria-labelledby="search-title">
-        <h2 id="search-title">Turn on web search with Brave Search or Tavily</h2>
-        <p>With a key for Brave Search or Tavily, Ayumitra can look up general health information online, such as “what is ferritin”. Only general, public questions are sent. Your reports, names and conversations stay on your phone. Web search doesn’t need cloud AI.</p>
+        <h2 id="search-title">Wider web search with Brave Search or Tavily</h2>
+        <p>Ayumitra can look up general health information online, such as “what is ferritin”. Built-in search does this without a key, with MedlinePlus and Wikipedia, once you turn it on in Settings › Looking things up. A key for Brave Search or Tavily searches the wider web and finds fresher results; the key saved last is the one that searches. Only general, public questions are sent. Your reports, names and conversations stay on your phone. Web search doesn’t need cloud AI.</p>
 
         <div class="split">
           <ol class="steps-list">
@@ -121,7 +134,7 @@
             <thead><tr><th scope="col">Provider</th><th scope="col">Good for</th><th scope="col">Where to get a key</th></tr></thead>
             <tbody>
               <tr><td><span class="mark m-openai" aria-hidden="true">O</span>OpenAI</td><td>GPT models</td><td><a href="https://platform.openai.com/api-keys" rel="noopener">platform.openai.com</a> › API keys</td></tr>
-              <tr><td><span class="mark m-anthropic" aria-hidden="true">A</span>Anthropic</td><td>Claude models</td><td><a href="https://console.anthropic.com/settings/keys" rel="noopener">Claude Console</a> › API keys</td></tr>
+              <tr><td><span class="mark m-anthropic" aria-hidden="true">A</span>Anthropic</td><td>Claude models</td><td><a href="https://platform.claude.com/settings/keys" rel="noopener">platform.claude.com</a> › API keys</td></tr>
               <tr><td><span class="mark m-openrouter" aria-hidden="true">R</span>OpenRouter</td><td>Many models, including free ones</td><td><a href="https://openrouter.ai/settings/keys" rel="noopener">openrouter.ai</a> › Keys</td></tr>
             </tbody>
           </table>
@@ -142,13 +155,13 @@
           </li>
           <li>
             <h3>Pick your model</h3>
-            <p>In a chat, tap <b>On this phone · Gemma 4</b> at the top and pick your cloud model. For reports, pick it under <b>Read reports and photos with</b> when you add one. You can switch back at any time.</p>
+            <p>In a chat, tap <b>On this device · Gemma 4</b> at the top and pick your cloud model. For reports, pick it under <b>Read reports and photos with</b> when you add one. You can switch back at any time.</p>
           </li>
         </ol>
 
         <aside class="note note-calm">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>
-          <p><strong>Privacy shield.</strong> With it on, real names are swapped for imaginary ones on your phone before anything goes to a cloud model, and swapped back in replies. Names printed on page images can’t be swapped.</p>
+          <p><strong>Privacy shield.</strong> With it on, the names of the people in your profiles, and common other spellings of them, are swapped for made-up ones on your phone before text goes to a cloud model, and swapped back in replies. Nicknames and other people’s names aren’t changed, and names printed on page images can’t be.</p>
         </aside>
 
         <aside class="note note-caution">
@@ -159,14 +172,14 @@
 
       <section class="howto" id="manage" aria-labelledby="manage-title">
         <h2 id="manage-title">Replace or remove a key</h2>
-        <p>A saved key shows <b>Saved on this phone</b>, with <b>Replace</b> to paste a new one and <b>Remove</b>. AI companies’ keys are in <b>Settings › Cloud AI</b>; removing one takes chat and reading back to this phone. Brave Search and Tavily are under <b>Settings › Looking things up</b>; removing the one in use hands searching to the other, and removing both turns web search off.</p>
+        <p>A saved key shows <b>Saved on this device</b>, with <b>Replace</b> to paste a new one and <b>Remove</b>. AI companies’ keys are in <b>Settings › Cloud AI</b>; removing one takes chat and reading back to this device. Brave Search and Tavily are under <b>Settings › Looking things up</b>; removing the one in use hands searching to the other, and removing both goes back to built-in search.</p>
       </section>
 
       <section class="faq" aria-labelledby="faq-title">
         <h2 id="faq-title">Questions</h2>
         <details>
           <summary>Do I need any key to use Ayumitra?</summary>
-          <p>No. Reading reports, search, answers, medicines and vaccines all work on your phone without a key.</p>
+          <p>No, on a phone or tablet that can run the on-device AI (an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB): reading reports, search, answers, medicines and vaccines all work there without a key. On other devices everything but answers and report reading works without a key; those need a cloud model with your own key.</p>
         </details>
         <details>
           <summary>Does saving a key send my health data anywhere?</summary>

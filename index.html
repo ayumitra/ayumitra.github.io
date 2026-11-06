@@ -7,10 +7,67 @@
 <title>Ayumitra, the health companion for your family</title>
 <meta name="description" content="Ayumitra is a health companion for the whole family: medicines, reports, vaccines, doctor’s appointments and the readings your phone and watch record, for each person, kept on your phone. Ask anything in plain words and see where every answer came from. No account, no ads.">
 <meta name="theme-color" content="#FAF7F2">
+<link rel="canonical" href="https://ayumitra.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayumitra">
+<meta property="og:title" content="Ayumitra, the health companion for your family">
+<meta property="og:description" content="Ayumitra is a health companion for the whole family: medicines, reports, vaccines, doctor’s appointments and the readings your phone and watch record, for each person, kept on your phone. Ask anything in plain words and see where every answer came from. No account, no ads.">
+<meta property="og:url" content="https://ayumitra.app/">
+<meta property="og:image" content="https://ayumitra.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://ayumitra.app/#kizmiz",
+   "name": "Kizmiz",
+   "url": "https://kizmiz.github.io/",
+   "email": "support@ayumitra.app",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Berlin",
+    "addressCountry": "DE"
+   }
+  },
+  {
+   "@type": "MobileApplication",
+   "name": "Ayumitra",
+   "url": "https://ayumitra.app/",
+   "description": "Ayumitra is a health companion for the whole family: medicines, reports, vaccines, doctor’s appointments and the readings your phone and watch record, for each person, kept on your phone. Ask anything in plain words and see where every answer came from. No account, no ads.",
+   "applicationCategory": "HealthApplication",
+   "operatingSystem": "Android, iOS",
+   "inLanguage": [
+    "en",
+    "hi",
+    "de",
+    "fr",
+    "es",
+    "nl"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+   },
+   "publisher": {
+    "@id": "https://ayumitra.app/#kizmiz"
+   }
+  }
+ ]
+}
+</script>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -25,8 +82,8 @@
       <a href="#watch">Watch it work</a>
       <a href="#readings">Readings</a>
       <a href="#keeps">What it keeps</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#plans">Pricing</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="#plans">Free</a>
       <a class="header-cta" href="#download">Get the app</a>
     </nav>
   </div>
@@ -42,9 +99,9 @@
         <p class="lede">Ayumitra keeps each person’s reports, medicines, vaccines and appointments, and the readings their phone and watch record, on your phone. Ask anything in plain words and see where every answer came from.</p>
         <div class="stores">
           <!-- Placeholders until the app is in the stores: then links with the official badges and the real store URLs (see README). -->
-          <span class="store is-soon" aria-label="Ayumitra for iPhone: coming soon to the App Store">
+          <span class="store is-soon" aria-label="Ayumitra for iPhone and iPad: coming soon to the App Store">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
-            <span><strong>iPhone</strong><small>Coming soon to the App Store</small></span>
+            <span><strong>iPhone and iPad</strong><small>Coming soon to the App Store</small></span>
           </span>
           <span class="store is-soon" aria-label="Ayumitra for Android: coming soon to Google Play">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5v17l13.5-8.5z"/></svg>
@@ -101,7 +158,7 @@
             <div class="answer-bar">
               <svg width="16" height="16" viewBox="0 0 64 64"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" fill="#23574B"/><circle cx="32" cy="24" r="6.5" fill="#C98A2B"/></svg>
               <span>Meera</span>
-              <span class="answer-local"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>On this phone</span>
+              <span class="answer-local"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>On this device</span>
             </div>
             <p class="answer-ask">Is her sugar better than in June?</p>
             <p class="answer-text">Yes. Her HbA1c fell from <b>7.4%</b> in June to <b>6.8%</b> on 12 October, and her morning readings this week stayed between <b>96</b> and <b>118 mg/dL</b>.</p>
@@ -129,7 +186,7 @@
         <!-- 1. A photographed report, read on the phone -->
         <figure class="demo" data-demo="read" aria-labelledby="demo-read">
           <div class="screen" aria-hidden="true">
-            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this phone</span></div>
+            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this device</span></div>
             <div class="screen-body">
               <div class="scan">
                 <div class="scan-page">
@@ -156,7 +213,7 @@
         <!-- 2. A question, its steps, and an answer with its source -->
         <figure class="demo" data-demo="ask" aria-labelledby="demo-ask">
           <div class="screen" aria-hidden="true">
-            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this phone</span></div>
+            <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this device</span></div>
             <div class="screen-body chat">
               <p class="bubble" data-bubble>Is his haemoglobin better than in June?</p>
               <ol class="mini-steps live" data-steps>
@@ -178,7 +235,7 @@
         <!-- 3. A prescription, turned into a course and reminders to confirm -->
         <figure class="demo" data-demo="rx" aria-labelledby="demo-rx">
           <div class="screen" aria-hidden="true">
-            <div class="screen-bar"><span class="avatar a2">M</span><b>Meera</b><span class="local">On this phone</span></div>
+            <div class="screen-bar"><span class="avatar a2">M</span><b>Meera</b><span class="local">On this device</span></div>
             <div class="screen-body">
               <div class="rx-photo">
                 <span class="rx-photo-mark">Rx</span>
@@ -204,7 +261,7 @@
         <!-- 4. Warning signs: the app's own callout, before the answer -->
         <figure class="demo" data-demo="urgent" aria-labelledby="demo-urgent">
           <div class="screen" aria-hidden="true">
-            <div class="screen-bar"><span class="avatar a3">R</span><b>Riya</b><span class="local">On this phone</span></div>
+            <div class="screen-bar"><span class="avatar a3">R</span><b>Riya</b><span class="local">On this device</span></div>
             <div class="screen-body chat">
               <p class="bubble" data-bubble>Fever since last night and now she’s very hard to wake</p>
               <div class="urgent" data-r>
@@ -219,7 +276,7 @@
             </div>
             <div class="composer"><span class="field"><span data-typed></span><span class="caret"></span><span class="placeholder" data-placeholder>Ask about Riya…</span></span><span class="send" data-send></span></div>
           </div>
-          <figcaption id="demo-urgent"><h3>Puts warning signs first</h3><p>When something sounds urgent, the app’s own check shows what to do and your local emergency number before any answer.</p></figcaption>
+          <figcaption id="demo-urgent"><h3>Puts warning signs first</h3><p>When a message describes warning signs, the app’s own check shows what to do and your local emergency number before any answer. It can miss things.</p></figcaption>
         </figure>
 
       </div>
@@ -434,7 +491,7 @@
         </div>
         <div>
           <h3>Warning signs come first</h3>
-          <p>If something you describe needs urgent care, the app says so before the answer, with the number to call. That check is built into the app, not left to the AI.</p>
+          <p>If a message describes warning signs, the app’s own check shows what to do and the number to call, before the answer. That check is built into the app, not left to the AI. It can miss things: if you’re worried, call for help.</p>
         </div>
         <div>
           <h3>Wherever you are</h3>
@@ -453,12 +510,13 @@
       </div>
       <ul class="facts">
         <li><h3>Stored on your phone, encrypted</h3><p>Records, photos and conversations are kept in an encrypted vault on the phone.</p></li>
-        <li><h3>Read on your phone</h3><p>The AI that reads reports and answers questions runs on the phone itself, and works without a connection.</p></li>
-        <li><h3>Health data stays on the phone</h3><p>Health Connect and Apple Health are read on the phone, into the profile you choose. Nothing is written back to them.</p></li>
-        <li><h3>Cloud only if you choose</h3><p>You can use OpenAI, Anthropic or OpenRouter with your own key. It stays off until you agree and turn it on, and names are swapped before anything is sent.</p></li>
-        <li><h3>See what was sent</h3><p>With a cloud model on, Settings shows the exact text sent this session, with the app’s own check that no family name left the phone.</p></li>
+        <li><h3>Read on your phone</h3><p>On a phone that can run it, the AI that reads reports and answers questions runs on the phone itself, and works without a connection.</p></li>
+        <li><h3>Health apps, read only</h3><p>Health Connect and Apple Health are read on the phone, into the profile you choose. Nothing is written back to them.</p></li>
+        <li><h3>Cloud only if you choose</h3><p>You can use OpenAI, Anthropic or OpenRouter with your own key. It stays off until you agree and turn it on. The names of the people in your profiles, and common other spellings of them, are swapped for made-up ones first. Nicknames and other people’s names aren’t changed, and names printed on a photographed report can’t be.</p></li>
+        <li><h3>See what was sent</h3><p>With a cloud model on, Settings shows the exact text sent this session, with the app’s own check for your family’s names in it.</p></li>
+        <li><h3>A health library in the app</h3><p>General questions draw on MedlinePlus’s health topics in English and Spanish, kept in the app and read offline. Web search stays off until you turn it on, and the app lets only a general question through.</p></li>
         <li><h3>Shared only between your phones</h3><p>A child’s record shared with the other parent goes straight from phone to phone on your Wi‑Fi, encrypted. Chats are never shared.</p></li>
-        <li><h3>Backups only you can open</h3><p>Backups are encrypted with six words that only you keep. Without them nobody can open a backup, including us.</p></li>
+        <li><h3>Backups only you can open</h3><p>Backups stay on your device for now, encrypted with six words that only you keep. Without them nobody can open a backup, including us.</p></li>
         <li><h3>Delete anything</h3><p>Delete a report, a conversation, a person or everything. What a conversation taught Ayumitra goes with it.</p></li>
         <li><h3>No ads, trackers or account</h3><p>The app has no advertising, analytics or crash reporting. This website sets no cookies and loads nothing from other servers.</p></li>
       </ul>
@@ -471,7 +529,7 @@
       <h2 id="story-title">Why we made Ayumitra</h2>
       <div class="story-text">
         <p>When our son was born, we needed an AI-powered app for his health: one place for his records that could also help us understand them.</p>
-        <p>We found none that kept a health record and also offered total privacy and data protection. So we built one ourselves.</p>
+        <p>We found none that kept a health record and also kept it private. So we built one ourselves.</p>
         <p>Ayumitra is that app, now for your family too.</p>
       </div>
     </div>
@@ -483,7 +541,7 @@
       <h2 id="isnt-title">What Ayumitra isn’t</h2>
       <ul>
         <li><b>A doctor.</b> It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it isn’t a medical device.</li>
-        <li><b>A source of children’s doses.</b> For a child it never gives a dose; it says to check the label or ask a doctor or pharmacist.</li>
+        <li><b>A source of medicines or doses.</b> It never suggests a medicine or gives a dose, for anyone, and never tells you to start or stop one. For a dose it points to the prescription, the label, or your doctor or pharmacist.</li>
         <li><b>An emergency service.</b> If someone is seriously unwell, call your local emergency number.</li>
       </ul>
     </div>
@@ -504,8 +562,8 @@
         </article>
         <article class="plan plan-soon">
           <h3>Ayumitra Pro <span class="soon">Coming soon</span></h3>
-          <p class="price">A small monthly fee</p>
-          <p>Not every phone is powerful enough to run AI models. With Pro, we run the AI for you, so anyone can use Ayumitra with no keys to manage. The promise stays the same: total privacy and zero data retention, so nothing you send is kept.</p>
+          <p class="price">A monthly subscription</p>
+          <p>Not every phone or tablet can run AI models. With Pro, we’ll run the AI for you, so anyone can use Ayumitra with no keys to manage. Your records stay on your device, as they do today.</p>
         </article>
       </div>
     </div>
@@ -517,20 +575,20 @@
     <div class="download-grid">
       <div>
         <h2 id="download-title">Get Ayumitra</h2>
-        <p class="lede">For iPhone and Android, in the EU, India and the USA.</p>
+        <p class="lede">For Android, iPhone and iPad, in the EU, India and the USA.</p>
       </div>
       <div class="download-side">
         <div class="stores">
-          <span class="store is-soon" aria-label="Ayumitra for iPhone: coming soon to the App Store">
+          <span class="store is-soon" aria-label="Ayumitra for iPhone and iPad: coming soon to the App Store">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
-            <span><strong>iPhone</strong><small>Coming soon to the App Store</small></span>
+            <span><strong>iPhone and iPad</strong><small>Coming soon to the App Store</small></span>
           </span>
           <span class="store is-soon" aria-label="Ayumitra for Android: coming soon to Google Play">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5v17l13.5-8.5z"/></svg>
             <span><strong>Android</strong><small>Coming soon to Google Play</small></span>
           </span>
         </div>
-        <p class="needs">Because the AI runs on the phone, it needs a recent one: an Android phone with 8 GB of memory or an iPhone with 6 GB, and about 12 GB free. The model, about 2.6 GB, downloads over Wi‑Fi the first time. On other phones Ayumitra can use a cloud model of your choice instead, and soon Ayumitra Pro.</p>
+        <p class="needs">Because the AI runs on the device, it needs a recent one: an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB, and about 12 GB free. The model, about 2.6 GB, downloads over Wi‑Fi the first time, or over mobile data if you choose. On other devices everything else works, and answers can come from a cloud model of your choice with your own key.</p>
       </div>
     </div>
     </div>

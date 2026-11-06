@@ -288,11 +288,11 @@ p { text-wrap: pretty; }
 .screen-body { flex: 1; padding: 14px; display: flex; flex-direction: column; gap: 10px; min-height: 0; }
 .chat { justify-content: flex-end; }
 
-/* What appears as the demo plays */
-[data-bubble], [data-r], [data-done], [data-t] {
+/* What appears as the demo plays; without JavaScript it all shows */
+.js [data-bubble], .js [data-r], .js [data-done], .js [data-t] {
   opacity: 0; transform: translateY(6px); transition: opacity 0.35s ease, transform 0.35s var(--ease);
 }
-[data-bubble].on, [data-r].on, [data-done].on, [data-t].on { opacity: 1; transform: none; }
+.js [data-bubble].on, .js [data-r].on, .js [data-done].on, .js [data-t].on { opacity: 1; transform: none; }
 
 .mini-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 12px; color: var(--ink-soft); }
 .mini-steps li { display: flex; align-items: center; gap: 8px; }
