@@ -56,6 +56,8 @@
 .m-tavily { background: #E8E1D6; color: #1E2B28; }
 .m-openai { background: var(--muted); color: var(--ink); }
 .m-anthropic { background: #F8E3DA; color: #6E2C16; }
+.m-google { background: #EFEAF5; color: #8E75B2; }
+.m-google svg { display: block; }
 .m-openrouter { background: var(--primary-soft); color: var(--primary-deep); }
 
 /* How-to sections */

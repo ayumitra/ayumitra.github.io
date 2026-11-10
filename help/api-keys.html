@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Adding your API keys · Ayumitra help</title>
-<meta name="description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic or OpenRouter key to use a cloud model of your choice in Ayumitra.">
+<meta name="description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic, Google Gemini or OpenRouter key to use a cloud model of your choice in Ayumitra.">
 <meta name="theme-color" content="#FAF7F2">
 <link rel="canonical" href="https://ayumitra.app/help/api-keys.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ayumitra">
 <meta property="og:title" content="Adding your API keys · Ayumitra help">
-<meta property="og:description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic or OpenRouter key to use a cloud model of your choice in Ayumitra.">
+<meta property="og:description" content="How to add a Brave Search or Tavily key for web search, and an OpenAI, Anthropic, Google Gemini or OpenRouter key to use a cloud model of your choice in Ayumitra.">
 <meta property="og:url" content="https://ayumitra.app/help/api-keys.html">
 <meta property="og:image" content="https://ayumitra.app/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -75,6 +75,10 @@
           <span><strong>Anthropic</strong><small>Claude models</small></span>
         </a>
         <a class="pick-card" href="#cloud">
+          <span class="mark m-google" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6.627-5.373 12-12 12 6.627 0 12 5.373 12 12 0-6.627 5.373-12 12-12-6.627 0-12-5.373-12-12z"/></svg></span>
+          <span><strong>Google Gemini</strong><small>Gemini models</small></span>
+        </a>
+        <a class="pick-card" href="#cloud">
           <span class="mark m-openrouter" aria-hidden="true">R</span>
           <span><strong>OpenRouter</strong><small>Many models, including free ones</small></span>
         </a>
@@ -127,7 +131,7 @@
       <!-- Cloud -->
       <section class="howto" id="cloud" aria-labelledby="cloud-title">
         <h2 id="cloud-title">Use a cloud model of your choice</h2>
-        <p>By default, every answer and every report is handled on your phone. If you’d like a larger model, add a key from OpenAI, Anthropic or OpenRouter. Cloud stays off until you turn it on.</p>
+        <p>By default, every answer and every report is handled on your phone. If you’d like a larger model, add a key from OpenAI, Anthropic, Google or OpenRouter. Cloud stays off until you turn it on.</p>
 
         <div class="table-wrap">
           <table class="providers">
@@ -135,6 +139,7 @@
             <tbody>
               <tr><td><span class="mark m-openai" aria-hidden="true">O</span>OpenAI</td><td>GPT models</td><td><a href="https://platform.openai.com/api-keys" rel="noopener">platform.openai.com</a> › API keys</td></tr>
               <tr><td><span class="mark m-anthropic" aria-hidden="true">A</span>Anthropic</td><td>Claude models</td><td><a href="https://platform.claude.com/settings/keys" rel="noopener">platform.claude.com</a> › API keys</td></tr>
+              <tr><td><span class="mark m-google" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6.627-5.373 12-12 12 6.627 0 12 5.373 12 12 0-6.627 5.373-12 12-12-6.627 0-12-5.373-12-12z"/></svg></span>Google Gemini</td><td>Gemini models</td><td><a href="https://aistudio.google.com/app/apikey" rel="noopener">aistudio.google.com</a> › Get API key</td></tr>
               <tr><td><span class="mark m-openrouter" aria-hidden="true">R</span>OpenRouter</td><td>Many models, including free ones</td><td><a href="https://openrouter.ai/settings/keys" rel="noopener">openrouter.ai</a> › Keys</td></tr>
             </tbody>
           </table>
@@ -166,7 +171,7 @@
 
         <aside class="note note-caution">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg>
-          <p><strong>What a cloud model receives.</strong> Chat sends your messages and the health details that matter for the question. Reading a report also sends page images and extracted text. The provider’s charges and retention policies apply. With OpenRouter, free models may keep or learn from what you send, so a paid model is the safer choice for health details.</p>
+          <p><strong>What a cloud model receives.</strong> Chat sends your messages and the health details that matter for the question. Reading a report also sends page images and extracted text. The provider’s charges and retention policies apply. With OpenRouter, free models may keep or learn from what you send, so a paid model is the safer choice for health details. With Google, use a key from a project with billing set up: with a free-tier key, Google may use what you send to improve its products and its reviewers may read it.</p>
         </aside>
       </section>
 
