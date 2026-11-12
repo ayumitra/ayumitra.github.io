@@ -81,9 +81,10 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 /* Dark: the app's Graphite palette (design/tokens.json, colorDark), when the
-   device is set to dark. */
+   device is set to dark and Light wasn't chosen, or when Dark was chosen with
+   the header's switch (theme.js). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --canvas: #171918;
     --surface: #222524;
     --muted: #1C1E1D;
@@ -115,6 +116,39 @@
     --frame: #3A3E3C;
   }
 }
+:root[data-theme="dark"] {
+  --canvas: #171918;
+  --surface: #222524;
+  --muted: #1C1E1D;
+  --line: #313533;
+  --line-strong: #464B49;
+  --ink: #E9EAE8;
+  --ink-soft: #A1A7A4;
+  --primary: #7DBAA3;
+  --primary-deep: #C6E3D7;
+  --primary-soft: #1F3833;
+  --on-primary: #0E241D;
+  --bubble: #2A4640;
+  --on-bubble: #E9EBE8;
+  --accent: #E0A647;
+  --accent-soft: #382D1B;
+  --accent-ink: #EFC88B;
+  --alert: #E3967D;
+  --alert-soft: #3B2420;
+  --alert-ink: #F6C4B0;
+  --alert-line: #5A3329;
+  --on-alert: #2B1209;
+  --violet-soft: #2C2638;
+  --violet-ink: #BBA8DA;
+  --hatch: rgba(70, 75, 73, 0.5);
+  --shadow: 0, 0, 0;
+  --store: #E9EAE8;
+  --on-store: #171918;
+  --store-hover: #C6E3D7;
+  --frame: #3A3E3C;
+}
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 .paper, .rx-photo, .scan-page { color: var(--ink); }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -149,8 +183,18 @@ p { text-wrap: pretty; }
 .brand:hover { color: var(--ink); }
 .brand span { font-family: var(--display); font-size: 21px; font-weight: 600; }
 .header-nav { display: flex; align-items: center; gap: 26px; }
+.header-tools { display: flex; align-items: center; gap: 10px; }
 .header-nav a:not(.header-cta) { color: var(--ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
 .header-nav a:not(.header-cta):hover { color: var(--ink); }
+.theme-toggle {
+  width: 44px; height: 44px; flex-shrink: 0; padding: 0; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 999px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink);
+}
+.theme-toggle:hover { background: var(--surface); }
+.theme-toggle[hidden] { display: none; }
+.theme-toggle .sun, .theme-toggle[aria-pressed="true"] .moon { display: none; }
+.theme-toggle[aria-pressed="true"] .sun { display: block; }
 .header-cta {
   min-height: 44px; display: inline-flex; align-items: center; padding: 0 18px;
   border-radius: 999px; border: 1px solid var(--line-strong);
