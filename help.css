@@ -33,7 +33,7 @@
 .note svg { flex-shrink: 0; margin-top: 2px; }
 .note p { margin: 0; font-size: 15px; line-height: 1.55; }
 .note-calm { background: var(--primary-soft); color: var(--primary-deep); }
-.note-caution { background: #F8E3DA; color: #6E2C16; }
+.note-caution { background: var(--alert-soft); color: var(--alert-ink); }
 
 /* Pick a key */
 .pick { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 12px; }
@@ -52,11 +52,11 @@
   display: inline-flex; align-items: center; justify-content: center;
   font-weight: 800; font-size: 14px; margin-right: 0;
 }
-.m-brave { background: #F7EAD3; color: #85561A; }
-.m-tavily { background: #E8E1D6; color: #1E2B28; }
+.m-brave { background: var(--accent-soft); color: var(--accent-ink); }
+.m-tavily { background: var(--line); color: var(--ink); }
 .m-openai { background: var(--muted); color: var(--ink); }
-.m-anthropic { background: #F8E3DA; color: #6E2C16; }
-.m-google { background: #EFEAF5; color: #8E75B2; }
+.m-anthropic { background: var(--alert-soft); color: var(--alert-ink); }
+.m-google { background: var(--violet-soft); color: var(--violet-ink); }
 .m-google svg { display: block; }
 .m-openrouter { background: var(--primary-soft); color: var(--primary-deep); }
 
@@ -69,7 +69,7 @@
 .steps-list li { position: relative; padding: 0 0 26px 52px; counter-increment: step; }
 .steps-list li::before {
   content: counter(step); position: absolute; left: 0; top: -2px;
-  width: 32px; height: 32px; border-radius: 50%; background: var(--primary); color: #fff;
+  width: 32px; height: 32px; border-radius: 50%; background: var(--primary); color: var(--on-primary);
   font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center;
 }
 .steps-list li:not(:last-child)::after {
@@ -82,8 +82,8 @@
 /* Mini phone screenshot */
 .shot { margin: 0; position: sticky; top: 24px; }
 .phone-mini {
-  border-radius: 34px; background: var(--ink); padding: 8px;
-  box-shadow: 0 24px 48px -28px rgba(30, 43, 40, 0.45);
+  border-radius: 34px; background: var(--frame); padding: 8px;
+  box-shadow: 0 24px 48px -28px rgba(var(--shadow), 0.45);
 }
 .pm-screen { background: var(--canvas); border-radius: 26px; overflow: hidden; }
 .pm-bar { display: flex; align-items: center; gap: 10px; padding: 18px 16px 10px; font-size: 15px; }
@@ -108,7 +108,7 @@
 }
 .pm-label { position: absolute; top: 3px; left: 12px; font-size: 10px; font-weight: 600; color: var(--primary); letter-spacing: 0; }
 .pm-sheet small { font-size: 11px; color: var(--ink-soft); }
-.pm-btn { align-self: flex-end; background: var(--primary); color: #fff; font-size: 12.5px; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
+.pm-btn { align-self: flex-end; background: var(--primary); color: var(--on-primary); font-size: 12.5px; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
 
 /* Providers table */
 .table-wrap { overflow-x: auto; margin: 20px 0 8px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
