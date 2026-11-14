@@ -764,6 +764,9 @@ p { text-wrap: pretty; }
 .pro-leaves { display: inline-flex; gap: 4px; }
 .pro-leaves svg { width: 20px; height: 20px; fill: var(--primary); }
 .pro-covers { margin: 6px 0 20px; color: var(--ink-soft); }
+.pro-inc-title { margin: 6px 0 14px; font-weight: 600; }
+.pro-inc-list { margin: 0 0 14px; padding-left: 1.1em; color: var(--ink-soft); }
+.pro-inc-list li { margin: 0 0 8px; }
 .pro-rates { list-style: none; margin: 0; padding: 0; }
 .pro-rates li { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
 .pro-rates span { font-weight: 500; }
