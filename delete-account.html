@@ -1,0 +1,271 @@
+<!doctype html>
+<!-- Built from src/delete-account.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Pro account · Ayumitra</title>
+<meta name="description" content="How to delete your Ayumitra Pro account, in the app or on this page, and what is and isn’t deleted.">
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171918" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://ayumitra.app/delete-account.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayumitra">
+<meta property="og:title" content="Delete your Pro account · Ayumitra">
+<meta property="og:description" content="How to delete your Ayumitra Pro account, in the app or on this page, and what is and isn’t deleted.">
+<meta property="og:url" content="https://ayumitra.app/delete-account.html">
+<meta property="og:image" content="https://ayumitra.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="help.css">
+<link rel="stylesheet" href="account.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script src="theme.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" class="leaf" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" class="leaf" fill="#23574B"/><circle cx="32" cy="24" r="6.5" class="seed" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <span class="header-tools"><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><svg class="moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><svg class="sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><a class="header-cta" href="index.html#download">Get the app</a></span>
+    </nav>
+  </div>
+</header>
+
+<!--
+  The public page Google Play asks for: how to delete the Pro account, and
+  a form that does it. Written on 14 November 2026. The form talks only to
+  the Pro relay (RELAY below); nothing is stored in the browser and the
+  sign-in token lives only in a variable. Without JavaScript the page still
+  explains everything and points to the app and to support.
+-->
+<main id="main" class="help">
+  <div class="container help-wrap single">
+    <article class="doc">
+      <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Delete your Pro account</p>
+      <h1>Delete your Pro account</h1>
+      <p class="doc-lede">You can delete your Ayumitra Pro account in the app or on this page. It takes a minute and can’t be undone.</p>
+
+      <h2 id="what">What deleting does</h2>
+      <ul>
+        <li><b>Deleted from Ayumitra’s server:</b> your email address, the record of your plan, and the list of profile keys that used it.</li>
+        <li><b>Kept for 400 days, in some cases:</b> if you used the free trial, or a subscription is still running, a one-way fingerprint of your email address, so the same address finds its subscription again and gets no second free trial.</li>
+        <li><b>Not touched:</b> your health records. They are only on your device. To delete them, delete them in the app, or delete the app or its data.</li>
+      </ul>
+      <p class="ac-warn"><b>Deleting the account does not stop the App Store or Google Play charging you.</b> If a subscription is running, cancel it in the store too:<br>
+        iPhone and iPad: Settings › your name › Subscriptions, or <a href="https://apps.apple.com/account/subscriptions" rel="noopener">apps.apple.com/account/subscriptions</a><br>
+        Android: Google Play › your profile picture › Payments and subscriptions, or <a href="https://play.google.com/store/account/subscriptions" rel="noopener">play.google.com/store/account/subscriptions</a></p>
+
+      <h2 id="in-app">In the app</h2>
+      <p>Open Ayumitra and go to <b>Settings › Ayumitra Pro › Delete Pro account</b>.</p>
+
+      <h2 id="here">On this page</h2>
+      <p>Confirm your email address with a code, then delete the account.</p>
+
+      <div class="ac-card">
+        <p class="ac-nojs" id="no-script">This form needs JavaScript. Without it, delete the account in the app, or write to <a href="mailto:support@ayumitra.app">support@ayumitra.app</a> from the account’s email address.</p>
+
+        <form id="delete" class="ac-form" novalidate hidden>
+
+          <section class="ac-step" id="step-email" aria-labelledby="email-title">
+            <p class="ac-count">Step 1 of 3</p>
+            <h3 id="email-title">Your email</h3>
+            <label class="ac-label" for="email">Email address of the Pro account</label>
+            <input class="ac-input" id="email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" aria-describedby="email-error">
+            <p class="ac-error" id="email-error" role="alert" hidden></p>
+            <button type="submit" class="ac-go" id="email-go">Send code</button>
+          </section>
+
+          <section class="ac-step" id="step-code" aria-labelledby="code-title" hidden>
+            <p class="ac-count">Step 2 of 3</p>
+            <h3 id="code-title">Enter the code</h3>
+            <p>If this address has a Pro account, a code is on its way to <strong id="code-address"></strong>. It works for 10 minutes.</p>
+            <label class="ac-label" for="code">6-digit code</label>
+            <input class="ac-input ac-code" id="code" name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="7" aria-describedby="code-error">
+            <p class="ac-error" id="code-error" role="alert" hidden></p>
+            <button type="submit" class="ac-go" id="code-go">Continue</button>
+            <p class="ac-links"><button type="button" class="ac-link" id="code-again">Send a new code</button><button type="button" class="ac-link" id="code-back">Use another email</button></p>
+          </section>
+
+          <section class="ac-step" id="step-confirm" aria-labelledby="confirm-title" hidden>
+            <p class="ac-count">Step 3 of 3</p>
+            <h3 id="confirm-title" tabindex="-1">Delete this account?</h3>
+            <p>The Pro account for <strong id="confirm-address"></strong> will be deleted from Ayumitra’s server. This can’t be undone.</p>
+            <p class="ac-warn">This does not cancel a running subscription. Cancel it in the App Store or Google Play.</p>
+            <p class="ac-error" id="confirm-error" role="alert" hidden></p>
+            <button type="submit" class="ac-go ac-delete" id="confirm-go">Delete Pro account</button>
+            <p class="ac-links ac-one"><button type="button" class="ac-link" id="confirm-keep">Keep my account</button></p>
+          </section>
+
+        </form>
+
+        <section class="ac-step" id="step-done" aria-labelledby="done-title" hidden>
+          <h3 id="done-title" tabindex="-1">Your Pro account is deleted.</h3>
+          <p class="ac-warn">If a subscription is still running, the store keeps charging until you cancel it: <a href="https://apps.apple.com/account/subscriptions" rel="noopener">App Store subscriptions</a> or <a href="https://play.google.com/store/account/subscriptions" rel="noopener">Google Play subscriptions</a>.</p>
+          <p class="ac-hint">Your health records are still on your device, and the app keeps working without Pro.</p>
+        </section>
+
+        <section class="ac-step" id="step-kept" hidden>
+          <h3 id="kept-title" tabindex="-1">Nothing was deleted.</h3>
+          <p class="ac-hint">Your Pro account is as it was. You can close this page.</p>
+        </section>
+      </div>
+
+      <p class="ac-hint">Questions? Write to <a href="mailto:support@ayumitra.app">support@ayumitra.app</a>. See also the <a href="terms.html">terms</a> and the <a href="privacy.html#pro">privacy policy</a>.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="pro.html">Pro</a>
+        <a href="help/api-keys.html">Help</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+
+<script>
+// The delete form. It talks only to the Pro relay; the sign-in token stays
+// in a variable and is never stored or put in the address.
+(function () {
+  var RELAY = "https://pro.ayumitra.app";
+  var form = document.getElementById("delete");
+  if (!form || !window.fetch) return;
+  var $ = function (id) { return document.getElementById(id); };
+  var email = "";
+  var token = "";
+
+  var SAID = {
+    bad_email: "Enter an email address.",
+    wrong_code: "That code isn’t right, or it has expired.",
+    signed_out: "That took too long. Please start again.",
+    offline: "Couldn’t reach Ayumitra Pro. Check the connection and try again.",
+    failed: "That didn’t work. Try again in a minute."
+  };
+  function said(code) { return SAID[code] || SAID.failed; }
+
+  var steps = ["email", "code", "confirm", "done", "kept"];
+  function show(step) {
+    steps.forEach(function (s) { $("step-" + s).hidden = s !== step; });
+    form.hidden = step === "done" || step === "kept";
+    var focus = { email: "email", code: "code", confirm: "confirm-title", done: "done-title", kept: "kept-title" }[step];
+    $(focus).focus();
+  }
+
+  function fail(id, text) {
+    var el = $(id);
+    el.textContent = text || "";
+    el.hidden = !text;
+  }
+
+  function call(method, path, body, bearer) {
+    var headers = {};
+    if (body) headers["Content-Type"] = "application/json";
+    if (bearer) headers["Authorization"] = "Bearer " + bearer;
+    return fetch(RELAY + path, {
+      method: method,
+      headers: headers,
+      body: body ? JSON.stringify(body) : undefined,
+      credentials: "omit",
+      cache: "no-store",
+      referrerPolicy: "no-referrer"
+    }).then(function (response) {
+      return response.json().catch(function () { return {}; }).then(function (json) {
+        if (response.ok) return json;
+        throw (json.error && json.error.code) || "failed";
+      });
+    }, function () { throw "offline"; });
+  }
+
+  function sendCode(button, errorId) {
+    fail(errorId);
+    button.disabled = true;
+    return call("POST", "/v1/auth/start", { email: email })
+      .then(function () {
+        $("code-address").textContent = email;
+        $("code").value = "";
+        show("code");
+      }, function (code) { fail(errorId, said(code)); })
+      .then(function () { button.disabled = false; });
+  }
+
+  function startAgain(message) {
+    token = "";
+    $("code").value = "";
+    show("email");
+    fail("email-error", message);
+  }
+
+  $("code-again").addEventListener("click", function () { sendCode($("code-again"), "code-error"); });
+  $("code-back").addEventListener("click", function () { startAgain(""); });
+  $("confirm-keep").addEventListener("click", function () {
+    token = "";
+    form.reset();
+    show("kept");
+  });
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    if (!$("step-email").hidden) {
+      email = $("email").value.trim();
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(email)) return fail("email-error", SAID.bad_email);
+      sendCode($("email-go"), "email-error");
+    } else if (!$("step-code").hidden) {
+      var code = $("code").value.replace(/[\s-]/g, "");
+      if (!/^[0-9]{6}$/.test(code)) return fail("code-error", SAID.wrong_code);
+      fail("code-error");
+      $("code-go").disabled = true;
+      call("POST", "/v1/auth/verify", { email: email, code: code })
+        .then(function (json) {
+          if (!json.token) throw "failed";
+          token = json.token;
+          $("confirm-address").textContent = email;
+          fail("confirm-error");
+          show("confirm");
+        })
+        .catch(function (c) { fail("code-error", said(c)); })
+        .then(function () { $("code-go").disabled = false; });
+    } else if (!$("step-confirm").hidden) {
+      fail("confirm-error");
+      $("confirm-go").disabled = true;
+      call("DELETE", "/v1/account", null, token)
+        .then(function () {
+          token = "";
+          form.reset();
+          show("done");
+        }, function (c) {
+          if (c === "signed_out") startAgain(SAID.signed_out);
+          else fail("confirm-error", said(c));
+        })
+        .then(function () { $("confirm-go").disabled = false; });
+    }
+  });
+
+  $("no-script").hidden = true;
+  form.hidden = false;
+})();
+</script>
+</body>
+</html>

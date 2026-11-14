@@ -12,7 +12,7 @@
   display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 64px;
   padding-block: 40px 112px; align-items: start;
 }
-.doc { max-width: 720px; min-width: 0; }
+.doc { max-width: 720px; min-width: 0; overflow-wrap: break-word; }
 .crumb { margin: 0 0 18px; font-size: 14px; color: var(--ink-soft); }
 .crumb a { color: var(--ink-soft); }
 .doc h1 {

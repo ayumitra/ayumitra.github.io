@@ -204,6 +204,11 @@ p { text-wrap: pretty; }
 @media (max-width: 760px) {
   .header-nav a:not(.header-cta) { display: none; }
 }
+.header-nav a { white-space: nowrap; }
+/* The home page's longer menu needs more room than the other pages' */
+@media (max-width: 1020px) {
+  .header-nav:has(> a:nth-of-type(5)) > a { display: none; }
+}
 
 /* ---- Shared pieces ------------------------------------------------------ */
 .lede { margin: 0; font-size: 1.2rem; line-height: 1.5; color: var(--ink-soft); max-width: 32rem; }
@@ -718,6 +723,99 @@ p { text-wrap: pretty; }
 .plan p:not(.price) { margin: 0; color: var(--ink-soft); font-size: 15.5px; max-width: 30rem; }
 .soon { font-size: 13px; font-weight: 600; color: var(--primary-deep); background: var(--primary-soft); border-radius: 999px; padding: 3px 10px; }
 @media (max-width: 760px) { .plan-list { grid-template-columns: minmax(0, 1fr); } }
+
+/* Pro's two plans on the home page: a ruled row each, the prices in the display face */
+.plan-prices { list-style: none; margin: 6px 0 0; padding: 0; border-top: 1px solid var(--line); max-width: 30rem; }
+.plan-prices li { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 2px 20px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.plan-prices b { font-weight: 600; }
+.plan-prices span { font-family: var(--display); font-weight: 600; font-size: 1.2rem; font-variant-numeric: tabular-nums; color: var(--primary-deep); }
+.plan-prices small { font-family: var(--body); font-weight: 500; font-size: 14px; color: var(--ink-soft); }
+.plan-more { align-self: flex-start; min-height: 44px; display: inline-flex; align-items: center; font-weight: 600; text-underline-offset: 3px; }
+.stop p a { font-weight: 600; text-underline-offset: 3px; }
+
+/* ---- The Pro page (pro.html) -------------------------------------------- */
+/* Built from the home page's pieces: the day's panel for the price sheet,
+   the ledger's ruled rows and figures, the dark band, the download rows. */
+.pro-top { padding-block: 40px 44px; }
+.pro-top .crumb { margin: 0 0 18px; font-size: 14px; color: var(--ink-soft); }
+.pro-top .crumb a { color: var(--ink-soft); }
+.pro-top h1 {
+  margin: 0; font-family: var(--display); font-weight: 500;
+  font-size: clamp(2.6rem, 5vw, 4.25rem); line-height: 1.02; letter-spacing: -0.024em;
+}
+.pro-top .lede { margin-top: 20px; max-width: 38rem; }
+.header-nav a[aria-current="page"]:not(.header-cta) { color: var(--ink); }
+
+.pro-prices { padding-block: 0 104px; }
+.pro-sheet {
+  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 24px;
+  box-shadow: 0 30px 60px -48px rgba(var(--shadow), 0.55); overflow: hidden;
+}
+.pro-sheet-top {
+  margin: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px;
+  padding: 16px 28px; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--ink-soft);
+}
+.pro-from { font-size: 14px; font-weight: 600; color: var(--primary-deep); background: var(--primary-soft); border-radius: 999px; padding: 4px 12px; }
+.pro-plans { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pro-plan { padding: 28px 28px 14px; }
+.pro-plan + .pro-plan { border-left: 1px solid var(--line); }
+.pro-plan-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.pro-plan h3 { margin: 0; font-family: var(--display); font-weight: 500; font-size: 2rem; line-height: 1.1; letter-spacing: -0.012em; }
+.pro-leaves { display: inline-flex; gap: 4px; }
+.pro-leaves svg { width: 20px; height: 20px; fill: var(--primary); }
+.pro-covers { margin: 6px 0 20px; color: var(--ink-soft); }
+.pro-rates { list-style: none; margin: 0; padding: 0; }
+.pro-rates li { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
+.pro-rates span { font-weight: 500; }
+.pro-rates b { font-family: var(--display); font-weight: 600; font-size: 1.9rem; line-height: 1.1; font-variant-numeric: tabular-nums; color: var(--primary-deep); }
+.pro-terms {
+  list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 56px;
+  font-size: 15px; color: var(--ink-soft);
+}
+.pro-terms li { padding-left: 18px; position: relative; }
+.pro-terms li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.pro-terms a { text-underline-offset: 3px; }
+
+.pro-gets { padding-block: 0 104px; }
+.pro-gets .trust { margin-top: 0; }
+.pro .privacy .facts a { color: var(--on-band); text-underline-offset: 3px; }
+.pro .privacy :focus-visible { outline-color: var(--on-band); }
+
+.pro-free { padding-block: 104px 40px; }
+.pro-compare { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line-strong); }
+.pro-compare li {
+  display: grid; grid-template-columns: minmax(180px, 1fr) repeat(2, minmax(0, 1.25fr)); gap: 8px 32px; align-items: baseline;
+  padding: 22px 0; border-bottom: 1px solid var(--line);
+}
+.pro-compare h3 { margin: 0; font-family: var(--display); font-weight: 500; font-size: 1.5rem; letter-spacing: -0.01em; }
+.pro-compare p { margin: 0; }
+.pro-compare p span { display: block; font-size: 13px; font-weight: 600; color: var(--ink-soft); }
+
+.pro .download .steps-list { margin-top: 0; }
+.pro .download .steps-list li:last-child { padding-bottom: 8px; }
+
+.pro-faq { padding-block: 0 64px; }
+.pro-faq-grid {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 16px 56px; align-items: start;
+  border-top: 1px solid var(--line-strong); padding-top: 56px;
+}
+.pro-faq h2 { margin: 0; font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.08; letter-spacing: -0.018em; }
+.pro-faq .faq { margin-top: 0; padding-top: 0; border-top: 1px solid var(--line); }
+.pro-faq .faq summary { font-size: 17px; }
+.pro .write-mail { color: var(--primary); }
+
+@media (max-width: 760px) {
+  .pro-top { padding-block: 16px 36px; }
+  .pro-prices, .pro-gets { padding-bottom: 80px; }
+  .pro-sheet { border-radius: 20px; }
+  .pro-sheet-top { padding: 14px 20px; }
+  .pro-plans, .pro-terms, .pro-faq-grid { grid-template-columns: minmax(0, 1fr); }
+  .pro-plan { padding: 24px 20px 10px; }
+  .pro-plan + .pro-plan { border-left: 0; border-top: 1px solid var(--line-strong); }
+  .pro-compare li { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 20px; }
+  .pro-compare h3 { grid-column: 1 / -1; }
+  .pro-free { padding-top: 80px; }
+}
 
 /* ---- Get the app -------------------------------------------------------- */
 .download { padding-block: 72px 64px; }

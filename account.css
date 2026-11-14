@@ -1,0 +1,43 @@
+/* The delete-account page's form, one step at a time, and the contact page's form. Tokens and fonts come
+   from styles.css, the page layout from help.css. Classes are prefixed ac-
+   so they can't meet the generic ones in styles.css (.plan, .price, .field). */
+.ac-card { margin: 20px 0 24px; padding: 24px 22px 26px; border: 1px solid var(--line-strong); border-radius: 20px; background: var(--surface); max-width: 520px; }
+.ac-card [hidden] { display: none !important; }
+.ac-form { margin: 0; }
+.ac-step h3 { margin: 0 0 12px; font-family: var(--display); font-weight: 560; font-size: 22px; line-height: 1.2; }
+.ac-step h3:focus { outline: none; }
+.ac-count { margin: 0 0 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+.ac-step p { overflow-wrap: anywhere; }
+
+.ac-label { display: block; font-size: 15px; font-weight: 600; color: var(--ink-soft); margin-bottom: 8px; }
+.ac-input { width: 100%; box-sizing: border-box; min-height: 56px; border: 1px solid var(--line-strong); border-radius: 16px; background: var(--canvas); color: var(--ink); font: inherit; font-size: 18px; padding: 12px 18px; margin-bottom: 16px; }
+/* The contact page's message box, and its field for robots (off screen, never focused). */
+.ac-text { display: block; min-height: 168px; resize: vertical; line-height: 1.45; }
+.ac-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.ac-note { margin: 0 0 16px; }
+.ac-code { font-size: 26px; font-weight: 600; letter-spacing: 0.3em; text-align: center; font-variant-numeric: tabular-nums; }
+.ac-input:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; border-radius: 16px; }
+
+.ac-go { appearance: none; border: 0; width: 100%; min-height: 54px; border-radius: 999px; background: var(--primary); color: var(--on-primary); font: inherit; font-weight: 600; font-size: 17px; cursor: pointer; padding: 12px 24px; }
+.ac-go:hover { background: var(--primary-deep); }
+.ac-go:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 999px; }
+.ac-go:disabled { opacity: 0.55; cursor: default; }
+/* The one button that can't be undone. */
+.ac-delete { background: var(--alert); color: var(--on-alert); }
+.ac-delete:hover { background: var(--alert-ink); color: var(--alert-soft); }
+.ac-delete:focus-visible { outline-color: var(--alert); }
+
+.ac-link { appearance: none; border: 0; background: none; padding: 0; min-height: 44px; font: inherit; font-size: 15.5px; font-weight: 600; color: var(--primary); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.ac-links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 24px; margin: 10px 0 0; }
+.ac-links.ac-one { justify-content: center; }
+
+.ac-error { color: var(--alert); font-size: 15px; font-weight: 500; margin: -6px 0 16px; }
+.ac-hint { color: var(--ink-soft); font-size: 14.5px; margin: 16px 0 0; }
+.ac-warn { background: var(--alert-soft); color: var(--alert-ink); border: 1px solid var(--alert-line); border-radius: 14px; padding: 12px 14px; font-size: 15px; margin: 0 0 18px; }
+.ac-warn a { color: inherit; }
+.ac-nojs { margin: 0; }
+
+@media (max-width: 460px) {
+  .ac-card { padding: 20px 16px 22px; }
+  .ac-code { font-size: 23px; letter-spacing: 0.24em; }
+}

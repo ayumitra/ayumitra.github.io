@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy policy · Ayumitra</title>
-<meta name="description" content="How the Ayumitra website and app handle personal data: health records stay encrypted on your phone, and we receive nothing unless you email us.">
+<meta name="description" content="How the Ayumitra website and app handle personal data: health records stay encrypted on your phone, and we receive nothing unless you email us or use Ayumitra Pro.">
 <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#171918" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://ayumitra.app/privacy.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ayumitra">
 <meta property="og:title" content="Privacy policy · Ayumitra">
-<meta property="og:description" content="How the Ayumitra website and app handle personal data: health records stay encrypted on your phone, and nothing is sent to us.">
+<meta property="og:description" content="How the Ayumitra website and app handle personal data: health records stay encrypted on your phone, and we receive nothing unless you email us or use Ayumitra Pro.">
 <meta property="og:url" content="https://ayumitra.app/privacy.html">
 <meta property="og:image" content="https://ayumitra.app/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -52,14 +52,16 @@
   (controller roles for the optional cloud services, third-country
   transfers), and keep it in step with the app: any new service the app
   contacts must be added here first. A German translation should follow.
+  14 November 2026: the section on Pro was added;
+  its facts were confirmed by the owner the same day.
 -->
 <main id="main" class="help">
   <div class="container help-wrap single">
     <article class="doc">
       <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Privacy policy</p>
       <h1>Privacy policy</h1>
-      <p class="doc-lede">Ayumitra keeps your family’s health records on your phone, encrypted. They are never sent to us, unless you email us something yourself. This page explains what that means for the app and for this website.</p>
-      <p class="updated">Last updated: 10 November 2026</p>
+      <p class="doc-lede">Ayumitra keeps your family’s health records on your phone, encrypted. They are never sent to us, unless you email us something yourself or use Ayumitra Pro, the optional subscription. This page explains what that means for the app and for this website.</p>
+      <p class="updated">Last updated: 14 November 2026</p>
 
       <h2 id="who">Who is responsible</h2>
       <address>
@@ -72,7 +74,8 @@
 
       <h2 id="short">In short</h2>
       <ul>
-        <li>There is no Ayumitra account and no Ayumitra server that receives your health records. We can’t see, share or sell them.</li>
+        <li>Unless you subscribe to Ayumitra Pro, there is no Ayumitra account and no Ayumitra server that receives your health records. We don’t share or sell them.</li>
+        <li>With Ayumitra Pro, what you send to the assistant goes through our server to an AI model that answers, and is not kept after the answer. The Pro account holds your email address, not your records.</li>
         <li>The app stores everything in an encrypted vault on your phone or tablet, and on a device that can run it, its AI runs there too.</li>
         <li>The app contacts other companies only for what you choose: downloading its AI model, built-in web search if you turn it on, a cloud AI model or web search with your own key, importing from Health Connect or Apple Health, and health advice for a country you travel to. Each is described below.</li>
         <li>If you share a child’s profile with the other parent, your two phones exchange it directly on your Wi‑Fi. It never reaches us.</li>
@@ -92,6 +95,19 @@
 
       <h3>A cloud AI model, only if you turn it on</h3>
       <p>Cloud AI is off until you agree to it and turn it on. If you do, you add your own key for OpenAI, Anthropic, Google (the Gemini API) or OpenRouter. Your question, and the parts of your records needed to answer it, are then sent from your phone directly to the provider you chose, under your own account with them and their terms; if you choose to have reports read by the cloud model, photos of their pages are sent too. Unless you turn the privacy shield off, the names of the people in your profiles, and common other spellings of them, are replaced with made-up ones in the text before it is sent. Other names, such as a nickname or a doctor’s, aren’t changed, and names printed on a page’s photo can’t be. You can see the text that was sent. Nothing passes through us. OpenRouter, Inc. (USA) passes each request on to the company that runs the model you picked: for paid models the app asks OpenRouter to use only companies that don’t keep or train on what is sent; a free model may keep it, so the app asks you to agree to each free model separately. If your Google key comes from a project without billing set up (Google’s free tier), Google may also use what is sent to improve its products, and human reviewers may read it; Google says it does not do this when billing is set up. The app tells you this before you agree. These providers may process data in the USA. The legal basis is your explicit consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR). You can withdraw it at any time by turning cloud AI off in the app; nothing more is sent from then on.</p>
+
+      <h3 id="pro">Ayumitra Pro, only if you subscribe</h3>
+      <p>Ayumitra Pro is an optional subscription, described in the <a href="terms.html">terms</a>. Without it, nothing in this section applies.</p>
+      <ul>
+        <li><b>What you send.</b> The questions, reports and photos you send to the assistant go from your phone through our server to an AI model that answers. The model is hosted by our cloud provider in the EU. What you send is not kept after the answer and is not used to train AI models.</li>
+        <li><b>The Pro account.</b> It holds your email address, your plan and its state, which profiles used the plan (as keys that say nothing about the profile), and counts of requests. It holds no health records.</li>
+        <li><b>Signing in.</b> You sign in with your email address and a 6-digit code. The email with the code is sent through our mail provider, Proton AG (Switzerland), which receives your address and the code.</li>
+        <li><b>Where the server runs.</b> At Amazon Web Services in Frankfurt, Germany (Amazon Web Services EMEA SARL, Luxembourg).</li>
+        <li><b>Paying.</b> Apple or Google sells the subscription and takes the payment, under their own privacy policies. The store tells us which plan you have, whether it is running, and when it renews or ends. We don’t receive your payment details.</li>
+        <li><b>How long.</b> The account and its counts of requests are kept until you delete it. Server logs are kept for 14 days; they hold no email address, question or answer. If you delete the account after using the free trial, or while a subscription is still running, we keep a scrambled marker of the email address for 400 days, so the same address finds its subscription again and gets no second free trial. The marker is a one-way fingerprint; the address itself is not in it.</li>
+      </ul>
+      <p>The legal basis is Art. 6(1)(b) GDPR for the account and the service you subscribed to, and your explicit consent (Art. 9(2)(a) GDPR) for the health details in what you send, which the app asks for before Pro answers. The marker left after deletion rests on our legitimate interest in preventing misuse of the free trial (Art. 6(1)(f) GDPR).</p>
+      <p>You can delete the Pro account in the app (Settings › Ayumitra Pro › Delete Pro account) or on the <a href="delete-account.html">delete page</a>. That removes your email address, the plan record and the list of profile keys from our server; only the marker described above may stay. It does not cancel a subscription that is running: cancel that in the App Store or Google Play.</p>
 
       <h3>Built-in web search, only if you turn it on</h3>
       <p>Built-in search is off until you turn it on, during set-up or in Settings › Looking things up. When it is on and no search key is saved, or you pick built-in search, the app can look up general public information, such as what a test measures, without any key: it sends the search words from your phone directly to MedlinePlus, run by the U.S. National Library of Medicine (USA), and to Wikipedia, run by the Wikimedia Foundation, Inc. (USA). Nothing passes through us. The app writes the search words itself and is designed to leave out names, dates and other personal details. Both services receive your IP address and the search words, under their own privacy policies. The legal basis is your consent (Art. 6(1)(a) GDPR, and Art. 9(2)(a) GDPR where a search could reveal something about health), given by turning it on; the app keeps the time you did. Adding a search key (below) also turns web search on. Turn it off to stop; nothing more is sent from then on.</p>
@@ -126,7 +142,7 @@
       <p>A child’s profile is created and managed by a parent or carer on their own phone, and stays on that phone unless they share it with the other parent’s phone (see above).</p>
 
       <h3>Deleting your data</h3>
-      <p>You can delete a report, a conversation, a profile or everything from within the app. Uninstalling the app removes its data from the phone. Backups you made stay where you saved them until you delete them.</p>
+      <p>You can delete a report, a conversation, a profile or everything from within the app. Uninstalling the app removes its data from the phone. Backups you made stay where you saved them until you delete them. A Ayumitra Pro account is deleted separately, in the app or on the <a href="delete-account.html">delete page</a>.</p>
 
       <h2 id="website">This website</h2>
 
@@ -139,12 +155,15 @@
       <h3>Email</h3>
       <p>If you email us, we use your address and message to reply (Art. 6(1)(b) GDPR when it concerns the app you use, otherwise Art. 6(1)(f)). A reported answer contains the answer’s text and may say something about someone’s health: we use it only to look into the report, with the explicit consent you give by sending it (Art. 9(2)(a) GDPR). We delete messages when they are no longer needed, unless the law requires us to keep them.</p>
 
+      <h3 id="contact">Contact form</h3>
+      <p>The <a href="contact.html">contact form</a> sends your name, your email address, the subject and your message, and a company name and phone number if you give them. They go through our server (Amazon Web Services, Frankfurt, Germany) and our mail provider Proton AG (Switzerland) to our support mailbox. The server keeps none of it. It keeps only a count per network address for two days, as a one-way fingerprint, to stop spam. We use what you send to answer your request (Art. 6(1)(b) GDPR when it is about a contract or a step towards one, otherwise Art. 6(1)(f), our legitimate interest in answering). The message stays in the mailbox as long as we need it to answer, then we delete it.</p>
+
       <h3>App stores</h3>
       <p>The download links take you to Apple’s App Store or Google Play. Their own privacy policies apply there.</p>
 
       <h2 id="rights">Your rights</h2>
       <p>Under the GDPR you have the right to access (Art. 15), correction (Art. 16), deletion (Art. 17), restriction (Art. 18), data portability (Art. 20) and to object (Art. 21), and to withdraw consent at any time (Art. 7(3)). Write to us at <a href="mailto:support@ayumitra.app">support@ayumitra.app</a>.</p>
-      <p>Because your health records exist only on your phone, you see, correct, export and delete them yourself in the app. We can’t do it for you, because we never have them.</p>
+      <p>Because your health records exist only on your phone, you see, correct, export and delete them yourself in the app. We can’t do it for you, because we don’t hold them. What a Pro account holds is listed under <a href="#pro">Ayumitra Pro</a>.</p>
       <p>You can also complain to a data protection authority, for example the one responsible for us: Berliner Beauftragte für Datenschutz und Informationsfreiheit, Alt-Moabit 59–61, 10555 Berlin, Germany.</p>
 
       <h2 id="changes">Changes</h2>
@@ -160,8 +179,10 @@
       <nav aria-label="Footer">
         <a href="impressum.html">Impressum</a>
         <a href="privacy.html" aria-current="page">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="pro.html">Pro</a>
         <a href="help/api-keys.html">Help</a>
-        <a href="mailto:support@ayumitra.app">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
     <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
