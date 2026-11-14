@@ -817,6 +817,63 @@ p { text-wrap: pretty; }
   .pro-free { padding-top: 80px; }
 }
 
+/* ---- Safety: the home section (#safety) and safety.html ----------------- */
+/* The home section is the path again, with every line solid: a filled dot is
+   a step the app takes itself, an open one the person's or the AI's. */
+.safety { padding-block: 0 112px; }
+.path.checks { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.checks .stop::before { border-top-style: solid; border-top-color: var(--primary); }
+.path-note b { color: var(--ink); font-weight: 600; }
+.path-note a, .trust p a, .isnt a { font-weight: 600; text-underline-offset: 3px; }
+@media (max-width: 900px) {
+  .path.checks { grid-template-columns: minmax(0, 1fr); }
+  .checks .stop::before { border-left-style: solid; border-left-color: var(--primary); }
+}
+
+/* safety.html: the Pro page's top, the download rows' two columns, the chat
+   demo's screen (still), the ledger's figures, the band and "isn't". */
+.safe-limit { margin: 18px 0 0; max-width: 38rem; font-weight: 600; }
+.safe-limit a { font-weight: 500; text-underline-offset: 3px; }
+.safe-sec { padding-block: 0 104px; }
+.safe-grid {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px 72px; align-items: start;
+  border-top: 1px solid var(--line-strong); padding-top: 56px;
+}
+.safe-text h2 {
+  margin: 0 0 6px; font-family: var(--display); font-weight: 500;
+  font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1.1; letter-spacing: -0.016em;
+}
+.safe-text p { margin: 14px 0 0; color: var(--ink-soft); max-width: 34rem; }
+.safe-dots { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.safe-dots li { padding-left: 18px; position: relative; }
+.safe-dots li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: var(--alert); }
+.safe-shot { margin: 0; max-width: 340px; }
+.safe-shot .screen { height: auto; font-size: 14px; }
+.safe-shot .screen-body { padding: 44px 14px 16px; gap: 12px; }
+.safe-shot .bubble { font-size: 14px; }
+.safe-shot .urgent { padding: 14px; gap: 7px; border-radius: 16px; }
+.safe-shot .urgent b { font-size: 16px; }
+.safe-shot .urgent span { font-size: 14px; }
+.safe-shot .urgent .call { font-size: 14.5px; padding: 10px 18px; border-radius: 12px; margin-top: 4px; }
+.safe-shot .urgent small { font-size: 12px; }
+.safe-shot figcaption { margin-top: 14px; font-size: 14px; color: var(--ink-soft); }
+.safe-lines { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line-strong); }
+.safe-lines li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 20px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.safe-lines b { font-weight: 600; }
+.safe-lines small { margin-left: 10px; font-size: 14px; color: var(--ink-soft); }
+.safe-lines .safe-no { font-family: var(--display); font-weight: 600; font-size: 1.5rem; line-height: 1.1; font-variant-numeric: tabular-nums; color: var(--primary-deep); white-space: nowrap; }
+.safe .trust { margin-top: 0; border-top: 1px solid var(--line-strong); padding-top: 56px; }
+.safe .isnt { padding-block: 104px 112px; }
+.safe-more { margin: 28px 0 0; font-size: 15px; color: var(--ink-soft); }
+.safe-more a { text-underline-offset: 3px; }
+@media (max-width: 760px) {
+  .safe-sec { padding-bottom: 80px; }
+  .safe-grid { grid-template-columns: minmax(0, 1fr); padding-top: 44px; }
+  .safe .trust { padding-top: 44px; }
+  .safe .isnt { padding-block: 80px; }
+}
+@media (max-width: 520px) { .safe .pro-compare li { grid-template-columns: minmax(0, 1fr); } }
+
 /* ---- Get the app -------------------------------------------------------- */
 .download { padding-block: 72px 64px; }
 .download-grid {

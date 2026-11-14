@@ -1,0 +1,220 @@
+<!doctype html>
+<!-- Built from src/safety.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Ayumitra checks every answer</title>
+<meta name="description" content="Ayumitra checks every question itself, before and after the AI answers: an urgent-care card for warning signs, your country’s crisis line, and no doses or medicine advice. The checks lower the risk. They can’t catch everything.">
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171918" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://ayumitra.app/safety.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayumitra">
+<meta property="og:title" content="How Ayumitra checks every answer">
+<meta property="og:description" content="Ayumitra checks every question itself, before and after the AI answers: an urgent-care card for warning signs, your country’s crisis line, and no doses or medicine advice. The checks lower the risk. They can’t catch everything.">
+<meta property="og:url" content="https://ayumitra.app/safety.html">
+<meta property="og:image" content="https://ayumitra.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script src="theme.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" class="leaf" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" class="leaf" fill="#23574B"/><circle cx="32" cy="24" r="6.5" class="seed" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="index.html#watch">Watch it work</a>
+      <a href="safety.html" aria-current="page">Safety</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="pro.html">Pro</a>
+      <span class="header-tools"><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><svg class="moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><svg class="sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><a class="header-cta" href="index.html#download">Get the app</a></span>
+    </nav>
+  </div>
+</header>
+
+<!--
+  The app's safety checks (14 November 2026). Only what the app does, in
+  plain words, with its limits said on the page. No absolute claims ("safe",
+  "guaranteed", "clinically validated"), no numbers beyond the ones here, and
+  no AI model or company named. When the app's checks, crisis lines or
+  release tests change, change this page and the home page's #safety.
+-->
+<main id="main" class="safe">
+
+  <section class="pro-top" aria-labelledby="safe-title">
+    <div class="container">
+      <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Safety</p>
+      <h1 id="safe-title">How Ayumitra checks every answer</h1>
+      <p class="lede">Ayumitra checks every question itself, before and after the AI answers. The checks are part of the app, so they apply whichever AI answers: the model on the phone, a cloud AI you set up with your own key, or Pro.</p>
+      <p class="safe-limit">The checks lower the risk. They can’t catch everything. <a href="#limits">What they can’t do</a></p>
+    </div>
+  </section>
+
+  <!-- Warning signs: the app's own card, above the answer -->
+  <section class="safe-sec" id="warning-signs" aria-labelledby="signs-title">
+    <div class="container">
+    <div class="safe-grid">
+      <div class="safe-text">
+        <h2 id="signs-title">Warning signs get a card from the app</h2>
+        <p>If a message describes signs of an emergency, the app itself puts an urgent-care card above the answer. The card shows the emergency number of the country you’re in, with a button to call. The app doesn’t wait for the AI to notice.</p>
+        <p>Some of the signs it looks for:</p>
+        <ul class="safe-dots">
+          <li>Chest pain with sweating</li>
+          <li>Signs of a stroke</li>
+          <li>A baby under three months with a fever</li>
+          <li>A child who swallowed tablets</li>
+        </ul>
+      </div>
+      <figure class="safe-shot" aria-labelledby="shot-caption">
+        <div class="screen" aria-hidden="true">
+          <div class="screen-bar"><span class="avatar">J</span><b>John</b><span class="local">On this device</span></div>
+          <div class="screen-body chat">
+            <p class="bubble">He has chest pain and he’s sweating a lot</p>
+            <div class="urgent">
+              <b>Get urgent help now</b>
+              <span>Chest pain with sweating needs a doctor straight away.</span>
+              <span class="call">Call 112</span>
+              <small>From Ayumitra’s safety checks, not the AI model.</small>
+            </div>
+          </div>
+          <div class="composer"><span class="field"><span class="placeholder">Ask about John…</span></span><span class="send"></span></div>
+        </div>
+        <figcaption id="shot-caption">The urgent-care card, as the app shows it for the message “He has chest pain and he’s sweating a lot”: “Get urgent help now”, with a button to call 112. The answer comes below the card. A sample, with the number for Germany.</figcaption>
+      </figure>
+    </div>
+    </div>
+  </section>
+
+  <!-- Thoughts of self-harm: the crisis line of the person's country -->
+  <section class="safe-sec" id="crisis-lines" aria-labelledby="lines-title">
+    <div class="container">
+    <div class="safe-grid">
+      <div class="safe-text">
+        <h2 id="lines-title">Thoughts of self-harm get a crisis line</h2>
+        <p>If a message speaks of self-harm, the app shows the crisis line of your country.</p>
+        <p>It never gives methods or amounts, however the question is framed. It looks at what a message means, not only at its words.</p>
+      </div>
+      <ul class="safe-lines" aria-label="Crisis lines the app shows, by country">
+        <li><span><b>USA</b></span><span class="safe-no">988</span></li>
+        <li><span><b>United Kingdom</b><small>Samaritans</small></span><span class="safe-no">116 123</span></li>
+        <li><span><b>Germany</b><small>TelefonSeelsorge</small></span><span class="safe-no">0800 111 0 111</span></li>
+        <li><span><b>India</b><small>Tele-MANAS</small></span><span class="safe-no">14416</span></li>
+        <li><span><b>France</b></span><span class="safe-no">3114</span></li>
+        <li><span><b>Spain</b></span><span class="safe-no">024</span></li>
+        <li><span><b>Netherlands</b></span><span class="safe-no">113</span></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <!-- Medicines and verdicts: what an answer does, and what it doesn't -->
+  <section class="safe-sec" id="medicines" aria-labelledby="meds-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="meds-title">It explains. It doesn’t prescribe or diagnose.</h2>
+        <p>If an AI answer contains a dose, or advice to start, stop or change a medicine, the app takes it out before it reaches the screen.</p>
+      </div>
+      <ul class="pro-compare">
+        <li>
+          <h3>Medicines</h3>
+          <p><span>It does</span>Explain what a medicine is for and how it’s usually used.</p>
+          <p><span>It doesn’t</span>Suggest a medicine, give a dose for anyone, or say to start, stop or change one. It points to your doctor, your pharmacist or the label.</p>
+        </li>
+        <li>
+          <h3>Illnesses</h3>
+          <p><span>It does</span>Explain, and say who can examine you.</p>
+          <p><span>It doesn’t</span>Tell you that you have an illness, or that you don’t.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="safe-sec" aria-labelledby="same-title">
+    <div class="container">
+      <h2 id="same-title" class="sr-only">The same checks for everyone</h2>
+      <div class="trust">
+        <div>
+          <h3>Whichever AI answers</h3>
+          <p>The checks are the app’s own. They run with the model on the phone, with a cloud AI you set up with your own key, and with Pro.</p>
+        </div>
+        <div>
+          <h3>In six languages</h3>
+          <p>The checks work in English, Hindi, German, French, Spanish and Dutch.</p>
+        </div>
+        <div>
+          <h3>A note before the first answer</h3>
+          <p>Every person reads and ticks a short note first: Ayumitra is a family health record app, not a doctor and not a medical device. Answers are written by AI, can be wrong, and are not medical advice.</p>
+        </div>
+        <div>
+          <h3>Calm by default</h3>
+          <p>An ordinary cold gets a calm answer. The urgent card is only for warning signs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How the checks are tested -->
+  <section class="privacy" id="tested" aria-labelledby="tested-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="tested-title">Tested before every release</h2>
+        <p>A release goes out only when every test below passes. Passing them doesn’t mean the checks catch everything.</p>
+      </div>
+      <ul class="facts">
+        <li><h3>More than 70 hard situations</h3><p>A fixed set: thoughts of self-harm said plainly and veiled, “how much would harm” dressed up as fiction or as a professional’s question, dose questions for babies and adults, stopping medicines, and emergencies played down.</p></li>
+        <li><h3>Each asked several times</h3><p>Every situation is asked several times, not once.</p></li>
+        <li><h3>Again, with a badly behaved AI</h3><p>The same situations are run with an AI made to behave badly on purpose, to check that the app’s own guards hold.</p></li>
+        <li><h3>All of them must pass</h3><p>If one fails, the release waits.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- The limits -->
+  <section class="isnt" id="limits" aria-labelledby="limits-title">
+    <div class="container">
+      <h2 id="limits-title">What the checks can’t do</h2>
+      <ul>
+        <li><b>Catch everything.</b> The checks lower the risk. They can miss a warning sign, and an answer can still be wrong.</li>
+        <li><b>Make Ayumitra a doctor.</b> It isn’t a doctor and it isn’t a medical device. Its answers are not medical advice.</li>
+        <li><b>Stand in for an emergency service.</b> Ayumitra isn’t one. In an emergency, call your local emergency number.</li>
+      </ul>
+      <p class="safe-more">What applies when you use the app is in the <a href="terms.html">terms</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="pro.html">Pro</a>
+        <a href="safety.html" aria-current="page">Safety</a>
+        <a href="help/api-keys.html">Help</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+</body>
+</html>

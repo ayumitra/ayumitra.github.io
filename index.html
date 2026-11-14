@@ -496,13 +496,47 @@
         </div>
         <div>
           <h3>Warning signs come first</h3>
-          <p>If a message describes warning signs, the app’s own check shows what to do and the number to call, before the answer. That check is built into the app, not left to the AI. It can miss things: if you’re worried, call for help.</p>
+          <p>If a message describes warning signs, the app’s own check shows what to do and the number to call, before the answer. <a href="#safety">How the app checks answers</a></p>
         </div>
         <div>
           <h3>Wherever you are</h3>
           <p>Each person has their own suitcase: while they travel, the emergency numbers shown for them are the country’s they’re in, with WHO’s and CDC’s health advice for it.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Safety: the app's own checks, before and after the AI answers. The
+       filled dots are the app's steps. More on safety.html. -->
+  <section class="safety" id="safety" aria-labelledby="safety-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="safety-title">The app checks every answer itself</h2>
+        <p>Ayumitra checks every question before and after the AI answers. It does this whichever AI answers: the model on your phone, a cloud AI with your own key, or Pro.</p>
+      </div>
+      <ol class="path checks">
+        <li class="stop">
+          <p class="when">You ask</p>
+          <h3>Your question</h3>
+          <p>In English, Hindi, German, French, Spanish or Dutch. The checks work in all six.</p>
+        </li>
+        <li class="stop is-now">
+          <p class="when">The app, before the answer</p>
+          <h3>Looks for warning signs</h3>
+          <p>Signs of an emergency get an urgent-care card with your country’s emergency number. Thoughts of self-harm get your country’s crisis line.</p>
+        </li>
+        <li class="stop">
+          <p class="when">The AI</p>
+          <h3>Explains, without a verdict</h3>
+          <p>It explains and says who can examine you. It doesn’t say you have an illness, or that you don’t. An ordinary cold gets a calm answer.</p>
+        </li>
+        <li class="stop is-now">
+          <p class="when">The app, after the answer</p>
+          <h3>Takes out doses</h3>
+          <p>If the answer contains a dose, or advice to start, stop or change a medicine, the app takes it out before it reaches the screen.</p>
+        </li>
+      </ol>
+      <p class="path-note"><b>The checks lower the risk. They can’t catch everything.</b> Before every release they are tested with more than 70 hard situations. <a href="safety.html">How Ayumitra checks every answer</a></p>
     </div>
   </section>
 
@@ -579,7 +613,7 @@
       <h2 id="isnt-title">What Ayumitra isn’t</h2>
       <ul>
         <li><b>A doctor.</b> It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it isn’t a medical device.</li>
-        <li><b>A source of medicines or doses.</b> It never suggests a medicine or gives a dose, for anyone, and never tells you to start or stop one. For a dose it points to the prescription, the label, or your doctor or pharmacist.</li>
+        <li><b>A source of medicines or doses.</b> It never suggests a medicine or gives a dose, for anyone, and never tells you to start or stop one. <a href="safety.html#medicines">How the app holds to this</a></li>
         <li><b>An emergency service.</b> If someone is seriously unwell, call your local emergency number.</li>
       </ul>
     </div>
@@ -662,6 +696,7 @@
         <a href="privacy.html">Privacy policy</a>
         <a href="terms.html">Terms</a>
         <a href="pro.html">Pro</a>
+        <a href="safety.html">Safety</a>
         <a href="help/api-keys.html">Help</a>
         <a href="contact.html">Contact</a>
       </nav>
