@@ -631,6 +631,7 @@ p { text-wrap: pretty; }
 
 /* ---- Ask: six languages ------------------------------------------------- */
 .ask { padding-block: 32px 112px; }
+.food { padding-block: 32px 112px; }
 .questions {
   list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 1px solid var(--line-strong);
