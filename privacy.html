@@ -28,6 +28,7 @@
 <link rel="stylesheet" href="help.css">
 <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <script src="theme.js" defer></script>
+  <link rel="alternate" type="text/markdown" href="https://ayumitra.app/privacy.md">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -56,6 +57,8 @@
   its facts were confirmed by the owner the same day.
   17 November 2026: decision models were added, and Pro's questions may
   be answered outside the EU.
+  24 November 2026: Pro's question models named as they run since 21
+  November (Tencent's model was removed from Pro that day).
 -->
 <main id="main" class="help">
   <div class="container help-wrap single">
@@ -63,7 +66,7 @@
       <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Privacy policy</p>
       <h1>Privacy policy</h1>
       <p class="doc-lede">Ayumitra keeps your family’s health records on your phone, encrypted. They are never sent to us, unless you email us something yourself or use Ayumitra Pro, the optional subscription. This page explains what that means for the app and for this website.</p>
-      <p class="updated">Last updated: 21 November 2026</p>
+      <p class="updated">Last updated: 24 November 2026</p>
 
       <h2 id="who">Who is responsible</h2>
       <address>
@@ -107,7 +110,7 @@
       <p>Ayumitra Pro is an optional subscription, described in the <a href="terms.html">terms</a>. Without it, nothing in this section applies.</p>
       <ul>
         <li><b>What you send.</b> The questions, reports and photos you send to the assistant go from your phone through our server to AI models that answer. Pro’s <a href="#decisions">decision step</a> also goes through our server. Before anything is sent, the names of the people in your profiles are replaced with made-up ones, as for any cloud request.</li>
-        <li><b>Where it may go.</b> Pro sends what you send only to AI models and decision models run by companies that keep nothing after the answer and don’t use it to train AI models (zero data retention). They may run in the EU, the UK, Switzerland, the USA, Canada, Japan, Singapore, India or Australia. At present, reports and photos are read by a model hosted by our cloud provider in the EU; questions are answered by a model run by Tencent Cloud in Singapore, reached through OpenRouter, Inc. (USA), or by a model in the EU if it can’t answer; and decisions are made by Perplexity AI, Inc. in the USA, through OpenRouter. Web search is separate (below).</li>
+        <li><b>Where it may go.</b> Pro sends what you send only to AI models and decision models run by companies that keep nothing after the answer and don’t use it to train AI models (zero data retention). They may run in the EU, the UK, Switzerland, the USA, Canada, Japan, Singapore, India or Australia. At present, reports and photos are read by a model hosted by our cloud provider in the EU. Questions go through OpenRouter, Inc. (USA) to models run by companies that keep nothing after the answer: OpenAI’s GPT-6 Luna, run by Microsoft Azure, answers most of them, and Z.ai’s GLM and DeepSeek’s models answer harder ones; another of these, or MiniMax’s model, answers when one can’t. Decisions are made by Perplexity AI, Inc. in the USA, through OpenRouter. Web search is separate (below).</li>
         <li><b>The Pro account.</b> It holds your email address, your plan and its state, and this month’s counts of requests and web searches. It holds no health records and nothing about the people in your profiles. Every phone or tablet signed in to the account has a sign-in session on our server, kept only as a one-way fingerprint.</li>
         <li><b>Web search with Brave, only if you turn it on.</b> It is off until you turn it on, in the Pro agreement or in Settings › Looking things up. While it is off, nothing is searched while Pro answers, not even with a key of your own: answers use what the AI knows and the health library on your phone. When it is on, Pro looks things up through our server with Brave Search (Brave Software, Inc., USA). Only the search words are sent. The AI proposes the search words (for a medicine you look up, its name as you typed it), and the app checks each search before it is sent: a search with the name of anyone in your profiles, however it is spelt, a date, an age, a reading or another number about a person, an email address, a phone number or a link is not sent. Brave receives the search from our server, so it doesn’t see your IP address, and our server doesn’t keep it. Under its privacy notice, Brave keeps a record of searches for up to 90 days for billing, troubleshooting and preventing abuse, and says it cannot tell which person made a search. We have asked Brave for zero data retention for Pro’s searches; until we have it, this record applies. The legal basis is your consent (Art. 6(1)(a) GDPR), given by turning it on and recorded on your phone; turning web search off withdraws it.</li>
         <li><b>Signing in.</b> You sign in with your email address and a 6-digit code. The email with the code is sent through our mail provider, Proton AG (Switzerland), which receives your address and the code.</li>
@@ -201,6 +204,7 @@
         <a href="terms.html">Terms</a>
         <a href="pro.html">Pro</a>
         <a href="safety.html">Safety</a>
+        <a href="faq.html">Questions</a>
         <a href="help/api-keys.html">Help</a>
         <a href="contact.html">Contact</a>
       </nav>

@@ -1,0 +1,32 @@
+# Ayumitra
+
+> Ayumitra is a free health companion app for the whole family, made by Kriti Rai (Kizmiz, Berlin). It keeps each person's lab reports, medicines, vaccines, appointments and phone and watch readings on the phone, reads reports from a photo or PDF, and answers questions in plain words, with the source of every answer. It is not a medical device: it doesn't diagnose, treat or give medicine doses.
+
+Key facts, as of the pages linked below:
+
+- **Price:** the app is free, and every feature works without paying. No account and no ads. No feature will ever be paywalled.
+- **Ayumitra Pro (optional, from 15 December 2026):** a stronger AI answers, with nothing to set up and no key. €3.99 a month or €29.99 a year (prices for Germany, including VAT; the store shows the local price), with 7 days free for new subscribers. It's bought only inside the app, through Google Play or the App Store. There is one monthly allowance per account, about 650 questions, and web searches don't count. Zero data retention: after the answer, no server keeps what was sent.
+- **Download:** Android, on Google Play: https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra. iPhone and iPad: coming soon to the App Store. Available in the EU, India and the USA.
+- **Devices:** the AI on the device needs an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB, and about 6 GB free. The model, about 2.6 GB, downloads once over Wi-Fi (or mobile data if chosen). On other devices everything else works, and answers can come from a cloud model with the person's own key.
+- **Languages:** English, Hindi, German, French, Spanish and Dutch: screens, reminders and answers.
+- **Privacy:** there's no account and no Ayumitra server holding health records. Records, photos and conversations are kept in an encrypted vault on the phone. Cloud AI (OpenAI, Anthropic, Google Gemini or OpenRouter, with the person's own key) stays off until they agree and turn it on; family names are swapped for made-up ones first. Health Connect and Apple Health are read only.
+- **Safety:** the app checks every question before and after the AI answers. Warning signs get an urgent-care card with the country's emergency number; thoughts of self-harm get the country's crisis line. Doses, and advice to start, stop or change a medicine, are taken out of answers. The checks lower the risk; they can't catch everything.
+- **Contact:** support@ayumitra.app.
+
+Each page below is also available as plain Markdown: add `.md` to its address, as in the links. Every page is in one file at https://ayumitra.app/llms-full.txt.
+
+## Pages
+
+- [Ayumitra](https://ayumitra.app/index.md): what the app does, privacy, safety, price and download
+- [Ayumitra Pro](https://ayumitra.app/pro.md): the optional subscription: plans, prices, allowance, zero data retention
+- [How Ayumitra checks every answer](https://ayumitra.app/safety.md): the checks before and after the AI answers, and their limits
+- [Questions about your data](https://ayumitra.app/faq.md): where data is stored, what leaves the phone, training, selling, web search, deleting
+- [Privacy policy](https://ayumitra.app/privacy.md): what is processed, where, and the person's rights
+- [Terms of use](https://ayumitra.app/terms.md): the terms, including what Pro's allowance counts
+- [Delete your Pro account](https://ayumitra.app/delete-account.md): how to delete a Pro account and what is removed
+- [Write to us](https://ayumitra.app/contact.md): how to reach the team
+
+## Optional
+
+- [Cloud AI keys](https://ayumitra.app/help/api-keys.md): how to get a key for OpenAI, Anthropic, Google Gemini or OpenRouter
+- [Impressum](https://ayumitra.app/impressum.md): the legal notice (German, with an English version)

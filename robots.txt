@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ayumitra.app/sitemap.xml
+
+# For AI agents: a summary at https://ayumitra.app/llms.txt, every page as Markdown at https://ayumitra.app/llms-full.txt

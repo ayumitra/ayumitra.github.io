@@ -1,0 +1,159 @@
+<!doctype html>
+<!-- Built from src/404.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · Ayumitra</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171918" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/help.css">
+<link rel="stylesheet" href="/account.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script src="/theme.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" class="leaf" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" class="leaf" fill="#23574B"/><circle cx="32" cy="24" r="6.5" class="seed" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <span class="header-tools"><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><svg class="moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><svg class="sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><a class="header-cta" href="/index.html#download">Get the app</a></span>
+    </nav>
+  </div>
+</header>
+
+<!--
+  The contact form, for what the two Pro plans in the app don't cover.
+  Written on 14 November 2026. The form talks only to the Pro relay (RELAY
+  below), which passes the message on by email and keeps none of it; nothing
+  is stored in the browser. Without JavaScript the page points to email.
+-->
+<main id="main" class="help">
+  <div class="container help-wrap single">
+    <article class="doc">
+      <h1>This page isn’t here</h1>
+      <p>The address may have changed. Start from the <a href="/">home page</a>, or see <a href="/pro.html">Ayumitra Pro</a>, <a href="/safety.html">how Ayumitra checks every answer</a> and the <a href="/privacy.html">privacy policy</a>.</p>
+      <p>For AI agents: a summary of the site is at <a href="/llms.txt">llms.txt</a>.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="/impressum.html">Impressum</a>
+        <a href="/privacy.html">Privacy policy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/pro.html">Pro</a>
+        <a href="/safety.html">Safety</a>
+        <a href="/faq.html">Questions</a>
+        <a href="/help/api-keys.html">Help</a>
+        <a href="/contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+
+<script>
+// The contact form. It talks only to the Pro relay, which emails the message
+// to support and keeps none of it. Nothing is stored in the browser.
+(function () {
+  var RELAY = "https://pro.ayumitra.app";
+  var form = document.getElementById("contact");
+  if (!form || !window.fetch) return;
+  var $ = function (id) { return document.getElementById(id); };
+
+  var SAID = {
+    name: "Enter your name.",
+    subject: "Enter a subject.",
+    description: "Write a message.",
+    email: "Enter an email address.",
+    bad_contact: "Something in the form isn’t right. Check the name, subject, message and email address.",
+    too_many_messages: "Too many messages were sent from this connection. Please try again later.",
+    not_sent: "The message couldn’t be sent. Try again in a minute.",
+    not_ready: "The form isn’t working right now. Try again later.",
+    offline: "Couldn’t reach Ayumitra. Check the connection and try again.",
+    failed: "That didn’t work. Try again in a minute."
+  };
+  // The cases where email is the better way through.
+  var BY_MAIL = { not_sent: true, not_ready: true, offline: true, failed: true };
+
+  function fail(id, text) {
+    var el = $(id + "-error");
+    if (id === "send") $("send-said").textContent = text || "";
+    else {
+      el.textContent = text || "";
+      if (text) $(id).setAttribute("aria-invalid", "true");
+      else $(id).removeAttribute("aria-invalid");
+    }
+    el.hidden = !text;
+  }
+
+  function call(path, body) {
+    return fetch(RELAY + path, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      credentials: "omit",
+      cache: "no-store",
+      referrerPolicy: "no-referrer"
+    }).then(function (response) {
+      return response.json().catch(function () { return {}; }).then(function (json) {
+        if (response.ok) return json;
+        throw (json.error && json.error.code) || "failed";
+      });
+    }, function () { throw "offline"; });
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var body = {};
+    ["name", "company", "subject", "description", "phone", "email", "website"].forEach(function (key) {
+      body[key] = $(key).value.trim();
+    });
+    var wrong = ["name", "subject", "description", "email"].filter(function (key) {
+      var ok = key === "email" ? /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(body.email) : body[key] !== "";
+      fail(key, ok ? "" : SAID[key]);
+      return !ok;
+    });
+    fail("send");
+    if (wrong.length) return $(wrong[0]).focus();
+
+    var button = $("send-go");
+    button.disabled = true;
+    call("/v1/contact", body)
+      .then(function (json) {
+        if (!json.sent) throw "failed";
+        form.reset();
+        form.hidden = true;
+        $("step-done").hidden = false;
+        $("done-title").focus();
+      })
+      .catch(function (code) {
+        $("send-mail").hidden = !BY_MAIL[SAID[code] ? code : "failed"];
+        fail("send", SAID[code] || SAID.failed);
+      })
+      .then(function () { button.disabled = false; });
+  });
+
+  $("no-script").hidden = true;
+  form.hidden = false;
+})();
+</script>
+</body>
+</html>

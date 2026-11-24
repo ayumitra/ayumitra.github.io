@@ -1,0 +1,4 @@
+Contact: mailto:support@ayumitra.app
+Expires: 2027-11-24T00:00:00.000Z
+Preferred-Languages: en, de
+Canonical: https://ayumitra.app/.well-known/security.txt

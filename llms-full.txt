@@ -1,0 +1,1430 @@
+# Ayumitra
+
+> Ayumitra is a free health companion app for the whole family, made by Kriti Rai (Kizmiz, Berlin). It keeps each person's lab reports, medicines, vaccines, appointments and phone and watch readings on the phone, reads reports from a photo or PDF, and answers questions in plain words, with the source of every answer. It is not a medical device: it doesn't diagnose, treat or give medicine doses.
+
+Key facts, as of the pages linked below:
+
+- **Price:** the app is free, and every feature works without paying. No account and no ads. No feature will ever be paywalled.
+- **Ayumitra Pro (optional, from 15 December 2026):** a stronger AI answers, with nothing to set up and no key. €3.99 a month or €29.99 a year (prices for Germany, including VAT; the store shows the local price), with 7 days free for new subscribers. It's bought only inside the app, through Google Play or the App Store. There is one monthly allowance per account, about 650 questions, and web searches don't count. Zero data retention: after the answer, no server keeps what was sent.
+- **Download:** Android, on Google Play: https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra. iPhone and iPad: coming soon to the App Store. Available in the EU, India and the USA.
+- **Devices:** the AI on the device needs an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB, and about 6 GB free. The model, about 2.6 GB, downloads once over Wi-Fi (or mobile data if chosen). On other devices everything else works, and answers can come from a cloud model with the person's own key.
+- **Languages:** English, Hindi, German, French, Spanish and Dutch: screens, reminders and answers.
+- **Privacy:** there's no account and no Ayumitra server holding health records. Records, photos and conversations are kept in an encrypted vault on the phone. Cloud AI (OpenAI, Anthropic, Google Gemini or OpenRouter, with the person's own key) stays off until they agree and turn it on; family names are swapped for made-up ones first. Health Connect and Apple Health are read only.
+- **Safety:** the app checks every question before and after the AI answers. Warning signs get an urgent-care card with the country's emergency number; thoughts of self-harm get the country's crisis line. Doses, and advice to start, stop or change a medicine, are taken out of answers. The checks lower the risk; they can't catch everything.
+- **Contact:** support@ayumitra.app.
+
+Each page below is also available as plain Markdown: add `.md` to its address, as in the links. Every page is in one file at https://ayumitra.app/llms-full.txt.
+
+## Pages
+
+- [Ayumitra](https://ayumitra.app/index.md): what the app does, privacy, safety, price and download
+- [Ayumitra Pro](https://ayumitra.app/pro.md): the optional subscription: plans, prices, allowance, zero data retention
+- [How Ayumitra checks every answer](https://ayumitra.app/safety.md): the checks before and after the AI answers, and their limits
+- [Questions about your data](https://ayumitra.app/faq.md): where data is stored, what leaves the phone, training, selling, web search, deleting
+- [Privacy policy](https://ayumitra.app/privacy.md): what is processed, where, and the person's rights
+- [Terms of use](https://ayumitra.app/terms.md): the terms, including what Pro's allowance counts
+- [Delete your Pro account](https://ayumitra.app/delete-account.md): how to delete a Pro account and what is removed
+- [Write to us](https://ayumitra.app/contact.md): how to reach the team
+
+## Optional
+
+- [Cloud AI keys](https://ayumitra.app/help/api-keys.md): how to get a key for OpenAI, Anthropic, Google Gemini or OpenRouter
+- [Impressum](https://ayumitra.app/impressum.md): the legal notice (German, with an English version)
+
+Title: Ayumitra, the health companion for your family
+URL: https://ayumitra.app/
+
+# A health companion that knows your family.
+
+Ayumitra keeps each person’s reports, medicines, vaccines and appointments, and the readings their phone and watch record, on your phone. Ask anything in plain words and see where every answer came from.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra)
+
+The AI runs on your phone. No account, no ads.
+
+## Watch it work
+
+Four things Ayumitra does every day, shown with sample records.
+
+### Reads a report from a photo
+
+Photograph a lab report or add a PDF. It’s read on the phone, with each value, unit and date kept.
+
+### Answers with the source
+
+Ask in plain words. It says what it understood, shows each step, and the answer points to the report it came from.
+
+### Turns a prescription into reminders
+
+The course and its dose times are read from the photo. Nothing is added until you check it and say so.
+
+### Puts warning signs first
+
+When a message describes warning signs, the app’s own check shows what to do and your local emergency number before any answer. It can miss things.
+
+## Readings come in by themselves
+
+Import once from Health Connect or Apple Health, and new readings from the phone, the watch and the meters you already use keep coming into the right person’s record: blood pressure, blood sugar, oxygen, weight, temperature, heart rate, steps and sleep.
+
+### It keeps checking
+
+While Ayumitra is open, it looks for new readings by itself. On Android it can also check about once an hour while it’s closed, if you allow it in Health Connect.
+
+### Named, and never twice
+
+Each reading says which app recorded it, and one app’s same reading is kept once. A night two apps both recorded shows under each, and counts once.
+
+### Into the right person
+
+Readings go into the profile you choose and are read on the phone only. Nothing is written back. Picked the wrong person? Undo takes the import back.
+
+## One record for each person in the family
+
+Add a profile for each person. Their records, reminders and answers stay apart.
+
+### Reports and scans
+
+Lab reports, prescriptions and scans are read on the phone, so you can find any test, value or date.
+
+### Search by meaning
+
+Search your reports in your own words, or ask Ayumitra to find it for you. EmbeddingGemma, Google’s open model for search, runs on the phone and matches what you mean, not only the exact word.
+
+### Medicines
+
+Photograph a prescription and the course and its reminders are set up for you to check.
+
+### Vaccines
+
+Your country’s schedule from birth, with what’s done and what’s due next.
+
+### Measurements
+
+Temperature, blood pressure, sugar, weight, heart rate and more: logged with a tap, told in chat or brought in from the phone. Every entry can be corrected.
+
+### Sleep
+
+Each night with when it began and ended, from the watch or logged yourself, and a chart of the nights.
+
+### Growth
+
+Height and weight against the WHO growth charts, from birth to 19.
+
+### Cycle
+
+Periods with the next one as a range of days, never a guess, and states like pregnancy that pause predictions.
+
+### Visits
+
+Appointments and check-ins, and a brief to take to the doctor, written from the records.
+
+### Shared with the other parent
+
+Share a child’s record with the other parent’s phone. The two phones catch up on your home Wi‑Fi, never through a server, and each of you keeps your own chats.
+
+### Health memory
+
+One timeline of what happened, linked across reports and conversations, kept for life.
+
+## Food, logged in a moment
+
+Photograph a meal, scan a packaged food’s barcode or say what you ate, on the Food page or in chat. Ayumitra lists the foods and works out the calories and nutrients; you check them before anything is saved.
+
+- English Lunch was 2 rotis, dal and a bowl of rice
+
+- Hindi नाश्ते में पोहा और चाय
+
+- German Zwei Brötchen mit Käse zum Frühstück
+
+- Dutch Boterham met kaas en een glas melk
+
+- French Un croissant et un café crème ce matin
+
+- Spanish Lentejas con pan para comer
+
+### From food tables and labels
+
+The numbers come from food tables kept in the app, built from official data, or from the pack’s label through Open Food Facts. Every figure says “about”.
+
+### No targets, no judging
+
+There is no calorie goal, and nothing is ever called too much or too little. On a child’s profile, only the foods are kept.
+
+### Linked to your own results
+
+When a meal is high in saturated fat, sugars or salt and your latest result is above its range, such as LDL cholesterol, it says so calmly, with the date.
+
+### A whole day at once
+
+Say breakfast, lunch and dinner in one message, or send a photo of each. Every meal is kept on its own, at its own time.
+
+## Ask in your own words, in your own language
+
+The whole app comes in English, हिन्दी, Deutsch, Français, Español and Nederlands: its screens, its reminders and its answers. Ask in any of them and the answer comes back in the same language. You can also speak your question in English.
+
+- English When is her next vaccine due?
+
+- Hindi क्या उसका बुखार उतर रहा है?
+
+- German Was hat die Ärztin im März verschrieben?
+
+- Dutch Is mijn bloeddruk deze maand hoger?
+
+- French Que dit la dernière prise de sang ?
+
+- Spanish ¿Cuándo empezó su tos?
+
+### It says what it understood
+
+The first step says what it took your question to mean. If it can’t tell, it asks you one short question instead of guessing.
+
+### A source for every answer
+
+You see each step as it works, and each answer points to the report, reading or conversation it came from. Tap it to open the report at that line.
+
+### Warning signs come first
+
+If a message describes warning signs, the app’s own check shows what to do and the number to call, before the answer. [How the app checks answers]
+
+### Wherever you are
+
+Each person has their own suitcase: while they travel, the emergency numbers shown for them are the country’s they’re in, with WHO’s and CDC’s health advice for it.
+
+## The app checks every answer itself
+
+**Ayumitra isn’t just an app. It’s a harness for AI-first health:** around whichever AI answers (the model on your phone, a cloud AI with your own key, or Pro), the app itself does the checking, the remembering and the record-keeping. It checks every question before and after the AI answers.
+
+You ask
+
+### Your question
+
+In English, Hindi, German, French, Spanish or Dutch. The checks work in all six.
+
+The app, before the answer
+
+### Looks for warning signs
+
+Signs of an emergency get an urgent-care card with your country’s emergency number. Thoughts of self-harm get your country’s crisis line.
+
+The AI
+
+### Explains, without a verdict
+
+It explains and says who can examine you. It doesn’t say you have an illness, or that you don’t. An ordinary cold gets a calm answer.
+
+The app, after the answer
+
+### Takes out doses
+
+If the answer contains a dose, or advice to start, stop or change a medicine, the app takes it out before it reaches the screen.
+
+**The checks lower the risk. They can’t catch everything.** Before every release they are tested with more than 80 hard situations. [How Ayumitra checks every answer](https://ayumitra.app/safety.md)
+
+## Your records are yours to control
+
+There’s no account and no Ayumitra server holding your health records. In practice:
+
+### Stored on your phone, encrypted
+
+Records, photos and conversations are kept in an encrypted vault on the phone.
+
+### Read on your phone
+
+On a phone that can run it, the AI that reads reports and answers questions runs on the phone itself, and works without a connection.
+
+### Health apps, read only
+
+Health Connect and Apple Health are read on the phone, into the profile you choose. Nothing is written back to them.
+
+### Cloud only if you choose
+
+You can use OpenAI, Anthropic, Google Gemini or OpenRouter with your own key. It stays off until you agree and turn it on. The names of the people in your profiles, and common other spellings of them, are swapped for made-up ones first. Nicknames and other people’s names aren’t changed, and names printed on a photographed report can’t be.
+
+### See what was sent
+
+With a cloud model on, Settings shows the exact text sent this session, with the app’s own check for your family’s names in it.
+
+### A health library in the app
+
+General questions draw on MedlinePlus’s health topics in English and Spanish, kept in the app and read offline. Web search stays off until you turn it on, and the app lets only a general question through.
+
+### Shared only between your phones
+
+A child’s record shared with the other parent goes straight from phone to phone on your Wi‑Fi, encrypted. Chats are never shared.
+
+### Backups only you can open
+
+Backups stay on your device for now, encrypted with six words that only you keep. Without them nobody can open a backup, including us.
+
+### Delete anything
+
+Delete a report, a conversation, a person or everything. What a conversation taught Ayumitra goes with it.
+
+### No ads, trackers or account
+
+The app has no advertising, analytics or crash reporting. This website sets no cookies and loads nothing from other servers.
+
+## Why we made Ayumitra
+
+When our son was born, we needed an AI-powered app for his health: one place for his records that could also help us understand them.
+
+We found none that kept a health record and also kept it private. So we built one ourselves.
+
+Ayumitra is that app, now for your family too.
+
+## Where Ayumitra is going
+
+The app stays free, with every feature. Next, we’ll run the AI for people who’d rather not manage it, and then build our own models for Ayumitra.
+
+Today
+
+### The free app
+
+Every feature, with the AI on your phone, or a cloud model with your own key.
+
+From 15 December 2026
+
+### Ayumitra Pro
+
+An optional subscription, for anyone whose device can’t run the AI or who’d rather not manage keys. A stronger AI answers, and questions aren’t kept afterwards or used to train AI. [What Pro is and what it costs](https://ayumitra.app/pro.md)
+
+Then
+
+### Sanjeevani Small
+
+Our own AI models, starting small: open-source models we tune to work inside Ayumitra, with your records, its health library and its safety checks.
+
+Later
+
+### Sanjeevani Large
+
+The most capable open-source models, tuned the same way. The aim is faster and better answers to health questions than the leading AI models give.
+
+Sanjeevani is a plan, without dates yet. Every feature stays in the free app.
+
+## What Ayumitra isn’t
+
+- **A doctor.** It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it isn’t a medical device.
+
+- **A source of medicines or doses.** It never suggests a medicine or gives a dose, for anyone, and never tells you to start or stop one. [How the app holds to this](https://ayumitra.app/safety.md#medicines)
+
+- **An emergency service.** If someone is seriously unwell, call your local emergency number.
+
+## Free, with every feature
+
+No feature will ever be paywalled. All we’ll ever sell is Ayumitra Pro, where we run the AI for you, and, later, Sanjeevani, our own AI models trained for Ayumitra. Nothing else.
+
+### Ayumitra
+
+Free
+
+Everything on this page. The AI runs on your phone, or on a cloud model with your own key.
+
+### Ayumitra Pro From 15 December 2026
+
+Optional
+
+A stronger AI answers, with nothing to set up and no key. Zero data retention: after the answer, no server keeps what you send. Bought only inside the app, with 7 days free for new subscribers.
+
+- **Pro every profile, any device** €3.99 a month, or €29.99 a year
+
+[What Pro is and what it costs](https://ayumitra.app/pro.md)
+
+## Get Ayumitra
+
+For Android, iPhone and iPad, in the EU, India and the USA.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra)
+
+Because the AI runs on the device, it needs a recent one: an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB, and about 6 GB free. The model, about 2.6 GB, downloads over Wi‑Fi the first time, or over mobile data if you choose. On other devices everything else works, and answers can come from a cloud model of your choice with your own key.
+
+## Write to us
+
+Send us feedback, a question, a problem, or an idea for what comes next.
+[support@ayumitra.app](mailto:support@ayumitra.app)
+
+Please leave out health details unless we ask for them.
+
+
+---
+
+Title: Ayumitra Pro: what it is and what it costs
+URL: https://ayumitra.app/pro.html
+
+[Home](https://ayumitra.app/index.md) Pro
+
+# Ayumitra Pro
+
+An optional subscription. A stronger AI answers your questions, with nothing to set up and no key. Zero data retention: after the answer, no server keeps what you send. The app itself is free, and every feature works without paying.
+
+## Plans and prices
+
+From 15 December 2026 7 days free for new subscribers
+
+### Pro
+
+Every profile, on every phone and tablet you sign in to
+
+- A year **€29.99**
+
+- A month **€3.99**
+
+Included
+
+- One monthly allowance for the whole account, about 650 questions
+
+- Answers, reports, photos and health memory, all read by the stronger AI
+
+- Web search, free and not counted
+
+- Your partner can sign in too, and shares the allowance
+
+- After the 7 free days, the plan renews until you cancel it.
+
+- Cancel any time in the App Store or Google Play. Pro runs until the time you paid for ends.
+
+- One monthly allowance for the whole account, about 650 questions; web searches don’t count. The [terms](https://ayumitra.app/terms.md#pro) say exactly what counts.
+
+- Prices are for Germany and include VAT. The store shows the price for your country.
+
+## What Pro adds
+
+Pro changes who answers. Everything else in the app works the same.
+
+### A stronger AI answers
+
+With Pro, a stronger AI answers your questions.
+
+### Nothing to set up
+
+No key to get and nothing to manage. You subscribe in the app and ask.
+
+### Looks things up on the web
+
+Looking things up on the web is part of Pro.
+
+### Still answers without Pro
+
+If Pro can’t be reached, the app answers on the device and says why.
+
+## Zero data retention
+
+With Pro, the answer is written outside your phone. No server keeps what you send once the answer is back.
+
+### Kept on no server
+
+Once the answer is back, no server keeps your question, your report or the answer: not ours, and not the AI’s. Web search with Brave is your choice, off until you turn it on: Brave keeps a record of the search words for up to 90 days. We have asked Brave for zero data retention; until we have it, that record applies.
+
+### Sent only for the answer
+
+A question you ask with Pro is sent out so the stronger AI can answer it.
+
+### Not used to train AI
+
+Your questions aren’t used to train AI.
+
+### Family names are swapped first
+
+Your family’s names are swapped for made-up ones before anything is sent. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details.
+
+## What stays free
+
+Everything. Nothing in the app is locked, and you never need Pro to use a feature.
+
+### Features
+
+FreeEvery feature.
+
+With ProThe same features.
+
+### Who answers
+
+FreeThe AI on the phone itself, or a cloud AI provider with your own key.
+
+With ProA stronger AI, with no key.
+
+### What you set up
+
+FreeThe AI on the phone, or your own key.
+
+With ProNothing.
+
+### Price
+
+FreeFree.
+
+With Pro€3.99 a month, or €29.99 a year.
+
+## Why Pro costs money
+
+Our aim is that every feature of Ayumitra stays free, always. But the AI that runs on a phone can’t yet match the leading AI models. Pro is for anyone who wants a stronger AI without setting up keys.
+
+### What it pays for
+
+The AI that answers, the web searches it makes and the servers in between all cost money. Pro covers these costs.
+
+### What you get for it
+
+Your monthly allowance, with web searches on top, is worth about twice what we receive from a monthly subscription, after the store’s fee and taxes. On the yearly plan, about three times.
+
+### How it adds up
+
+To be open about it: not everyone uses their whole allowance, so those who use less help pay for those who use more. Together, that covers what it costs to run Ayumitra each day.
+
+### What comes next
+
+Sanjeevani, our own AI models, aims to close the gap between the leading AI models and the AI on your device, for your health. [Where Ayumitra is going](https://ayumitra.app/index.md#next)
+
+## How to get Pro
+
+Pro is bought only inside the app. This website doesn’t sell it.
+
+### Get the app
+
+Ayumitra is free, for Android, iPhone and iPad.
+
+### Subscribe in the app
+
+Pick monthly or yearly. The App Store or Google Play takes the payment, and new subscribers get 7 days free first.
+
+### Add your email
+
+Pro belongs to your email address, so you can sign in with it on your other phones and tablets, and your partner can too.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra)
+
+Pro starts on 15 December 2026. You need to be 16 or older.
+
+## Questions
+
+Do I need Pro to use Ayumitra?
+
+No. The app is free and every feature works without paying. Its AI can run on the phone itself, or with your own key for a cloud AI provider.
+
+Is there a limit on questions?
+
+Pro has one monthly allowance for the whole account: 2,000 requests to the AI, about 650 questions. Reading reports and photos, and Think deeper, use more; web searches don’t count. The app shows how much is used. If it runs out, the app answers on the device until it starts fresh the next month. The 7-day free trial has 500 requests. The [terms](https://ayumitra.app/terms.md#pro) have the details.
+
+What happens to my questions?
+
+They leave the device for the answer. They aren’t kept afterwards and aren’t used to train AI. Your family’s names are swapped for made-up ones before anything is sent.
+
+What if Pro can’t be reached?
+
+The app answers on the device instead, and says why.
+
+Can my partner use Pro too?
+
+Yes. Sign in with the same email on their phone or tablet. Pro answers for every profile on every device signed in, and they all share the one monthly allowance.
+
+How do I cancel?
+
+In the App Store or Google Play, at any time. Pro runs until the time you paid for ends.
+
+Why is the price different in my store?
+
+The prices here are for Germany and include VAT. The store shows the price for your country.
+
+Does Pro make Ayumitra a doctor?
+
+No. With or without Pro, Ayumitra isn’t a medical device. It doesn’t diagnose, and it never recommends medicines or doses.
+
+## Pro for a practice or a company?
+
+For a company, a clinic or a care home, write to us.
+[Contact us](https://ayumitra.app/contact.md)
+
+What applies to Pro is in the [terms](https://ayumitra.app/terms.md#pro).
+
+
+---
+
+Title: How Ayumitra checks every answer
+URL: https://ayumitra.app/safety.html
+
+[Home](https://ayumitra.app/index.md) Safety
+
+# How Ayumitra checks every answer
+
+Ayumitra checks every question itself, before and after the AI answers. The checks are part of the app, so they apply whichever AI answers: the model on the phone, a cloud AI you set up with your own key, or Pro.
+
+The checks lower the risk. They can’t catch everything. [What they can’t do]
+
+## Warning signs get a card from the app
+
+If a message describes signs of an emergency, the app itself puts an urgent-care card above the answer. The card shows the emergency number of the country you’re in, with a button to call. The app doesn’t wait for the AI to notice.
+
+Some of the signs it looks for:
+
+- Chest pain with sweating
+
+- Signs of a stroke
+
+- A baby under three months with a fever
+
+- A child who swallowed tablets
+
+The urgent-care card, as the app shows it for the message “He has chest pain and he’s sweating a lot”: “Get urgent help now”, with a button to call 112. The answer comes below the card. A sample, with the number for Germany.
+
+## Thoughts of self-harm get a crisis line
+
+If a message speaks of self-harm, the app shows the crisis line of your country.
+
+It never gives methods or amounts, however the question is framed. It looks at what a message means, not only at its words.
+
+- **USA** 988
+
+- **United Kingdom** Samaritans 116 123
+
+- **Germany** TelefonSeelsorge 0800 111 0 111
+
+- **India** Tele-MANAS 14416
+
+- **France** 3114
+
+- **Spain** 024
+
+- **Netherlands** 113
+
+## It explains. It doesn’t prescribe or diagnose.
+
+If an AI answer contains a dose, or advice to start, stop or change a medicine, the app takes it out before it reaches the screen.
+
+### Medicines
+
+It doesExplain what a medicine is for and how it’s usually used.
+
+It doesn’tSuggest a medicine, give a dose for anyone, or say to start, stop or change one. It points to your doctor, your pharmacist or the label.
+
+### Illnesses
+
+It doesExplain, and say who can examine you.
+
+It doesn’tTell you that you have an illness, or that you don’t.
+
+## The same checks for everyone
+
+### Whichever AI answers
+
+The checks are the app’s own. They run with the model on the phone, with a cloud AI you set up with your own key, and with Pro.
+
+### In six languages
+
+The checks work in English, Hindi, German, French, Spanish and Dutch.
+
+### A note before the first answer
+
+Every person reads and ticks a short note first: Ayumitra is a family health record app, not a doctor and not a medical device. Answers are written by AI, can be wrong, and are not medical advice.
+
+### Calm by default
+
+An ordinary cold gets a calm answer. The urgent card is only for warning signs.
+
+## Tested before every release
+
+A release goes out only when every test below passes. Passing them doesn’t mean the checks catch everything.
+
+### More than 80 hard situations
+
+A fixed set: thoughts of self-harm said plainly and veiled, “how much would harm” dressed up as fiction or as a professional’s question, dose questions for babies and adults, stopping medicines, and emergencies played down.
+
+### Each asked several times
+
+Every situation is asked several times, not once.
+
+### Again, with a badly behaved AI
+
+The same situations are run with an AI made to behave badly on purpose, to check that the app’s own guards hold.
+
+### All of them must pass
+
+If one fails, the release waits.
+
+## What the checks can’t do
+
+- **Catch everything.** The checks lower the risk. They can miss a warning sign, and an answer can still be wrong.
+
+- **Make Ayumitra a doctor.** It isn’t a doctor and it isn’t a medical device. Its answers are not medical advice.
+
+- **Stand in for an emergency service.** Ayumitra isn’t one. In an emergency, call your local emergency number.
+
+What applies when you use the app is in the [terms](https://ayumitra.app/terms.md).
+
+
+---
+
+Title: Questions about your data · Ayumitra
+URL: https://ayumitra.app/faq.html
+
+[Home](https://ayumitra.app/index.md) Questions
+
+# Questions about your data
+
+Short answers to what people ask most. The [privacy policy](https://ayumitra.app/privacy.md) says it in full.
+
+## Where is my data stored?
+
+On your phone or tablet, in an encrypted vault. Its key is kept in the device’s secure storage: we have no copy of the key and no access to the vault.
+
+Without Ayumitra Pro there is no Ayumitra account at all.
+
+## Do you keep my data on a server?
+
+No health records are kept on any Ayumitra server.
+
+With Ayumitra Pro, what you send passes through our server to the AI that answers, and isn’t kept once the answer is back. The Pro account holds only your email address, your plan and this month’s counts of requests and searches.
+
+## What leaves my phone when I ask a question?
+
+It depends on who answers, and you choose:
+
+- **The AI on your phone (Gemma):** your question and your records are read on the phone, and nothing about them is sent. The only exception is what you turn on yourself, such as web search, which sends only general search words.
+- **Ayumitra Pro:** your question, and the parts of your records needed to answer it, go through our server to AI models that keep nothing after the answer (zero data retention). The names of the people in your profiles are swapped for made-up ones first.
+- **A cloud AI with your own key:** it goes from your phone straight to the provider you chose, under your own account with them. Their terms decide what they keep and how they use it, so check them.
+
+When a cloud model or Pro answers, a small decision model is also asked whether a message may be an emergency and what it needs. It gets the message and a little context, through companies that keep nothing after the answer.
+
+## Do you use my data to train AI?
+
+No. We don’t train AI on what you send. Ayumitra Pro uses only AI companies that don’t train on it and keep nothing after the answer. With your own key, your provider’s terms decide.
+
+## Do you sell my data?
+
+No. We don’t sell or share your health records. The app has no ads, no analytics, no crash reporting and no tracking code from other companies.
+
+## What does web search send?
+
+Web search is off until you turn it on. Only general search words are sent: the app checks each search first, and one with a name from your profiles, a date, an age, a reading, an email address, a phone number or a link isn’t sent.
+
+With Pro, searches go through our server to Brave Search, which keeps a record of the search words for up to 90 days and says it can’t tell who made a search. We have asked Brave for zero data retention; until we have it, that record applies. Built-in search asks MedlinePlus and Wikipedia, and a key of your own uses Brave Search or Tavily.
+
+## Can anyone at Ayumitra see my records?
+
+No. Your records are in the encrypted vault on your device, and we have no copy of its key. Backups are encrypted with a six-word passphrase that only you have.
+
+## How do I delete my data?
+
+- **Everything on the device:** Settings › Your data › Delete everything on this device. You can also delete a single report, conversation or profile. Uninstalling the app removes its data too.
+- **Backups** you made stay where you saved them until you delete them.
+- **A Pro account:** Settings › Ayumitra Pro › Delete Pro account, or the [delete page](https://ayumitra.app/delete-account.md). This doesn’t cancel a running subscription: cancel that in Google Play or the App Store.
+
+## What happens with Health Connect or Apple Health?
+
+Only when you tap Import and allow it, the app reads your readings into the profile you choose. It’s read only: nothing is written back. What it reads stays in the encrypted vault, and goes to a cloud model only if you have turned cloud AI on.
+
+## Is Ayumitra a medical device?
+
+No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number.
+
+
+---
+
+Title: Privacy policy · Ayumitra
+URL: https://ayumitra.app/privacy.html
+
+[Home](https://ayumitra.app/index.md) Privacy policy
+
+# Privacy policy
+
+Ayumitra keeps your family’s health records on your phone, encrypted. They are never sent to us, unless you email us something yourself or use Ayumitra Pro, the optional subscription. This page explains what that means for the app and for this website.
+
+Last updated: 24 November 2026
+
+## Who is responsible
+
+Kriti Rai
+
+Annenallee 5
+
+12555 Berlin, Germany
+
+Email: [support@ayumitra.app](mailto:support@ayumitra.app)
+
+Full details are in the [Impressum](https://ayumitra.app/impressum.md).
+
+## In short
+
+- Unless you subscribe to Ayumitra Pro, there is no Ayumitra account and no Ayumitra server that receives your health records. We don’t share or sell them.
+
+- With Ayumitra Pro, what you send to the assistant goes through our server to AI models that answer, some of them outside the EU, and is not kept after the answer. The Pro account holds your email address, not your records.
+
+- The app stores everything in an encrypted vault on your phone or tablet, and on a device that can run it, its AI runs there too.
+
+- The app contacts other companies only for what you choose: downloading its AI model, built-in web search if you turn it on, a cloud AI model or web search with your own key, a decision model when a cloud model or Pro answers, looking up a packaged food by its barcode or a US medicine pack by its product number, importing from Health Connect or Apple Health, and health advice for a country you travel to. Each is described below.
+
+- Web searches never include the names of the people in your profiles, dates, ages, readings, email addresses, phone numbers or links: the app checks every search before it is sent and withholds one that has any of these.
+
+- If you share a child’s profile with the other parent, your two phones exchange it directly on your Wi‑Fi. It never reaches us.
+
+- This website sets no cookies, has no analytics and loads nothing from other servers.
+
+## The Ayumitra app
+
+### Your records stay on your phone
+
+Profiles, reports, scans and photos, conversations, measurements, medicines, vaccines, cycle logs, reminders and everything else you add are stored in an encrypted vault on your phone. The key is kept in the phone’s secure storage. We have no copy of the key and no access to the vault.
+
+### The AI runs on your phone
+
+On a phone or tablet that can run it, reading reports and answering questions happens on the device with an on-device model, and works without a connection. On one that can’t, the app keeps working without it, and answers come only from a cloud AI model you turn on (below).
+
+### Downloading the AI model
+
+The first time you set up Ayumitra, it downloads its model files (about 2.6 GB and 165 MB) from Hugging Face, Inc. (USA). Like any download, this shares your phone’s IP address and the request with Hugging Face, which may process it in the USA. No health data, name or other record is sent. The legal basis is Art. 6(1)(b) GDPR: the download is needed for the app to work.
+
+### A cloud AI model, only if you turn it on
+
+Cloud AI is off until you agree to it and turn it on. If you do, you add your own key for OpenAI, Anthropic, Google (the Gemini API) or OpenRouter. Your question, and the parts of your records needed to answer it, are then sent from your phone directly to the provider you chose, under your own account with them and their terms; if you choose to have reports read by the cloud model, photos of their pages are sent too. Unless you turn the privacy shield off, the names of the people in your profiles, and common other spellings of them, are replaced with made-up ones in the text before it is sent. Other names, such as a nickname or a doctor’s, aren’t changed, and names printed on a page’s photo can’t be. You can see the text that was sent. Nothing passes through us. Bringing your own key gives you the choice of provider, and it also means we don’t control how or where that provider transmits, stores or uses what is sent: its terms decide, and it may use what you send as those terms allow. OpenRouter, Inc. (USA) passes each request on to the company that runs the model you picked: for paid models the app asks OpenRouter to use only companies that don’t keep or train on what is sent; a free model may keep it, so the app asks you to agree to each free model separately. If your Google key comes from a project without billing set up (Google’s free tier), Google may also use what is sent to improve its products, and human reviewers may read it; Google says it does not do this when billing is set up. The app tells you this before you agree. These providers may process data in the USA. The legal basis is your explicit consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR). You can withdraw it at any time by turning cloud AI off in the app; nothing more is sent from then on.
+
+### Decision models, when a cloud model or Pro answers
+
+When a cloud model or Ayumitra Pro answers, the app first asks a small decision model about each message you send: whether it may be an emergency, what kind of question it is, which of the app’s tools it needs, and whether it holds something to save in your records. The decision model only answers these questions. It writes no answer and no record, and the app’s own checks still run. This is on by default when a cloud model or Pro answers and off when the AI runs on your phone; you can turn it on or off in Settings › Cloud AI › Decision models, and the app tells you before it first sends anything. If you turn it on while the AI runs on your phone, each message you send still goes to the decision model in the cloud.
+
+For each message, the app sends the message, up to three of your messages before it, up to 600 characters of the previous reply, and the age of the person it is about (for example “a child of 6”) with whether they are pregnant. In a memory update, and about once a week on its own, it also checks whether saved health details not mentioned for a month are still current, so each of those details, its dates and the words it was saved from are sent too. What is over is archived on your phone, never deleted: kept out of everyday answers, looked at only when a question about the past searches your records, and you can put any of it back or turn this off (Health memory › Archived). Long-term conditions, medicines still taken, allergies, vaccines and results are never archived, and the weekly check uses only the decision model. With the AI on your phone alone, the AI on your phone does this, and nothing is sent. The privacy shield replaces names as it does for any other request, and you can see what was sent. Without Pro, this goes from your phone to OpenRouter, Inc. (USA) under your own OpenRouter key, even when another provider answers your questions, and OpenRouter passes it on to the company that runs the decision model you chose (by default Perplexity AI, Inc., USA). With Pro, it goes through our server to OpenRouter in the same way, to a decision model we choose in one of the places listed under [Ayumitra Pro]. Every decision request asks OpenRouter to use only companies that don’t keep or train on what is sent; if none can take it, it is passed on to no one and the app decides without it. Without Pro, these companies may process the data in the USA, or elsewhere for a decision model you add yourself. The legal basis is your explicit consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR). You can withdraw it at any time by turning decision models off; nothing more is sent for decisions from then on.
+
+### Ayumitra Pro, only if you subscribe
+
+Ayumitra Pro is an optional subscription, described in the [terms](https://ayumitra.app/terms.md). Without it, nothing in this section applies.
+
+- **What you send.** The questions, reports and photos you send to the assistant go from your phone through our server to AI models that answer. Pro’s [decision step] also goes through our server. Before anything is sent, the names of the people in your profiles are replaced with made-up ones, as for any cloud request.
+
+- **Where it may go.** Pro sends what you send only to AI models and decision models run by companies that keep nothing after the answer and don’t use it to train AI models (zero data retention). They may run in the EU, the UK, Switzerland, the USA, Canada, Japan, Singapore, India or Australia. At present, reports and photos are read by a model hosted by our cloud provider in the EU. Questions go through OpenRouter, Inc. (USA) to models run by companies that keep nothing after the answer: OpenAI’s GPT-6 Luna, run by Microsoft Azure, answers most of them, and Z.ai’s GLM and DeepSeek’s models answer harder ones; another of these, or MiniMax’s model, answers when one can’t. Decisions are made by Perplexity AI, Inc. in the USA, through OpenRouter. Web search is separate (below).
+
+- **The Pro account.** It holds your email address, your plan and its state, and this month’s counts of requests and web searches. It holds no health records and nothing about the people in your profiles. Every phone or tablet signed in to the account has a sign-in session on our server, kept only as a one-way fingerprint.
+
+- **Web search with Brave, only if you turn it on.** It is off until you turn it on, in the Pro agreement or in Settings › Looking things up. While it is off, nothing is searched while Pro answers, not even with a key of your own: answers use what the AI knows and the health library on your phone. When it is on, Pro looks things up through our server with Brave Search (Brave Software, Inc., USA). Only the search words are sent. The AI proposes the search words (for a medicine you look up, its name as you typed it), and the app checks each search before it is sent: a search with the name of anyone in your profiles, however it is spelt, a date, an age, a reading or another number about a person, an email address, a phone number or a link is not sent. Brave receives the search from our server, so it doesn’t see your IP address, and our server doesn’t keep it. Under its privacy notice, Brave keeps a record of searches for up to 90 days for billing, troubleshooting and preventing abuse, and says it cannot tell which person made a search. We have asked Brave for zero data retention for Pro’s searches; until we have it, this record applies. The legal basis is your consent (Art. 6(1)(a) GDPR), given by turning it on and recorded on your phone; turning web search off withdraws it.
+
+- **Signing in.** You sign in with your email address and a 6-digit code. The email with the code is sent through our mail provider, Proton AG (Switzerland), which receives your address and the code.
+
+- **Where the server runs.** At Amazon Web Services in Frankfurt, Germany (Amazon Web Services EMEA SARL, Luxembourg).
+
+- **Paying.** Apple or Google sells the subscription and takes the payment, under their own privacy policies. The store tells us which plan you have, whether it is running, and when it renews or ends. We don’t receive your payment details.
+
+- **A free month we give you.** If you asked us for Ayumitra Pro, for example by joining a waiting list, we may give your email address a free month. For that we keep the address on our server together with where we got it from (for example “waiting list”). If you never sign in, both are deleted 90 days after the free month ends. Nothing is charged, and the month ends by itself.
+
+- **How long.** The account and its counts of requests are kept until you delete it. Server logs are kept for 14 days; they hold no email address, question or answer. If you delete the account after using the free trial or Pro this month, or while a subscription is still running, we keep a scrambled marker of the email address with its counts of use (numbers only) for 400 days, so the same address finds its subscription again and gets no second free trial and no fresh allowance. The marker is a one-way fingerprint; the address itself is not in it.
+
+The legal basis is Art. 6(1)(b) GDPR for the account and the service you subscribed to, and your explicit consent (Art. 9(2)(a) GDPR) for the health details in what you send, which the app asks for before Pro answers. What goes outside the EU goes there on your explicit consent to that transfer (Art. 49(1)(a) GDPR), which the app also asks for before Pro answers. The UK, Switzerland, Canada and Japan have an EU adequacy decision; in the other places, the law may not protect your data as EU law does. The marker left after deletion rests on our legitimate interest in preventing misuse of the free trial (Art. 6(1)(f) GDPR).
+
+You can delete the Pro account in the app (Settings › Ayumitra Pro › Delete Pro account) or on the [delete page](https://ayumitra.app/delete-account.md). That removes your email address, the plan record and its counts from our server; only the marker described above may stay. It does not cancel a subscription that is running: cancel that in the App Store or Google Play.
+
+### Barcodes of packaged food, only when you scan one
+
+In the food log you can add a packaged food by its barcode, scanned with the camera or typed in. When web search is on (Settings › Looking things up) and you do, the app sends that barcode number from your phone to Open Food Facts (Open Food Facts, a non-profit association in France), the open database of food products, to fetch the product's name and the figures on its label. The request carries only the barcode and the app's name, as Open Food Facts asks of apps; nothing about you is sent, and nothing passes through us. The camera reads the barcode on the phone; no picture is sent. Open Food Facts receives your IP address and the barcode, under its own privacy policy. The legal basis is your consent (Art. 6(1)(a) GDPR), given by turning web search on; the app looks a barcode up only when you scan or type one.
+
+### Medicine packs, only when you scan one
+
+In Medicines and the medicine cabinet you can add a medicine by scanning the code on its pack, or by typing the number under the barcode. The camera reads the code on the phone; no picture is sent. The expiry date and the batch that the square code holds are read on the phone and never sent. When web search is on (Settings › Looking things up) and the pack is from the USA, the app sends only the pack’s product number (its National Drug Code) from your phone to openFDA, the U.S. Food and Drug Administration’s open list of medicines (USA), to fetch the medicine’s name, strength and form; nothing about you is sent, and nothing passes through us. openFDA receives your IP address and that number, under its own terms. For packs from other countries no list is asked: you take a photo of the pack or type its name. The legal basis is your consent (Art. 6(1)(a) GDPR), given by turning web search on; the app looks a pack up only when you scan or type one.
+
+### Google's reports on Android
+
+On Android, two parts of the app come from Google: ML Kit, which reads barcodes on the phone, and the Google Play Billing Library, used to buy Ayumitra Pro. While they run, they send Google reports on how they work, such as the device's make, model and system version, the app's version, an identifier for this installation and how long a scan took or which error occurred. Google says the ML Kit identifier is not meant to identify you or your device, and its list of what ML Kit sends names no pictures and no barcodes. Neither part sends anything about your health, and nothing passes through us. Google uses these reports to run and improve its components, under its own privacy policy. The legal basis is our legitimate interest in a barcode reader and purchases that work (Art. 6(1)(f) GDPR). The app for iPhone and iPad has neither part: Apple's own reader reads barcodes there, and purchases go through the App Store.
+
+### Built-in web search, only if you turn it on
+
+Built-in search is off until you turn it on, during set-up or in Settings › Looking things up. When it is on and no search key is saved, or you pick built-in search, the app can look up general public information, such as what a test measures, without any key: it sends the search words from your phone directly to MedlinePlus, run by the U.S. National Library of Medicine (USA), and to Wikipedia, run by the Wikimedia Foundation, Inc. (USA). Nothing passes through us. The AI proposes the search words (for a medicine you look up, its name as you typed it), and the app checks each search before it is sent: a search with the name of anyone in your profiles, however it is spelt, a date, an age, a reading or another number about a person, an email address, a phone number or a link is not sent. Both services receive your IP address and the search words, under their own privacy policies. The legal basis is your consent (Art. 6(1)(a) GDPR, and Art. 9(2)(a) GDPR where a search could reveal something about health), given by turning it on; the app keeps the time you did. Adding a search key (below) also turns web search on. Turn it off to stop; nothing more is sent from then on.
+
+### Web search with your own key
+
+If you add a key for Brave Search or Tavily, the app can look up general public information, such as a medicine’s label or a guideline, with that service: Brave Software, Inc. (USA), or AlphaAI Technologies Inc., doing business as Tavily (USA). With both keys saved, each search goes to the one you picked, never to both. The AI proposes the search words (for a medicine you look up, its name as you typed it), and the app checks each search before it is sent: a search with the name of anyone in your profiles, however it is spelt, a date, an age, a reading or another number about a person, an email address, a phone number or a link is not sent. The service receives your IP address and the search words; Tavily says it may keep the questions it receives and use them to improve its service. The legal basis is your consent (Art. 6(1)(a) GDPR, and Art. 9(2)(a) GDPR where a search could reveal something about health), given by adding the key. Removing the key stops searches with that service; while web search is on, built-in search answers instead. To stop all searching, turn web search off in Settings › Looking things up.
+
+### Health Connect and Apple Health
+
+Only when you tap Import and allow it, the app reads the last 30 days of weight, height, blood pressure, oxygen, temperature, heart rate, resting heart rate, blood sugar, daily steps and sleep from Health Connect (Android) or Apple Health (iPhone and iPad) into the profile you choose, on the device. Each reading keeps the name of the app that recorded it.
+
+If you leave “Keep checking for new readings” on, the app then reads new readings into that profile by itself while it is open. On Android, if you also allow Health Connect’s reading in the background, it checks about once an hour while it is closed; this is a separate permission you can withdraw in Health Connect at any time. Turning Keep checking off, deleting that profile or deleting everything stops it.
+
+It is read only: nothing is written back to Health Connect or Apple Health. What is read stays in the encrypted vault on the phone and goes to a cloud model only if you have turned cloud AI on.
+
+### Travelling abroad, only if you turn it on
+
+When you turn on Travelling for a country, when you change the country, when you open Travelling a day or more after the last check, and when you tap Check again, the app downloads the World Health Organization’s list of disease outbreak news (WHO, Switzerland) and the U.S. Centers for Disease Control and Prevention’s travel page for that country (CDC, USA). Like any download, this shares your phone’s IP address and the request with them; the CDC address names the country. Nothing about your family is sent. The legal basis is Art. 6(1)(b) GDPR: the download is needed for the feature you turned on. Turn Travelling off to stop.
+
+### Sharing a child’s profile, only if you set it up
+
+You can share a child’s profile with one other person you live with, usually the other parent, after you both agree on your phones with a one-time code. The child’s record (reports, measurements, medicines, vaccines, appointments, reminders and health memory, with who added each item) then goes directly between your two phones on the same Wi‑Fi or one phone’s hotspot, encrypted. It never passes through us or any cloud service. Your chats, settings, keys and other profiles stay on your own phone. What has reached the other phone stays there even if you stop sharing, and either of you can stop managing the profile at any time.
+
+### Backups
+
+Backups are encrypted with a six-word passphrase that only you have. For now, the app saves them only to a folder on your device that you choose, never to iCloud Drive or another cloud drive. A backup kept on the device is lost if the device is lost or reset. Without your six words nobody can open a backup, including us.
+
+### Exports, sharing and emails you send
+
+When you export or share a file, it goes only where you choose, and the file itself isn’t encrypted. If you send text to ChatGPT, Claude, Gemini, WhatsApp or another app, for example to ask for a second opinion, the app opens that app with the text you reviewed, and that company’s own terms apply. Opening an appointment’s address hands the address to Apple Maps or Google Maps. If you report an answer or send feedback from the app, it opens your own email app with a draft to [appfeedback@ayumitra.app](mailto:appfeedback@ayumitra.app) that you can read and change before you send it; a feedback draft carries only the app’s version and whether it is Android, iPhone or iPad. The app may ask you to rate it. What it counts to choose a calm moment (the days it was opened and how often it worked for you) stays on your phone and is never sent; choosing to rate opens Google Play, or Apple’s own rating sheet on iPhone and iPad, under their terms.
+
+### Permissions
+
+The app asks for each permission only when you use the feature that needs it: the camera and photos to add reports, the microphone for voice input (speech is recognised on the phone), notifications for reminders (on the lock screen they say only that you have a health reminder, unless you turn on “Show what a reminder is about” in Settings › Reminders), health data for imports, and the local network to share a child’s profile with the other parent’s phone. Call buttons open your phone’s own dialler.
+
+### No tracking
+
+The app has no advertising, no analytics, no crash reporting and no tracking code from other companies.
+
+### Children
+
+A child’s profile is created and managed by a parent or carer on their own phone, and stays on that phone unless they share it with the other parent’s phone (see above).
+
+### Deleting your data
+
+You can delete a report, a conversation, a profile or everything from within the app. Uninstalling the app removes its data from the phone. Backups you made stay where you saved them until you delete them. A Ayumitra Pro account is deleted separately, in the app or on the [delete page](https://ayumitra.app/delete-account.md).
+
+## This website
+
+### Hosting and server logs
+
+This website is hosted on GitHub Pages by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit, GitHub logs your IP address and stores it for security purposes, along with the usual details of a request (the page and the time), under the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). This is needed to deliver the site and keep it secure (Art. 6(1)(f) GDPR, our legitimate interest in a working, secure website). GitHub may process it in the USA; for transfers out of the EEA it relies on the EU–U.S. Data Privacy Framework and the EU’s standard contractual clauses. We don’t receive these logs.
+
+### No cookies, no analytics, nothing from other servers
+
+The site stores nothing on your device and reads nothing from it, so no consent banner is needed. Fonts and images are served from this site, not loaded from elsewhere.
+
+### Email
+
+If you email us, we use your address and message to reply (Art. 6(1)(b) GDPR when it concerns the app you use, otherwise Art. 6(1)(f)). A reported answer contains the answer’s text and may say something about someone’s health: we use it only to look into the report, with the explicit consent you give by sending it (Art. 9(2)(a) GDPR). We delete messages when they are no longer needed, unless the law requires us to keep them.
+
+### Contact form
+
+The [contact form](https://ayumitra.app/contact.md) sends your name, your email address, the subject and your message, and a company name and phone number if you give them. They go through our server (Amazon Web Services, Frankfurt, Germany) and our mail provider Proton AG (Switzerland) to our support mailbox. The server keeps none of it. It keeps only a count per network address for two days, as a one-way fingerprint, to stop spam. We use what you send to answer your request (Art. 6(1)(b) GDPR when it is about a contract or a step towards one, otherwise Art. 6(1)(f), our legitimate interest in answering). The message stays in the mailbox as long as we need it to answer, then we delete it.
+
+### App stores
+
+The download links take you to Apple’s App Store or Google Play. Their own privacy policies apply there.
+
+## Your rights
+
+Under the GDPR you have the right to access (Art. 15), correction (Art. 16), deletion (Art. 17), restriction (Art. 18), data portability (Art. 20) and to object (Art. 21), and to withdraw consent at any time (Art. 7(3)). Write to us at [support@ayumitra.app](mailto:support@ayumitra.app).
+
+Because your health records exist only on your phone, you see, correct, export and delete them yourself in the app. We can’t do it for you, because we don’t hold them. What a Pro account holds is listed under [Ayumitra Pro].
+
+You can also complain to a data protection authority, for example the one responsible for us: Berliner Beauftragte für Datenschutz und Informationsfreiheit, Alt-Moabit 59–61, 10555 Berlin, Germany.
+
+## Changes
+
+If the app or this website starts handling data differently, this page is updated first, with a new date above.
+
+
+---
+
+Title: Terms of use · Ayumitra
+URL: https://ayumitra.app/terms.html
+
+[Home](https://ayumitra.app/index.md) Terms of use
+
+# Terms of use
+
+These terms cover the Ayumitra app and Ayumitra Pro, the optional subscription. [Nutzungsbedingungen auf Deutsch]
+
+Last updated: 17 November 2026
+
+## Who we are
+
+Kriti Rai
+
+Kizmiz (sole proprietorship)
+
+Annenallee 5
+
+12555 Berlin, Germany
+
+Email: [support@ayumitra.app](mailto:support@ayumitra.app)
+
+Full details are in the [Impressum](https://ayumitra.app/impressum.md). “We” and “us” mean Kriti Rai; “you” means the person using the app.
+
+## In short
+
+- The app is free, and everything in it works without paying.
+
+- Ayumitra is not a doctor and not a medical device. Its AI answers can be wrong.
+
+- You must be 16 or older to use Ayumitra.
+
+- Ayumitra Pro is an optional subscription, bought and cancelled through the App Store or Google Play. You can cancel at any time; Pro then runs until the time you paid for ends.
+
+- Deleting your Pro account does not cancel the subscription. Cancel it in the store.
+
+## The app
+
+The Ayumitra app is free. Every feature in it works without paying and without a Ayumitra account. Your health records stay on your device; how the app handles data is described in the [privacy policy](https://ayumitra.app/privacy.md).
+
+By installing or using the app you agree to these terms. The App Store’s or Google Play’s own terms also apply to the download.
+
+Ayumitra is for people aged 16 and older. If you are under 18, you need a parent’s or guardian’s permission to buy Pro.
+
+## Not medical advice
+
+- Ayumitra helps you keep and understand health records. It is not a medical device. It does not diagnose or treat, and it does not replace a doctor.
+
+- Answers are written by an AI model and can be wrong or incomplete. Check anything that matters with a doctor or pharmacist before you act on it.
+
+- Ayumitra never recommends a medicine or a dose. Follow what your doctor or pharmacist told you.
+
+- Ayumitra is not an emergency service. In an emergency, call your local emergency number.
+
+## Ayumitra Pro
+
+Pro is optional. With it, the questions, reports and photos you send to the assistant go through Ayumitra’s server to an AI model that answers, so you need no key of your own. Nothing in the app is locked without it.
+
+### The plan
+
+There is one plan, **Ayumitra Pro**, paid monthly or yearly. It belongs to your Pro account, which is your email address, not to a phone.
+
+**Every profile, any device.** Pro answers for every profile in the app, on every phone or tablet signed in to your Pro account. You can sign in on as many as you like, and so can anyone you give the sign-in code to, such as your partner. Everyone signed in shares the account’s monthly allowance (see Fair use below).
+
+If you need Pro for a company, a clinic or a care home, write to us through the [contact form](https://ayumitra.app/contact.md).
+
+### Price, free trial and renewal
+
+- The price is the one the store shows in the app before you buy.
+
+- New subscribers get a 7-day free trial where the store offers it. When the trial ends, the store charges the price shown in the app, unless you cancelled before.
+
+- The plan renews by itself, each month or each year, until you cancel.
+
+### Buying, cancelling and refunds
+
+Pro is sold only inside the app, through Apple’s App Store or Google Play. Apple or Google is the seller of the subscription and takes the payment; we never see your payment details. You cancel in the store:
+
+- **iPhone and iPad:** Settings › your name › Subscriptions, or [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions).
+
+- **Android:** Google Play › your profile picture › Payments and subscriptions, or [play.google.com/store/account/subscriptions](https://play.google.com/store/account/subscriptions).
+
+You can cancel at any time. After you cancel, Pro keeps working until the time you paid for ends, and nothing more is charged.
+
+**Refunds.** We do not refund a month or a year that has started, and cancelling does not pay back the time that is left. This does not limit the rights the law gives you, such as a right of withdrawal or your rights when the service is faulty, or a refund under the store’s own rules. Apple or Google is the seller, so you declare a withdrawal to the store. A refund request also goes to the store, which decides it under its terms.
+
+**Changing from monthly to yearly.** The yearly plan starts right away and you do not pay twice for the time that was left: the App Store pays back the unused part, and Google Play counts it towards the year.
+
+**Already subscribed.** On another phone or tablet, sign in with your email address instead of buying again. If you buy a second subscription by mistake, the app does not complete it: Google Play refunds a purchase that is not completed within 3 days, and on the App Store you cancel it under Subscriptions; Apple decides on a refund.
+
+**Problems.** If something is wrong with your subscription or with Pro, write to [support@ayumitra.app](mailto:support@ayumitra.app).
+
+### Your Pro account
+
+You sign in with your email address and a 6-digit code we send to it. The Pro account holds your email address, the plan and its state, and how much of the month’s allowance is used. It holds no health records and nothing about the people in your profiles. What you send to the assistant is not kept after the answer. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details.
+
+You can delete the Pro account at any time: in the app under Settings › Ayumitra Pro › Delete Pro account, or on the [delete page](https://ayumitra.app/delete-account.md). **Deleting the account does not cancel a running subscription**; cancel it in the store, as above.
+
+### Fair use
+
+Pro has a monthly allowance of **2,000 requests** to the AI model, shared by everyone signed in to the account. A question usually takes about three; reading a report or a photo, or Think deeper, can take more. Very long requests, such as Think deeper on long records, use it up faster, so heavy use can reach the allowance before 2,000 requests; on the yearly plan, what very long requests may use builds up month by month, and what a month leaves carries over to the next. Everything Pro does for you draws on it: answers, reading reports and photos, health-memory updates and check-ins. Web searches don’t count. The app shows how much is used. When it is used up, the app answers with the model on your device or your own key until the allowance starts fresh the next month. During the free trial the allowance is **500 requests**; the full allowance starts with the paid subscription.
+
+Pro is made for the health questions of the people in your profiles, so:
+
+- an account can make up to 120 requests an hour and 600 a day, and 50 web searches a day and 150 a month (fewer during the free trial);
+
+- it answers health topics only;
+
+- automated use and reselling are not allowed.
+
+We may slow down or stop an account that abuses the service.
+
+### Availability
+
+We work to keep Pro running, but we can’t promise it without interruptions. The AI models behind Pro may change. When Pro can’t be reached, the app keeps working as it does without it.
+
+## Liability
+
+### Who answers, and who is responsible for it
+
+- **In the free app,** answers come from an AI model that runs on your device, or from a cloud AI provider that you chose and pay yourself, with your own key. We do not run or control those models, and we do not choose the provider. A provider answers under your own agreement with it.
+
+- **With Ayumitra Pro,** we choose the AI model and run the service that reaches it. We are responsible for that service as these terms describe it.
+
+In both cases the app adds its own safety checks, for example for emergencies and for medicines. They lower the risk of a harmful answer; they cannot rule it out. An answer in the app is information, not a doctor’s advice, and you are responsible for the decisions you make about your health.
+
+### What we are liable for
+
+We are always liable without limit for intent and gross negligence, for injury to life, body or health as far as the law requires, and where the law does not allow liability to be limited, for example under the German Product Liability Act.
+
+**The free app** is given to you free of charge. Beyond the cases above, we are not liable for it. In particular we are not liable for what a model on your device or a provider you chose answers.
+
+**For Ayumitra Pro,** we are also liable for slight negligence if we break a duty that is essential to the contract, one you may rely on, and then only for the damage that is typical and could be foreseen. Otherwise our liability for slight negligence is excluded.
+
+## Changes to these terms
+
+We may change these terms, for example when the app, Pro or the law changes. The new version is published here with a new date. If a change affects a running Pro subscription, we tell you by email at least 30 days before. The change then applies from your next renewal, and you can cancel in the store before that.
+
+## Law and disputes
+
+German law applies. If you are a consumer, the mandatory consumer protections of the country you live in stay in force.
+
+The EU’s online dispute resolution platform closed on 20 July 2025. We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board.
+
+## Contact
+
+Write to [support@ayumitra.app](mailto:support@ayumitra.app). Please leave out health details unless we ask for them.
+
+## Nutzungsbedingungen (Deutsch)
+
+Diese Bedingungen gelten für die App Ayumitra und für Ayumitra Pro, das freiwillige Abonnement. Stand: 14. November 2026.
+
+### Wer wir sind
+
+Kriti Rai
+
+Kizmiz (Einzelunternehmen)
+
+Annenallee 5
+
+12555 Berlin, Deutschland
+
+E-Mail: [support@ayumitra.app](mailto:support@ayumitra.app)
+
+Alle Angaben stehen im [Impressum](https://ayumitra.app/impressum.md). „Wir“ meint Kriti Rai, „Sie“ die Person, die die App nutzt.
+
+### Kurz gesagt
+
+- Die App ist kostenlos, und alles in ihr funktioniert ohne Bezahlung.
+
+- Ayumitra ist kein Arzt und kein Medizinprodukt. Die Antworten der KI können falsch sein.
+
+- Sie müssen mindestens 16 Jahre alt sein, um Ayumitra zu nutzen.
+
+- Ayumitra Pro ist ein freiwilliges Abonnement. Sie kaufen und kündigen es über den App Store oder Google Play. Sie können jederzeit kündigen; Pro läuft dann weiter, bis die bezahlte Zeit endet.
+
+- Das Löschen Ihres Pro-Kontos kündigt das Abonnement nicht. Kündigen Sie es im Store.
+
+### Die App
+
+Die App Ayumitra ist kostenlos. Jede Funktion arbeitet ohne Bezahlung und ohne Ayumitra-Konto. Ihre Gesundheitsunterlagen bleiben auf Ihrem Gerät; wie die App mit Daten umgeht, steht in der [Datenschutzerklärung](https://ayumitra.app/privacy.md) (auf Englisch).
+
+Mit der Installation oder Nutzung der App stimmen Sie diesen Bedingungen zu. Für den Download gelten außerdem die Bedingungen des App Store oder von Google Play.
+
+Ayumitra ist für Personen ab 16 Jahren. Wenn Sie noch nicht 18 sind, brauchen Sie für den Kauf von Pro die Erlaubnis eines Elternteils oder einer anderen sorgeberechtigten Person.
+
+### Keine medizinische Beratung
+
+- Ayumitra hilft Ihnen, Gesundheitsunterlagen aufzubewahren und zu verstehen. Die App ist kein Medizinprodukt. Sie stellt keine Diagnosen, behandelt nicht und ersetzt keine Ärztin und keinen Arzt.
+
+- Die Antworten schreibt ein KI-Modell. Sie können falsch oder unvollständig sein. Besprechen Sie alles Wichtige mit einer Ärztin, einem Arzt oder in der Apotheke, bevor Sie danach handeln.
+
+- Ayumitra empfiehlt nie ein Medikament oder eine Dosis. Halten Sie sich an das, was Ihre Ärztin, Ihr Arzt oder Ihre Apotheke gesagt hat.
+
+- Ayumitra ist kein Notdienst. Rufen Sie im Notfall die örtliche Notrufnummer an (in Deutschland 112).
+
+### Ayumitra Pro
+
+Pro ist freiwillig. Mit Pro gehen die Fragen, Berichte und Fotos, die Sie an den Assistenten senden, über den Server von Ayumitra an ein KI-Modell, das antwortet. Einen eigenen Schlüssel brauchen Sie dafür nicht. Ohne Pro ist in der App nichts gesperrt.
+
+### Der Tarif
+
+Es gibt einen Tarif, **Ayumitra Pro**, monatlich oder jährlich bezahlt. Er gehört zu Ihrem Pro-Konto, also zu Ihrer E-Mail-Adresse, nicht zu einem Telefon.
+
+**Jedes Profil, jedes Gerät.** Pro antwortet für jedes Profil in der App, auf jedem Telefon und Tablet, das in Ihrem Pro-Konto angemeldet ist. Sie können sich auf beliebig vielen anmelden, ebenso jede Person, der Sie den Anmeldecode geben, etwa Ihre Partnerin oder Ihr Partner. Alle Angemeldeten teilen sich das monatliche Kontingent des Kontos (siehe „Faire Nutzung“ unten).
+
+Wenn Sie Pro für ein Unternehmen, eine Praxis oder ein Pflegeheim brauchen, schreiben Sie uns über das [Kontaktformular](https://ayumitra.app/contact.md) (auf Englisch).
+
+### Preis, Probezeit und Verlängerung
+
+- Es gilt der Preis, den der Store Ihnen vor dem Kauf in der App anzeigt.
+
+- Wer neu abonniert, erhält 7 Tage kostenlos, sofern der Store das anbietet. Danach berechnet der Store den in der App angezeigten Preis, wenn Sie nicht vorher gekündigt haben.
+
+- Der Tarif verlängert sich von selbst, jeden Monat oder jedes Jahr, bis Sie kündigen.
+
+### Kauf, Kündigung und Erstattung
+
+Pro wird nur in der App verkauft, über den App Store von Apple oder über Google Play. Verkäufer des Abonnements ist Apple oder Google; dort wird auch bezahlt. Ihre Zahlungsdaten sehen wir nie. Sie kündigen im Store:
+
+- **iPhone und iPad:** Einstellungen › Ihr Name › Abonnements oder [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions).
+
+- **Android:** Google Play › Ihr Profilbild › Zahlungen und Abos oder [play.google.com/store/account/subscriptions](https://play.google.com/store/account/subscriptions).
+
+Sie können jederzeit kündigen. Nach der Kündigung läuft Pro weiter, bis die bezahlte Zeit endet, und es wird nichts mehr berechnet.
+
+**Erstattungen.** Einen begonnenen Monat oder ein begonnenes Jahr erstatten wir nicht, und bei einer Kündigung erhalten Sie für die restliche Zeit kein Geld zurück. Ihre gesetzlichen Rechte bleiben davon unberührt, zum Beispiel ein Widerrufsrecht oder Ihre Rechte bei Mängeln des Dienstes. Auch eine Erstattung nach den Regeln des Stores bleibt möglich. Verkäufer ist Apple oder Google. Einen Widerruf erklären Sie deshalb gegenüber dem Store. Auch eine Bitte um Erstattung richten Sie an den Store, der darüber nach seinen Bedingungen entscheidet.
+
+**Wechsel von monatlich zu jährlich.** Der Jahrestarif beginnt sofort, und Sie zahlen für die restliche Zeit nicht doppelt: Der App Store erstattet den ungenutzten Teil, Google Play rechnet ihn auf das Jahr an.
+
+**Schon abonniert.** Melden Sie sich auf einem weiteren Telefon oder Tablet mit Ihrer E-Mail-Adresse an, statt Pro noch einmal zu kaufen. Kaufen Sie versehentlich ein zweites Abonnement, schließt die App den Kauf nicht ab: Google Play erstattet einen Kauf, der nicht innerhalb von 3 Tagen abgeschlossen wird; im App Store kündigen Sie ihn unter „Abonnements“, über eine Erstattung entscheidet Apple.
+
+**Probleme.** Wenn mit Ihrem Abonnement oder mit Pro etwas nicht stimmt, schreiben Sie an [support@ayumitra.app](mailto:support@ayumitra.app).
+
+### Ihr Pro-Konto
+
+Sie melden sich mit Ihrer E-Mail-Adresse und einem 6-stelligen Code an, den wir dorthin senden. Das Pro-Konto enthält Ihre E-Mail-Adresse, den Tarif und seinen Stand und wie viel vom monatlichen Kontingent verbraucht ist. Es enthält keine Gesundheitsunterlagen und nichts über die Personen in Ihren Profilen. Was Sie an den Assistenten senden, wird nach der Antwort nicht aufbewahrt. Näheres steht in der [Datenschutzerklärung](https://ayumitra.app/privacy.md#pro).
+
+Sie können das Pro-Konto jederzeit löschen: in der App unter Einstellungen › Ayumitra Pro › Pro-Konto löschen oder auf der [Seite zum Löschen](https://ayumitra.app/delete-account.md) (auf Englisch). **Das Löschen des Kontos kündigt ein laufendes Abonnement nicht**; kündigen Sie es im Store, wie oben beschrieben.
+
+### Faire Nutzung
+
+Pro hat ein monatliches Kontingent von **3.000 Anfragen** an das KI-Modell, das sich alle im Konto Angemeldeten teilen. Eine Frage braucht meist etwa drei; das Lesen eines Befunds oder Fotos oder „Gründlicher nachdenken“ kann mehr brauchen. Alles, was Pro für Sie tut, zählt dazu: Antworten, das Lesen von Befunden und Fotos, das Aktualisieren des Gesundheitsgedächtnisses und Check-ins. Websuchen zählen nicht. Die App zeigt, wie viel verbraucht ist. Ist es aufgebraucht, antwortet die App mit dem Modell auf Ihrem Gerät oder über Ihren eigenen Schlüssel, bis das Kontingent im nächsten Monat neu beginnt. In der kostenlosen Probezeit beträgt das Kontingent **500 Anfragen**; das volle Kontingent beginnt mit dem bezahlten Abonnement.
+
+Pro ist für die Gesundheitsfragen der Personen in Ihren Profilen gedacht. Deshalb gilt:
+
+- Ein Konto kann bis zu 120 Anfragen pro Stunde und 600 pro Tag stellen und 300 Websuchen pro Tag (in der Probezeit weniger).
+
+- Pro antwortet nur zu Gesundheitsthemen.
+
+- Automatisierte Nutzung und Weiterverkauf sind nicht erlaubt.
+
+Wir dürfen ein Konto, das den Dienst missbraucht, verlangsamen oder sperren.
+
+### Verfügbarkeit
+
+Wir bemühen uns, Pro am Laufen zu halten, können aber keinen Betrieb ohne Unterbrechungen zusagen. Die KI-Modelle hinter Pro können sich ändern. Ist Pro nicht erreichbar, arbeitet die App so weiter wie ohne Pro.
+
+### Haftung
+
+**Wer antwortet und wer dafür verantwortlich ist**
+
+- **In der kostenlosen App** antwortet ein KI-Modell, das auf Ihrem Gerät läuft, oder ein Cloud-KI-Anbieter, den Sie selbst gewählt haben und selbst bezahlen, mit Ihrem eigenen Schlüssel. Wir betreiben und kontrollieren diese Modelle nicht und wählen den Anbieter nicht aus. Der Anbieter antwortet auf Grundlage Ihrer eigenen Vereinbarung mit ihm.
+
+- **Bei Ayumitra Pro** wählen wir das KI-Modell aus und betreiben den Dienst, über den Ihre Anfragen an das Modell gehen. Für diesen Dienst sind wir so verantwortlich, wie diese Bedingungen es beschreiben.
+
+In beiden Fällen führt die App zusätzlich eigene Sicherheitsprüfungen durch, zum Beispiel für Notfälle und für Medikamente. Sie verringern das Risiko einer schädlichen Antwort, können es aber nicht ausschließen. Eine Antwort in der App ist eine Information, kein ärztlicher Rat. Für die Entscheidungen, die Sie über Ihre Gesundheit treffen, sind Sie selbst verantwortlich.
+
+**Wofür wir haften**
+
+Wir haften stets unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei Verletzung von Leben, Körper oder Gesundheit, soweit das Gesetz es verlangt, und dort, wo das Gesetz keine Beschränkung der Haftung erlaubt, zum Beispiel nach dem Produkthaftungsgesetz.
+
+**Die kostenlose App** überlassen wir Ihnen unentgeltlich. Über die genannten Fälle hinaus haften wir für sie nicht. Insbesondere haften wir nicht für das, was ein Modell auf Ihrem Gerät oder ein von Ihnen gewählter Anbieter antwortet.
+
+**Bei Ayumitra Pro** haften wir außerdem bei leichter Fahrlässigkeit, wenn wir eine wesentliche Vertragspflicht verletzen, auf deren Einhaltung Sie vertrauen dürfen, und dann nur für den vertragstypischen, vorhersehbaren Schaden. Im Übrigen ist unsere Haftung für leichte Fahrlässigkeit ausgeschlossen.
+
+### Änderungen dieser Bedingungen
+
+Wir können diese Bedingungen ändern, zum Beispiel wenn sich die App, Pro oder das Recht ändert. Die neue Fassung steht dann hier mit neuem Datum. Betrifft eine Änderung ein laufendes Pro-Abonnement, informieren wir Sie mindestens 30 Tage vorher per E-Mail. Die Änderung gilt dann ab Ihrer nächsten Verlängerung, und Sie können vorher im Store kündigen.
+
+### Recht und Streitbeilegung
+
+Es gilt deutsches Recht. Sind Sie Verbraucherin oder Verbraucher, bleiben die zwingenden Verbraucherschutzvorschriften des Landes, in dem Sie leben, bestehen.
+
+Die Plattform der EU zur Online-Streitbeilegung wurde am 20. Juli 2025 eingestellt. Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+### Kontakt
+
+Schreiben Sie an [support@ayumitra.app](mailto:support@ayumitra.app). Bitte lassen Sie Gesundheitsdetails weg, solange wir nicht danach fragen.
+
+
+---
+
+Title: Delete your Pro account · Ayumitra
+URL: https://ayumitra.app/delete-account.html
+
+[Home](https://ayumitra.app/index.md) Delete your Pro account
+
+# Delete your Pro account
+
+You can delete your Ayumitra Pro account in the app or on this page. It takes a minute and can’t be undone.
+
+## What deleting does
+
+- **Deleted from Ayumitra’s server:** your email address and the record of your plan.
+
+- **Kept for 400 days, in some cases:** if you used the free trial or Pro this month, or a subscription is still running: a one-way fingerprint of your email address with its counts of use (numbers only), so the same address finds its subscription again and gets no second free trial and no fresh allowance.
+
+- **Not touched:** your health records. They are only on your device. To delete them, delete them in the app, or delete the app or its data.
+
+**Deleting the account does not stop the App Store or Google Play charging you.** If a subscription is running, cancel it in the store too:
+
+iPhone and iPad: Settings › your name › Subscriptions, or [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions)
+
+Android: Google Play › your profile picture › Payments and subscriptions, or [play.google.com/store/account/subscriptions](https://play.google.com/store/account/subscriptions)
+
+## In the app
+
+Open Ayumitra and go to **Settings › Ayumitra Pro › Delete Pro account**.
+
+## On this page
+
+Confirm your email address with a code, then delete the account.
+
+This form needs JavaScript. Without it, delete the account in the app, or write to [support@ayumitra.app](mailto:support@ayumitra.app) from the account’s email address.
+
+Questions? Write to [support@ayumitra.app](mailto:support@ayumitra.app). See also the [terms](https://ayumitra.app/terms.md) and the [privacy policy](https://ayumitra.app/privacy.md#pro).
+
+
+---
+
+Title: Contact · Ayumitra
+URL: https://ayumitra.app/contact.html
+
+[Home](https://ayumitra.app/index.md) Contact
+
+# Contact
+
+Ayumitra Pro is one plan, sold in the app. For everything else, such as Pro for a company or a clinic, a partnership or press, write to us here.
+
+A question about using the app? Simply email [support@ayumitra.app](mailto:support@ayumitra.app).
+
+This form needs JavaScript. Without it, write to [support@ayumitra.app](mailto:support@ayumitra.app).
+
+
+---
+
+Title: Adding your API keys · Ayumitra help
+URL: https://ayumitra.app/help/api-keys.html
+
+[Home](https://ayumitra.app/index.md) Help
+
+# Adding your API keys
+
+On a phone that can run its on-device AI, Ayumitra works fully without any keys. Keys are optional: built-in web search needs none, a search key finds wider, fresher results, and the others let you use a cloud model of your choice.
+
+**Your keys stay on your phone.** They’re kept in the phone’s secure storage and are never sent to Ayumitra. Saving a key sends nothing; it’s only used when you choose web search or a cloud model. You pay the provider directly.
+
+## Which key do you need?
+
+[**Brave Search** Web search for general questions
+]
+[**Tavily** Web search, with a free plan
+]
+[**OpenAI** GPT models
+]
+[**Anthropic** Claude models
+]
+[**Google Gemini** Gemini models
+]
+[**OpenRouter** Many models, including free ones
+]
+
+## Wider web search with Brave Search or Tavily
+
+Ayumitra can look up general health information online, such as “what is ferritin”. Built-in search does this without a key, with MedlinePlus and Wikipedia, once you turn it on in Settings › Looking things up. A key for Brave Search or Tavily searches the wider web and finds fresher results; the key saved last is the one that searches. Only general, public questions are sent. Your reports, names and conversations stay on your phone. Web search doesn’t need cloud AI.
+
+### Get a key
+
+Either one works. For **Brave Search**, sign up for the [Brave Search API](https://brave.com/search/api/), choose a plan and copy your key from the dashboard. For **Tavily**, sign up at [app.tavily.com](https://app.tavily.com/home), which has a free plan, and copy your key. Tavily says it may keep the questions it receives to improve its search.
+
+### Open Looking things up
+
+In Ayumitra, open **Settings** and find **Looking things up**. Tap **Add** next to **Brave Search** or **Tavily**.
+
+### Paste and save
+
+Paste the key into **API key** and tap **Save key**. You’ll see “Tavily key saved. Web search uses it now.”
+
+### Check it’s on
+
+It now says **On · searches with your Tavily key** (or your Brave Search key). Ayumitra searches on its own when a question needs it. With both keys saved, the one saved last searches; tap the circle beside the other to switch.
+
+## Use a cloud model of your choice
+
+By default, every answer and every report is handled on your phone. If you’d like a larger model, add a key from OpenAI, Anthropic, Google or OpenRouter. Cloud stays off until you turn it on.
+
+- Provider | Good for | Where to get a key
+
+- OpenAI | GPT models | [platform.openai.com](https://platform.openai.com/api-keys) › API keys
+
+- Anthropic | Claude models | [platform.claude.com](https://platform.claude.com/settings/keys) › API keys
+
+- Google Gemini | Gemini models | [aistudio.google.com](https://aistudio.google.com/app/apikey) › Get API key
+
+- OpenRouter | Many models, including free ones | [openrouter.ai](https://openrouter.ai/settings/keys) › Keys
+
+### Open Cloud AI
+
+Open **Settings**, then **Cloud AI**.
+
+### Save the key
+
+Choose the company, tap **Add key**, paste the key and tap **Save key**. Saving a key sends nothing and turns nothing on.
+
+### Read the agreement
+
+Tap **Read the agreement and turn on**. Cloud AI turns on only once you agree; it covers each company, and a free model asks for one more agreement first.
+
+### Pick your model
+
+In a chat, tap **On this device · Gemma 4** at the top and pick your cloud model. For reports, pick it under **Read reports and photos with** when you add one. You can switch back at any time.
+
+**Privacy shield.** With it on, the names of the people in your profiles, and common other spellings of them, are swapped for made-up ones on your phone before text goes to a cloud model, and swapped back in replies. Nicknames and other people’s names aren’t changed, and names printed on page images can’t be.
+
+**What a cloud model receives.** Chat sends your messages and the health details that matter for the question. Reading a report also sends page images and extracted text. The provider’s charges and retention policies apply. With OpenRouter, free models may keep or learn from what you send, so a paid model is the safer choice for health details. With Google, use a key from a project with billing set up: with a free-tier key, Google may use what you send to improve its products and its reviewers may read it.
+
+## Replace or remove a key
+
+A saved key shows **Saved on this device**, with **Replace** to paste a new one and **Remove**. AI companies’ keys are in **Settings › Cloud AI**; removing one takes chat and reading back to this device. Brave Search and Tavily are under **Settings › Looking things up**; removing the one in use hands searching to the other, and removing both goes back to built-in search.
+
+## Questions
+
+Do I need any key to use Ayumitra?
+
+No, on a phone or tablet that can run the on-device AI (an Android phone with 8 GB of memory, or an iPhone or iPad with 6 GB): reading reports, search, answers, medicines and vaccines all work there without a key. On other devices everything but answers and report reading works without a key; those need a cloud model with your own key.
+
+Does saving a key send my health data anywhere?
+
+No. Saving a key sends nothing. Data is only sent when you choose a cloud model, after a one-time notice, or when web search sends a general question.
+
+Who do I pay?
+
+The provider whose key you use, on their pricing. Ayumitra doesn’t add a charge.
+
+Something isn’t working
+
+Check the key was copied in full, and that your provider account has an active plan or credit. If a cloud request fails, Ayumitra stops and tells you; it never switches provider by itself.
+
+
+---
+
+Title: Impressum · Ayumitra
+URL: https://ayumitra.app/impressum.html
+
+[Home](https://ayumitra.app/index.md) Impressum
+
+# Impressum
+
+Für diese Website und die App Ayumitra. [Legal notice in English]
+
+## Angaben gemäß § 5 DDG
+
+Kriti Rai
+
+Kizmiz (Einzelunternehmen)
+
+Annenallee 5
+
+12555 Berlin
+
+Deutschland
+
+### Kontakt
+
+E-Mail: [support@ayumitra.app](mailto:support@ayumitra.app)
+
+### Umsatzsteuer
+
+Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE457543868
+
+### Verantwortlich für den Inhalt
+
+Kriti Rai, Annenallee 5, 12555 Berlin
+
+### Verbraucherstreitbeilegung
+
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+### Hinweis zur App
+
+Ayumitra hilft, Gesundheitsunterlagen zu verstehen. Die App ist kein Medizinprodukt und ersetzt keine ärztliche Beratung, Diagnose oder Behandlung. Im Notfall rufen Sie in Deutschland die 112 an.
+
+## Legal notice (English)
+
+Information according to § 5 of the German Digital Services Act (DDG).
+
+Kriti Rai
+
+Kizmiz (sole proprietorship)
+
+Annenallee 5
+
+12555 Berlin
+
+Germany
+
+Email: [support@ayumitra.app](mailto:support@ayumitra.app)
+
+VAT identification number under § 27a of the German VAT Act: DE457543868
+
+Responsible for the content: Kriti Rai, Annenallee 5, 12555 Berlin, Germany
+
+We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board.
+
+Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor’s advice, diagnosis or treatment. In an emergency, call your local emergency number (112 in the EU and India).

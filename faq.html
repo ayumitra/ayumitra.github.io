@@ -1,0 +1,304 @@
+<!doctype html>
+<!-- Built from src/faq.html by build.py: edit that file, not this one. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Questions about your data · Ayumitra</title>
+<meta name="description" content="Where your data is stored, what leaves your phone, whether we train on it or sell it, web search, and how to delete everything.">
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171918" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://ayumitra.app/faq.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayumitra">
+<meta property="og:title" content="Questions about your data · Ayumitra">
+<meta property="og:description" content="Where your data is stored, what leaves your phone, whether we train on it or sell it, web search, and how to delete everything.">
+<meta property="og:url" content="https://ayumitra.app/faq.html">
+<meta property="og:image" content="https://ayumitra.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="help.css">
+<link rel="stylesheet" href="account.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script src="theme.js" defer></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Where is my data stored?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "On your phone or tablet, in an encrypted vault. Its key is kept in the device’s secure storage: we have no copy of the key and no access to the vault. Without Ayumitra Pro there is no Ayumitra account at all."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do you keep my data on a server?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No health records are kept on any Ayumitra server. With Ayumitra Pro, what you send passes through our server to the AI that answers, and isn’t kept once the answer is back. The Pro account holds only your email address, your plan and this month’s counts of requests and searches."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What leaves my phone when I ask a question?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "It depends on who answers, and you choose: The AI on your phone (Gemma): your question and your records are read on the phone, and nothing about them is sent. The only exception is what you turn on yourself, such as web search, which sends only general search words. Ayumitra Pro: your question, and the parts of your records needed to answer it, go through our server to AI models that keep nothing after the answer (zero data retention). The names of the people in your profiles are swapped for made-up ones first. A cloud AI with your own key: it goes from your phone straight to the provider you chose, under your own account with them. Their terms decide what they keep and how they use it, so check them. When a cloud model or Pro answers, a small decision model is also asked whether a message may be an emergency and what it needs. It gets the message and a little context, through companies that keep nothing after the answer."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do you use my data to train AI?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. We don’t train AI on what you send. Ayumitra Pro uses only AI companies that don’t train on it and keep nothing after the answer. With your own key, your provider’s terms decide."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do you sell my data?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. We don’t sell or share your health records. The app has no ads, no analytics, no crash reporting and no tracking code from other companies."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What does web search send?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Web search is off until you turn it on. Only general search words are sent: the app checks each search first, and one with a name from your profiles, a date, an age, a reading, an email address, a phone number or a link isn’t sent. With Pro, searches go through our server to Brave Search, which keeps a record of the search words for up to 90 days and says it can’t tell who made a search. We have asked Brave for zero data retention; until we have it, that record applies. Built-in search asks MedlinePlus and Wikipedia, and a key of your own uses Brave Search or Tavily."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can anyone at Ayumitra see my records?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Your records are in the encrypted vault on your device, and we have no copy of its key. Backups are encrypted with a six-word passphrase that only you have."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I delete my data?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Everything on the device: Settings › Your data › Delete everything on this device. You can also delete a single report, conversation or profile. Uninstalling the app removes its data too. Backups you made stay where you saved them until you delete them. A Pro account: Settings › Ayumitra Pro › Delete Pro account, or the delete page. This doesn’t cancel a running subscription: cancel that in Google Play or the App Store."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What happens with Health Connect or Apple Health?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Only when you tap Import and allow it, the app reads your readings into the profile you choose. It’s read only: nothing is written back. What it reads stays in the encrypted vault, and goes to a cloud model only if you have turned cloud AI on."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is Ayumitra a medical device?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number."
+   }
+  }
+ ]
+}
+</script>
+  <link rel="alternate" type="text/markdown" href="https://ayumitra.app/faq.md">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Ayumitra home">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M31 54C17 51 9 42 9 30C9 20 14 13 21 10C19 22 23 35 31 41Z" class="leaf" fill="#23574B"/><path d="M33 54C47 51 55 42 55 30C55 20 50 13 43 10C45 22 41 35 33 41Z" class="leaf" fill="#23574B"/><circle cx="32" cy="24" r="6.5" class="seed" fill="#C98A2B"/></svg>
+      <span>Ayumitra</span>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <span class="header-tools"><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><svg class="moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><svg class="sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><a class="header-cta" href="index.html#download">Get the app</a></span>
+    </nav>
+  </div>
+</header>
+
+<!--
+  The contact form, for what the two Pro plans in the app don't cover.
+  Written on 14 November 2026. The form talks only to the Pro relay (RELAY
+  below), which passes the message on by email and keeps none of it; nothing
+  is stored in the browser. Without JavaScript the page points to email.
+-->
+<main id="main" class="help">
+  <div class="container help-wrap single">
+    <article class="doc">
+      <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Questions</p>
+      <h1>Questions about your data</h1>
+      <p class="lede">Short answers to what people ask most. The <a href="privacy.html">privacy policy</a> says it in full.</p>
+      <section id="where-is-my-data-stored">
+        <h2>Where is my data stored?</h2>
+        <p>On your phone or tablet, in an encrypted vault. Its key is kept in the device’s secure storage: we have no copy of the key and no access to the vault.</p>
+        <p>Without Ayumitra Pro there is no Ayumitra account at all.</p>
+      </section>
+      <section id="do-you-keep-my-data-on-a-server">
+        <h2>Do you keep my data on a server?</h2>
+        <p>No health records are kept on any Ayumitra server.</p>
+        <p>With Ayumitra Pro, what you send passes through our server to the AI that answers, and isn’t kept once the answer is back. The Pro account holds only your email address, your plan and this month’s counts of requests and searches.</p>
+      </section>
+      <section id="what-leaves-my-phone-when-i-ask-a-question">
+        <h2>What leaves my phone when I ask a question?</h2>
+        <p>It depends on who answers, and you choose:</p>
+        <ul><li><b>The AI on your phone (Gemma):</b> your question and your records are read on the phone, and nothing about them is sent. The only exception is what you turn on yourself, such as web search, which sends only general search words.</li><li><b>Ayumitra Pro:</b> your question, and the parts of your records needed to answer it, go through our server to AI models that keep nothing after the answer (zero data retention). The names of the people in your profiles are swapped for made-up ones first.</li><li><b>A cloud AI with your own key:</b> it goes from your phone straight to the provider you chose, under your own account with them. Their terms decide what they keep and how they use it, so check them.</li></ul>
+        <p>When a cloud model or Pro answers, a small decision model is also asked whether a message may be an emergency and what it needs. It gets the message and a little context, through companies that keep nothing after the answer.</p>
+      </section>
+      <section id="do-you-use-my-data-to-train-ai">
+        <h2>Do you use my data to train AI?</h2>
+        <p>No. We don’t train AI on what you send. Ayumitra Pro uses only AI companies that don’t train on it and keep nothing after the answer. With your own key, your provider’s terms decide.</p>
+      </section>
+      <section id="do-you-sell-my-data">
+        <h2>Do you sell my data?</h2>
+        <p>No. We don’t sell or share your health records. The app has no ads, no analytics, no crash reporting and no tracking code from other companies.</p>
+      </section>
+      <section id="what-does-web-search-send">
+        <h2>What does web search send?</h2>
+        <p>Web search is off until you turn it on. Only general search words are sent: the app checks each search first, and one with a name from your profiles, a date, an age, a reading, an email address, a phone number or a link isn’t sent.</p>
+        <p>With Pro, searches go through our server to Brave Search, which keeps a record of the search words for up to 90 days and says it can’t tell who made a search. We have asked Brave for zero data retention; until we have it, that record applies. Built-in search asks MedlinePlus and Wikipedia, and a key of your own uses Brave Search or Tavily.</p>
+      </section>
+      <section id="can-anyone-at-ayumitra-see-my-records">
+        <h2>Can anyone at Ayumitra see my records?</h2>
+        <p>No. Your records are in the encrypted vault on your device, and we have no copy of its key. Backups are encrypted with a six-word passphrase that only you have.</p>
+      </section>
+      <section id="how-do-i-delete-my-data">
+        <h2>How do I delete my data?</h2>
+        <ul><li><b>Everything on the device:</b> Settings › Your data › Delete everything on this device. You can also delete a single report, conversation or profile. Uninstalling the app removes its data too.</li><li><b>Backups</b> you made stay where you saved them until you delete them.</li><li><b>A Pro account:</b> Settings › Ayumitra Pro › Delete Pro account, or the <a href="delete-account.html">delete page</a>. This doesn’t cancel a running subscription: cancel that in Google Play or the App Store.</li></ul>
+      </section>
+      <section id="what-happens-with-health-connect-or-apple-health">
+        <h2>What happens with Health Connect or Apple Health?</h2>
+        <p>Only when you tap Import and allow it, the app reads your readings into the profile you choose. It’s read only: nothing is written back. What it reads stays in the encrypted vault, and goes to a cloud model only if you have turned cloud AI on.</p>
+      </section>
+      <section id="is-ayumitra-a-medical-device">
+        <h2>Is Ayumitra a medical device?</h2>
+        <p>No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <p class="made">Ayumitra is made by Kriti Rai in Berlin.</p>
+      <nav aria-label="Footer">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="pro.html">Pro</a>
+        <a href="safety.html">Safety</a>
+        <a href="faq.html" aria-current="page">Questions</a>
+        <a href="help/api-keys.html">Help</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="fine">Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor. In an emergency, call your local emergency number. © 2026 Kriti Rai</p>
+  </div>
+</footer>
+
+<script>
+// The contact form. It talks only to the Pro relay, which emails the message
+// to support and keeps none of it. Nothing is stored in the browser.
+(function () {
+  var RELAY = "https://pro.ayumitra.app";
+  var form = document.getElementById("contact");
+  if (!form || !window.fetch) return;
+  var $ = function (id) { return document.getElementById(id); };
+
+  var SAID = {
+    name: "Enter your name.",
+    subject: "Enter a subject.",
+    description: "Write a message.",
+    email: "Enter an email address.",
+    bad_contact: "Something in the form isn’t right. Check the name, subject, message and email address.",
+    too_many_messages: "Too many messages were sent from this connection. Please try again later.",
+    not_sent: "The message couldn’t be sent. Try again in a minute.",
+    not_ready: "The form isn’t working right now. Try again later.",
+    offline: "Couldn’t reach Ayumitra. Check the connection and try again.",
+    failed: "That didn’t work. Try again in a minute."
+  };
+  // The cases where email is the better way through.
+  var BY_MAIL = { not_sent: true, not_ready: true, offline: true, failed: true };
+
+  function fail(id, text) {
+    var el = $(id + "-error");
+    if (id === "send") $("send-said").textContent = text || "";
+    else {
+      el.textContent = text || "";
+      if (text) $(id).setAttribute("aria-invalid", "true");
+      else $(id).removeAttribute("aria-invalid");
+    }
+    el.hidden = !text;
+  }
+
+  function call(path, body) {
+    return fetch(RELAY + path, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      credentials: "omit",
+      cache: "no-store",
+      referrerPolicy: "no-referrer"
+    }).then(function (response) {
+      return response.json().catch(function () { return {}; }).then(function (json) {
+        if (response.ok) return json;
+        throw (json.error && json.error.code) || "failed";
+      });
+    }, function () { throw "offline"; });
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var body = {};
+    ["name", "company", "subject", "description", "phone", "email", "website"].forEach(function (key) {
+      body[key] = $(key).value.trim();
+    });
+    var wrong = ["name", "subject", "description", "email"].filter(function (key) {
+      var ok = key === "email" ? /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(body.email) : body[key] !== "";
+      fail(key, ok ? "" : SAID[key]);
+      return !ok;
+    });
+    fail("send");
+    if (wrong.length) return $(wrong[0]).focus();
+
+    var button = $("send-go");
+    button.disabled = true;
+    call("/v1/contact", body)
+      .then(function (json) {
+        if (!json.sent) throw "failed";
+        form.reset();
+        form.hidden = true;
+        $("step-done").hidden = false;
+        $("done-title").focus();
+      })
+      .catch(function (code) {
+        $("send-mail").hidden = !BY_MAIL[SAID[code] ? code : "failed"];
+        fail("send", SAID[code] || SAID.failed);
+      })
+      .then(function () { button.disabled = false; });
+  });
+
+  $("no-script").hidden = true;
+  form.hidden = false;
+})();
+</script>
+</body>
+</html>
