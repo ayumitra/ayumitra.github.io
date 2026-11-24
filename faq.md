@@ -27,7 +27,7 @@ It depends on who answers, and you choose:
 - **Ayumitra Pro:** your question, and the parts of your records needed to answer it, go through our server to AI models that keep nothing after the answer (zero data retention). The names of the people in your profiles are swapped for made-up ones first.
 - **A cloud AI with your own key:** it goes from your phone straight to the provider you chose, under your own account with them. Their terms decide what they keep and how they use it, so check them.
 
-When a cloud model or Pro answers, a small decision model is also asked whether a message may be an emergency and what it needs. It gets the message and a little context, through companies that keep nothing after the answer.
+When a cloud model or Pro answers, a small decision model is also asked whether a message may be an emergency and what it needs, and whether the answer says something is yours, so the app can check it against your records before you see it. It gets the message, a little context and the answer’s sentences that name a condition, medicine, allergy or result, through companies that keep nothing after the answer.
 
 ## Do you use my data to train AI?
 
