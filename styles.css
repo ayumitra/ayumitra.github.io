@@ -657,6 +657,9 @@ p { text-wrap: pretty; }
 .facts h3 { margin: 0 0 6px; font-size: 17px; font-weight: 600; color: var(--on-band); }
 .facts p { margin: 0; color: var(--on-dark-soft); font-size: 15.5px; max-width: 30rem; }
 @media (max-width: 760px) { .facts { grid-template-columns: minmax(0, 1fr); } }
+.facts-more { margin: 36px 0 0; color: var(--on-dark-soft); font-size: 15.5px; }
+.privacy a { color: var(--on-band); }
+.privacy a:hover { color: var(--on-dark-soft); }
 
 /* ---- Why it exists ----------------------------------------------------- */
 .story { padding-block: 104px 0; }

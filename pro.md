@@ -75,7 +75,7 @@ Your questions aren’t used to train AI.
 
 ### Family names are swapped first
 
-Your family’s names are swapped for made-up ones before anything is sent. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details.
+Your family’s names are swapped for made-up ones before anything is sent. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details, and [Questions about your data](https://ayumitra.app/faq.md) the short answers.
 
 ## What stays free
 

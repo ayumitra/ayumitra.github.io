@@ -19,6 +19,9 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact · Ayumitra">
+<meta name="twitter:description" content="Write to Ayumitra about Pro for companies or clinics, partnerships or press.">
+<meta name="twitter:image" content="https://ayumitra.app/og-image.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -29,6 +32,26 @@
 <link rel="stylesheet" href="account.css">
 <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <script src="theme.js" defer></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Home",
+   "item": "https://ayumitra.app/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Contact",
+   "item": "https://ayumitra.app/contact.html"
+  }
+ ]
+}
+</script>
   <link rel="alternate" type="text/markdown" href="https://ayumitra.app/contact.md">
 </head>
 <body>
@@ -65,7 +88,7 @@
 
         <form id="contact" class="ac-form" novalidate hidden>
           <section class="ac-step" id="step-write" aria-labelledby="write-title">
-            <h3 id="write-title">Write to us</h3>
+            <h2 id="write-title">Write to us</h2>
 
             <label class="ac-label" for="name">Name</label>
             <input class="ac-input" id="name" name="name" type="text" autocomplete="name" maxlength="100" required aria-describedby="name-error">
@@ -101,7 +124,7 @@
         </form>
 
         <section class="ac-step" id="step-done" aria-labelledby="done-title" hidden>
-          <h3 id="done-title" tabindex="-1">Your message is sent.</h3>
+          <h2 id="done-title" tabindex="-1">Your message is sent.</h2>
           <p class="ac-hint">We answer by email, at the address you gave.</p>
         </section>
       </div>
@@ -120,6 +143,7 @@
         <a href="pro.html">Pro</a>
         <a href="safety.html">Safety</a>
         <a href="faq.html">Questions</a>
+        <a href="vaccines/">Vaccines</a>
         <a href="help/api-keys.html">Help</a>
         <a href="contact.html" aria-current="page">Contact</a>
       </nav>

@@ -149,3 +149,35 @@
   .split { grid-template-columns: minmax(0, 1fr); }
   .shot { position: static; max-width: 300px; }
 }
+
+/* Vaccination schedules (vaccines/, written by vaccines.py) */
+.vax-schedule, .vax-cta, .vax-sources, .vax-more, .vax-region { margin-top: 56px; }
+.vax-region { margin-top: 44px; }
+.vax-facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 18px; margin: 0 0 20px; font-size: 15px; }
+.vax-facts dt { font-weight: 600; color: var(--ink-soft); }
+.vax-facts dd { margin: 0; }
+.vax-wrap { border: 1px solid var(--line); border-radius: 18px; background: var(--surface); overflow: hidden; }
+.vax-table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.45; }
+.vax-table th, .vax-table td { text-align: left; vertical-align: top; padding: 12px 16px; }
+.vax-table thead th { font-size: 13.5px; font-weight: 600; color: var(--ink-soft); border-bottom: 1px solid var(--line); }
+.vax-table tbody th { width: 30%; font-weight: 600; }
+.vax-table tbody tr + tr > * { border-top: 1px solid var(--line); }
+.vax-table ul { list-style: none; margin: 0; padding: 0; }
+.vax-table li + li { margin-top: 4px; }
+.vax-why { color: var(--ink-soft); font-size: 14px; }
+.vax-cta { padding: 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+.vax-cta h2 { margin-bottom: 8px; }
+.vax-cta p { color: var(--ink-soft); max-width: 36rem; margin-bottom: 20px; }
+.vax-sources ul { padding-left: 22px; font-size: 15px; }
+.vax-sources li { overflow-wrap: anywhere; }
+.vax-more ul { list-style: none; margin: 0 0 14px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.doc .vax-countries { list-style: none; margin: 0; padding: 0; }
+.vax-countries li { margin: 0; }
+.vax-countries .pick-card span { font-weight: 600; }
+.vax-countries small { margin-top: 2px; font-weight: 400; }
+@media (max-width: 520px) {
+  .vax-facts { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .vax-facts dd { margin-bottom: 8px; }
+  .vax-table th, .vax-table td { padding: 10px 12px; }
+  .vax-cta { padding: 20px 16px; }
+}

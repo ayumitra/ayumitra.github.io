@@ -1,4 +1,4 @@
-Title: Ayumitra, the health companion for your family
+Title: Ayumitra: a family health app for records and vaccines
 URL: https://ayumitra.app/
 
 # A health companion that knows your family.
@@ -65,7 +65,7 @@ Photograph a prescription and the course and its reminders are set up for you to
 
 ### Vaccines
 
-Your country’s schedule from birth, with what’s done and what’s due next.
+Your country’s schedule from birth, with what’s done and what’s due next. See the [schedules for each country](https://ayumitra.app/vaccines/index.md).
 
 ### Measurements
 
@@ -232,6 +232,8 @@ Delete a report, a conversation, a person or everything. What a conversation tau
 ### No ads, trackers or account
 
 The app has no advertising, analytics or crash reporting. This website sets no cookies and loads nothing from other servers.
+
+Short answers in [Questions about your data](https://ayumitra.app/faq.md), and everything in the [privacy policy](https://ayumitra.app/privacy.md).
 
 ## Why we made Ayumitra
 

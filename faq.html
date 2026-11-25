@@ -19,6 +19,9 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ayumitra: a health companion that knows your family, on your phone.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Questions about your data · Ayumitra">
+<meta name="twitter:description" content="Where your data is stored, what leaves your phone, whether we train on it or sell it, web search, and how to delete everything.">
+<meta name="twitter:image" content="https://ayumitra.app/og-image.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -26,7 +29,6 @@
 <link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="help.css">
-<link rel="stylesheet" href="account.css">
 <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <script src="theme.js" defer></script>
 <script type="application/ld+json">
@@ -111,8 +113,28 @@
    "name": "Is Ayumitra a medical device?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number."
+    "text": "No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number. See how Ayumitra checks every answer."
    }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Home",
+   "item": "https://ayumitra.app/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Questions",
+   "item": "https://ayumitra.app/faq.html"
   }
  ]
 }
@@ -134,12 +156,6 @@
   </div>
 </header>
 
-<!--
-  The contact form, for what the two Pro plans in the app don't cover.
-  Written on 14 November 2026. The form talks only to the Pro relay (RELAY
-  below), which passes the message on by email and keeps none of it; nothing
-  is stored in the browser. Without JavaScript the page points to email.
--->
 <main id="main" class="help">
   <div class="container help-wrap single">
     <article class="doc">
@@ -190,6 +206,7 @@
       <section id="is-ayumitra-a-medical-device">
         <h2>Is Ayumitra a medical device?</h2>
         <p>No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number.</p>
+        <p>See <a href="safety.html">how Ayumitra checks every answer</a>.</p>
       </section>
     </article>
   </div>
@@ -206,6 +223,7 @@
         <a href="pro.html">Pro</a>
         <a href="safety.html">Safety</a>
         <a href="faq.html" aria-current="page">Questions</a>
+        <a href="vaccines/">Vaccines</a>
         <a href="help/api-keys.html">Help</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -214,91 +232,5 @@
   </div>
 </footer>
 
-<script>
-// The contact form. It talks only to the Pro relay, which emails the message
-// to support and keeps none of it. Nothing is stored in the browser.
-(function () {
-  var RELAY = "https://pro.ayumitra.app";
-  var form = document.getElementById("contact");
-  if (!form || !window.fetch) return;
-  var $ = function (id) { return document.getElementById(id); };
-
-  var SAID = {
-    name: "Enter your name.",
-    subject: "Enter a subject.",
-    description: "Write a message.",
-    email: "Enter an email address.",
-    bad_contact: "Something in the form isn’t right. Check the name, subject, message and email address.",
-    too_many_messages: "Too many messages were sent from this connection. Please try again later.",
-    not_sent: "The message couldn’t be sent. Try again in a minute.",
-    not_ready: "The form isn’t working right now. Try again later.",
-    offline: "Couldn’t reach Ayumitra. Check the connection and try again.",
-    failed: "That didn’t work. Try again in a minute."
-  };
-  // The cases where email is the better way through.
-  var BY_MAIL = { not_sent: true, not_ready: true, offline: true, failed: true };
-
-  function fail(id, text) {
-    var el = $(id + "-error");
-    if (id === "send") $("send-said").textContent = text || "";
-    else {
-      el.textContent = text || "";
-      if (text) $(id).setAttribute("aria-invalid", "true");
-      else $(id).removeAttribute("aria-invalid");
-    }
-    el.hidden = !text;
-  }
-
-  function call(path, body) {
-    return fetch(RELAY + path, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-      credentials: "omit",
-      cache: "no-store",
-      referrerPolicy: "no-referrer"
-    }).then(function (response) {
-      return response.json().catch(function () { return {}; }).then(function (json) {
-        if (response.ok) return json;
-        throw (json.error && json.error.code) || "failed";
-      });
-    }, function () { throw "offline"; });
-  }
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    var body = {};
-    ["name", "company", "subject", "description", "phone", "email", "website"].forEach(function (key) {
-      body[key] = $(key).value.trim();
-    });
-    var wrong = ["name", "subject", "description", "email"].filter(function (key) {
-      var ok = key === "email" ? /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(body.email) : body[key] !== "";
-      fail(key, ok ? "" : SAID[key]);
-      return !ok;
-    });
-    fail("send");
-    if (wrong.length) return $(wrong[0]).focus();
-
-    var button = $("send-go");
-    button.disabled = true;
-    call("/v1/contact", body)
-      .then(function (json) {
-        if (!json.sent) throw "failed";
-        form.reset();
-        form.hidden = true;
-        $("step-done").hidden = false;
-        $("done-title").focus();
-      })
-      .catch(function (code) {
-        $("send-mail").hidden = !BY_MAIL[SAID[code] ? code : "failed"];
-        fail("send", SAID[code] || SAID.failed);
-      })
-      .then(function () { button.disabled = false; });
-  });
-
-  $("no-script").hidden = true;
-  form.hidden = false;
-})();
-</script>
 </body>
 </html>

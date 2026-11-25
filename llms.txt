@@ -26,6 +26,37 @@ Each page below is also available as plain Markdown: add `.md` to its address, a
 - [Delete your Pro account](https://ayumitra.app/delete-account.md): how to delete a Pro account and what is removed
 - [Write to us](https://ayumitra.app/contact.md): how to reach the team
 
+## Vaccination schedules
+
+The childhood schedules Ayumitra follows, made from the app's own data, one page per country.
+
+- [Vaccination schedules by country](https://ayumitra.app/vaccines/index.md): the 25 countries
+- [Vaccination schedule in India](https://ayumitra.app/vaccines/india.md): IAP-ACVIP Recommended Immunization Schedule (2025), 0–18 years; Universal Immunization Programme: National Immunization Schedule
+- [Vaccination schedule in Pakistan](https://ayumitra.app/vaccines/pakistan.md): Expanded Programme on Immunization: routine schedule (Pakistan)
+- [Vaccination schedule in Bangladesh](https://ayumitra.app/vaccines/bangladesh.md): Expanded Programme on Immunization: routine schedule (Bangladesh)
+- [Vaccination schedule in Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md): National Immunization Programme: schedule (Sri Lanka)
+- [Vaccination schedule in Nepal](https://ayumitra.app/vaccines/nepal.md): National Immunization Programme: routine schedule (Nepal)
+- [Vaccination schedule in Thailand](https://ayumitra.app/vaccines/thailand.md): Thailand EPI
+- [Vaccination schedule in Malaysia](https://ayumitra.app/vaccines/malaysia.md): Malaysia NIP
+- [Vaccination schedule in Singapore](https://ayumitra.app/vaccines/singapore.md): Singapore NCIS
+- [Vaccination schedule in Indonesia](https://ayumitra.app/vaccines/indonesia.md): Indonesia: Imunisasi Rutin Lengkap (national programme)
+- [Vaccination schedule in the Philippines](https://ayumitra.app/vaccines/philippines.md): Philippines: National Immunization Program (DOH)
+- [Vaccination schedule in Vietnam](https://ayumitra.app/vaccines/vietnam.md): Vietnam: Chương trình Tiêm chủng mở rộng (EPI)
+- [Vaccination schedule in Germany](https://ayumitra.app/vaccines/germany.md): Germany STIKO
+- [Vaccination schedule in Switzerland](https://ayumitra.app/vaccines/switzerland.md): Switzerland BAG/EKIF
+- [Vaccination schedule in the Netherlands](https://ayumitra.app/vaccines/netherlands.md): Netherlands RVP
+- [Vaccination schedule in Austria](https://ayumitra.app/vaccines/austria.md): Austria Impfplan
+- [Vaccination schedule in Belgium](https://ayumitra.app/vaccines/belgium.md): Belgium SHC (CSS/HGR)
+- [Vaccination schedule in Sweden](https://ayumitra.app/vaccines/sweden.md): Barnvaccinationsprogrammet (Sweden): national childhood programme
+- [Vaccination schedule in Norway](https://ayumitra.app/vaccines/norway.md): Barnevaksinasjonsprogrammet (Norway): childhood immunisation programme
+- [Vaccination schedule in Denmark](https://ayumitra.app/vaccines/denmark.md): Børnevaccinationsprogrammet (Denmark): childhood vaccination programme
+- [Vaccination schedule in Finland](https://ayumitra.app/vaccines/finland.md): Kansallinen rokotusohjelma (Finland): national vaccination programme for children and adolescents
+- [Vaccination schedule in the United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md): UK NHS
+- [Vaccination schedule in France](https://ayumitra.app/vaccines/france.md): Calendrier des vaccinations 2026 (France): enfants et adolescents
+- [Vaccination schedule in Italy](https://ayumitra.app/vaccines/italy.md): Calendario nazionale vaccinale, PNPV 2023–2025 (Italy): children and adolescents
+- [Vaccination schedule in Spain](https://ayumitra.app/vaccines/spain.md): Calendario común de vacunación e inmunización 2026 (Spain): children and adolescents
+- [Vaccination schedule in the United States](https://ayumitra.app/vaccines/united-states.md): USA CDC
+
 ## Optional
 
 - [Cloud AI keys](https://ayumitra.app/help/api-keys.md): how to get a key for OpenAI, Anthropic, Google Gemini or OpenRouter

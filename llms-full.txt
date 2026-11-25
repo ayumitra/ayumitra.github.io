@@ -26,12 +26,43 @@ Each page below is also available as plain Markdown: add `.md` to its address, a
 - [Delete your Pro account](https://ayumitra.app/delete-account.md): how to delete a Pro account and what is removed
 - [Write to us](https://ayumitra.app/contact.md): how to reach the team
 
+## Vaccination schedules
+
+The childhood schedules Ayumitra follows, made from the app's own data, one page per country.
+
+- [Vaccination schedules by country](https://ayumitra.app/vaccines/index.md): the 25 countries
+- [Vaccination schedule in India](https://ayumitra.app/vaccines/india.md): IAP-ACVIP Recommended Immunization Schedule (2025), 0–18 years; Universal Immunization Programme: National Immunization Schedule
+- [Vaccination schedule in Pakistan](https://ayumitra.app/vaccines/pakistan.md): Expanded Programme on Immunization: routine schedule (Pakistan)
+- [Vaccination schedule in Bangladesh](https://ayumitra.app/vaccines/bangladesh.md): Expanded Programme on Immunization: routine schedule (Bangladesh)
+- [Vaccination schedule in Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md): National Immunization Programme: schedule (Sri Lanka)
+- [Vaccination schedule in Nepal](https://ayumitra.app/vaccines/nepal.md): National Immunization Programme: routine schedule (Nepal)
+- [Vaccination schedule in Thailand](https://ayumitra.app/vaccines/thailand.md): Thailand EPI
+- [Vaccination schedule in Malaysia](https://ayumitra.app/vaccines/malaysia.md): Malaysia NIP
+- [Vaccination schedule in Singapore](https://ayumitra.app/vaccines/singapore.md): Singapore NCIS
+- [Vaccination schedule in Indonesia](https://ayumitra.app/vaccines/indonesia.md): Indonesia: Imunisasi Rutin Lengkap (national programme)
+- [Vaccination schedule in the Philippines](https://ayumitra.app/vaccines/philippines.md): Philippines: National Immunization Program (DOH)
+- [Vaccination schedule in Vietnam](https://ayumitra.app/vaccines/vietnam.md): Vietnam: Chương trình Tiêm chủng mở rộng (EPI)
+- [Vaccination schedule in Germany](https://ayumitra.app/vaccines/germany.md): Germany STIKO
+- [Vaccination schedule in Switzerland](https://ayumitra.app/vaccines/switzerland.md): Switzerland BAG/EKIF
+- [Vaccination schedule in the Netherlands](https://ayumitra.app/vaccines/netherlands.md): Netherlands RVP
+- [Vaccination schedule in Austria](https://ayumitra.app/vaccines/austria.md): Austria Impfplan
+- [Vaccination schedule in Belgium](https://ayumitra.app/vaccines/belgium.md): Belgium SHC (CSS/HGR)
+- [Vaccination schedule in Sweden](https://ayumitra.app/vaccines/sweden.md): Barnvaccinationsprogrammet (Sweden): national childhood programme
+- [Vaccination schedule in Norway](https://ayumitra.app/vaccines/norway.md): Barnevaksinasjonsprogrammet (Norway): childhood immunisation programme
+- [Vaccination schedule in Denmark](https://ayumitra.app/vaccines/denmark.md): Børnevaccinationsprogrammet (Denmark): childhood vaccination programme
+- [Vaccination schedule in Finland](https://ayumitra.app/vaccines/finland.md): Kansallinen rokotusohjelma (Finland): national vaccination programme for children and adolescents
+- [Vaccination schedule in the United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md): UK NHS
+- [Vaccination schedule in France](https://ayumitra.app/vaccines/france.md): Calendrier des vaccinations 2026 (France): enfants et adolescents
+- [Vaccination schedule in Italy](https://ayumitra.app/vaccines/italy.md): Calendario nazionale vaccinale, PNPV 2023–2025 (Italy): children and adolescents
+- [Vaccination schedule in Spain](https://ayumitra.app/vaccines/spain.md): Calendario común de vacunación e inmunización 2026 (Spain): children and adolescents
+- [Vaccination schedule in the United States](https://ayumitra.app/vaccines/united-states.md): USA CDC
+
 ## Optional
 
 - [Cloud AI keys](https://ayumitra.app/help/api-keys.md): how to get a key for OpenAI, Anthropic, Google Gemini or OpenRouter
 - [Impressum](https://ayumitra.app/impressum.md): the legal notice (German, with an English version)
 
-Title: Ayumitra, the health companion for your family
+Title: Ayumitra: a family health app for records and vaccines
 URL: https://ayumitra.app/
 
 # A health companion that knows your family.
@@ -98,7 +129,7 @@ Photograph a prescription and the course and its reminders are set up for you to
 
 ### Vaccines
 
-Your country’s schedule from birth, with what’s done and what’s due next.
+Your country’s schedule from birth, with what’s done and what’s due next. See the [schedules for each country](https://ayumitra.app/vaccines/index.md).
 
 ### Measurements
 
@@ -266,6 +297,8 @@ Delete a report, a conversation, a person or everything. What a conversation tau
 
 The app has no advertising, analytics or crash reporting. This website sets no cookies and loads nothing from other servers.
 
+Short answers in [Questions about your data](https://ayumitra.app/faq.md), and everything in the [privacy policy](https://ayumitra.app/privacy.md).
+
 ## Why we made Ayumitra
 
 When our son was born, we needed an AI-powered app for his health: one place for his records that could also help us understand them.
@@ -429,7 +462,7 @@ Your questions aren’t used to train AI.
 
 ### Family names are swapped first
 
-Your family’s names are swapped for made-up ones before anything is sent. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details.
+Your family’s names are swapped for made-up ones before anything is sent. The [privacy policy](https://ayumitra.app/privacy.md#pro) has the details, and [Questions about your data](https://ayumitra.app/faq.md) the short answers.
 
 ## What stays free
 
@@ -721,6 +754,8 @@ Only when you tap Import and allow it, the app reads your readings into the prof
 ## Is Ayumitra a medical device?
 
 No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number.
+
+See [how Ayumitra checks every answer](https://ayumitra.app/safety.md).
 
 
 ---
@@ -1428,3 +1463,2137 @@ Responsible for the content: Kriti Rai, Annenallee 5, 12555 Berlin, Germany
 We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board.
 
 Ayumitra helps you understand health records. It isn’t a medical device and doesn’t replace a doctor’s advice, diagnosis or treatment. In an emergency, call your local emergency number (112 in the EU and India).
+
+
+---
+
+Title: Childhood vaccination schedules by country · Ayumitra
+URL: https://ayumitra.app/vaccines/
+
+[Home](https://ayumitra.app/index.md) Vaccination schedules
+
+# Vaccination schedules by country
+
+The childhood vaccination schedules Ayumitra follows, for 25 countries, by age. Each page names who publishes the schedule and links its sources.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## South Asia
+
+- [India — IAP-ACVIP Recommended Immunization Schedule (2025), 0–18 years · Universal Immunization Programme: National Immunization Schedule](https://ayumitra.app/vaccines/india.md)
+- [Pakistan — Expanded Programme on Immunization: routine schedule (Pakistan)](https://ayumitra.app/vaccines/pakistan.md)
+- [Bangladesh — Expanded Programme on Immunization: routine schedule (Bangladesh)](https://ayumitra.app/vaccines/bangladesh.md)
+- [Sri Lanka — National Immunization Programme: schedule (Sri Lanka)](https://ayumitra.app/vaccines/sri-lanka.md)
+- [Nepal — National Immunization Programme: routine schedule (Nepal)](https://ayumitra.app/vaccines/nepal.md)
+
+## Southeast Asia
+
+- [Thailand — Thailand EPI](https://ayumitra.app/vaccines/thailand.md)
+- [Malaysia — Malaysia NIP](https://ayumitra.app/vaccines/malaysia.md)
+- [Singapore — Singapore NCIS](https://ayumitra.app/vaccines/singapore.md)
+- [Indonesia — Indonesia: Imunisasi Rutin Lengkap (national programme)](https://ayumitra.app/vaccines/indonesia.md)
+- [Philippines — Philippines: National Immunization Program (DOH)](https://ayumitra.app/vaccines/philippines.md)
+- [Vietnam — Vietnam: Chương trình Tiêm chủng mở rộng (EPI)](https://ayumitra.app/vaccines/vietnam.md)
+
+## Europe
+
+- [Germany — Germany STIKO](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland — Switzerland BAG/EKIF](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands — Netherlands RVP](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria — Austria Impfplan](https://ayumitra.app/vaccines/austria.md)
+- [Belgium — Belgium SHC (CSS/HGR)](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden — Barnvaccinationsprogrammet (Sweden): national childhood programme](https://ayumitra.app/vaccines/sweden.md)
+- [Norway — Barnevaksinasjonsprogrammet (Norway): childhood immunisation programme](https://ayumitra.app/vaccines/norway.md)
+- [Denmark — Børnevaccinationsprogrammet (Denmark): childhood vaccination programme](https://ayumitra.app/vaccines/denmark.md)
+- [Finland — Kansallinen rokotusohjelma (Finland): national vaccination programme for children and adolescents](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom — UK NHS](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France — Calendrier des vaccinations 2026 (France): enfants et adolescents](https://ayumitra.app/vaccines/france.md)
+- [Italy — Calendario nazionale vaccinale, PNPV 2023–2025 (Italy): children and adolescents](https://ayumitra.app/vaccines/italy.md)
+- [Spain — Calendario común de vacunación e inmunización 2026 (Spain): children and adolescents](https://ayumitra.app/vaccines/spain.md)
+
+## Americas
+
+- [United States — USA CDC](https://ayumitra.app/vaccines/united-states.md)
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose your country’s schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=index)
+
+
+---
+
+Title: India vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/india.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) India
+
+# Vaccination schedule in India (2026)
+
+Two childhood vaccination schedules for India by age: from Indian Academy of Pediatrics, Advisory Committee on Vaccines and Immunization Practices and from Ministry of Health and Family Welfare, Government of India ([sources]). In Ayumitra you choose one for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## IAP-ACVIP Recommended Immunization Schedule (2025), 0–18 years
+
+**Published by**
+Indian Academy of Pediatrics, Advisory Committee on Vaccines and Immunization Practices
+
+**Version**
+2025 recommendations, finalized 22–23 November 2025; published online 9 April 2026 in Indian Pediatrics 2026;63:311–324 (Table 2 and Figure 1)
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Oral polio (OPV), birth dose; Hepatitis B, birth dose
+
+- At 6 weeks | DTP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 2; Rotavirus, dose 1; Pneumococcal (PCV), dose 1
+
+- At 10 weeks | DTP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 3; Rotavirus, dose 2; Pneumococcal (PCV), dose 2
+
+- At 14 weeks | DTP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 4 (permitted, not required) · optional; Rotavirus, dose 3 (not needed for RV1) · depends on the vaccine used; Pneumococcal (PCV), dose 3
+
+- At 6 months | Influenza, dose 1; Typhoid conjugate (TCV) · recommended up to 9 months
+
+- At 7 months | Influenza, dose 2
+
+- At 9 months | MMR, dose 1
+
+- At 12 months | Hepatitis A, dose 1
+
+- At 15 months | MMR, dose 2; Chickenpox (varicella), dose 1; Pneumococcal (PCV), booster
+
+- At 16 months | DTP, booster 1 · recommended up to 18 months; Hib, booster · recommended up to 18 months; Injectable polio (IPV), booster 1 · recommended up to 18 months
+
+- At 18 months | Hepatitis A, dose 2 (inactivated vaccine only) · depends on the vaccine used · recommended up to 19 months; Chickenpox (varicella), dose 2 · recommended up to 19 months
+
+- At 4 years | DTP, booster 2 · recommended up to 6 years; Injectable polio (IPV), booster 2 · recommended up to 6 years; MMR, dose 3 · recommended up to 6 years
+
+- At 9 years | HPV, dose 1 · recommended up to 15 years
+
+- After an earlier dose | HPV, dose 2 (boys) · for boys · 6 months after the dose before
+
+- At 10 years | Tdap · recommended up to 12 years
+
+- At 16 years | Td or Tdap · recommended up to 18 years
+
+## Universal Immunization Programme: National Immunization Schedule
+
+**Published by**
+Ministry of Health and Family Welfare, Government of India
+
+**Version**
+National Immunization Schedule (MoHFW/NHM, undated PDF) with: fIPV third dose at 9 months from 1 January 2023 (MoHFW); PCV nationwide from 29 October 2021 (PIB); HPV for girls aged 14 from 28 February 2026 (PIB). Age-wise schedule cross-checked with the PIB backgrounder of 17 March 2026.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Oral polio (OPV), birth dose; Hepatitis B, birth dose
+
+- At 6 weeks | Oral polio (OPV), dose 1; Pentavalent (DTP + Hep B + Hib), dose 1; Rotavirus, dose 1; Injectable polio (fractional IPV), dose 1; Pneumococcal (PCV), dose 1
+
+- At 10 weeks | Oral polio (OPV), dose 2; Pentavalent (DTP + Hep B + Hib), dose 2; Rotavirus, dose 2
+
+- At 14 weeks | Oral polio (OPV), dose 3; Pentavalent (DTP + Hep B + Hib), dose 3; Injectable polio (fractional IPV), dose 2; Rotavirus, dose 3; Pneumococcal (PCV), dose 2
+
+- At 9 months | MR (measles-rubella), dose 1 · recommended up to 12 months; Japanese encephalitis (JE), dose 1 · only in some areas · recommended up to 12 months; Pneumococcal (PCV), booster · recommended up to 12 months; Injectable polio (fractional IPV), dose 3
+
+- At 16 months | MR (measles-rubella), dose 2 · recommended up to 24 months; Japanese encephalitis (JE), dose 2 · only in some areas · recommended up to 24 months; DPT, booster 1 · recommended up to 24 months; Oral polio (OPV), booster · recommended up to 24 months
+
+- At 5 years | DPT, booster 2 · recommended up to 6 years
+
+- At 10 years | Td (tetanus and adult diphtheria), 10 years
+
+- At 14 years | HPV, single dose (girls aged 14) · for girls · recommended up to 15 years
+
+- At 16 years | Td (tetanus and adult diphtheria), 16 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=india)
+
+## Sources
+
+### IAP-ACVIP Recommended Immunization Schedule (2025), 0–18 years
+
+- [doi.org › s13312-026-00311-w](https://doi.org/10.1007/s13312-026-00311-w)
+- [indianpediatrics.net › 311.pdf](https://www.indianpediatrics.net/may2026/311.pdf)
+
+### Universal Immunization Programme: National Immunization Schedule
+
+- [nhm.gov.in › National_ Immunization_Schedule.pdf](https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/report/National_%20Immunization_Schedule.pdf)
+- [resources.risemohfw.in › fipv-3rd-dose-leaflet-v6.pdf](https://resources.risemohfw.in/uploads/2022/12/30/fipv-3rd-dose-leaflet-v6.pdf)
+- [pib.gov.in › PressReleasePage.aspx](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1767478)
+- [pib.gov.in › PressReleasePage.aspx](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233906)
+- [pib.gov.in › PressReleasePage.aspx](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241066)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Pakistan](https://ayumitra.app/vaccines/pakistan.md)
+- [Bangladesh](https://ayumitra.app/vaccines/bangladesh.md)
+- [Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md)
+- [Nepal](https://ayumitra.app/vaccines/nepal.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Pakistan vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/pakistan.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Pakistan
+
+# Vaccination schedule in Pakistan (2026)
+
+The childhood vaccination schedule in Pakistan by age, from Federal Directorate of Immunization, Ministry of National Health Services, Regulations and Coordination, Government of Pakistan ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Expanded Programme on Immunization: routine schedule (Pakistan)
+
+**Published by**
+Federal Directorate of Immunization, Ministry of National Health Services, Regulations and Coordination, Government of Pakistan
+
+**Version**
+FDI vaccination schedule chart "Vaccination_Schedule_2023" (epi.gov.pk, archived 18 September 2025) and National Immunization Policy 2022, Annexure I and section 4.11 (catch-up). HPV routine phase-in from WHO Pakistan (16 September 2025) and WHO Immunization Data (2025 schedule). epi.gov.pk was unreachable on 2026-10-18; pages were read from the Internet Archive.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Oral polio (OPV), birth dose; Hepatitis B, birth dose (where offered) · only in some areas
+
+- At 6 weeks | Oral polio (OPV), dose 1; Pentavalent (DTP + Hep B + Hib), dose 1; Pneumococcal (PCV), dose 1; Rotavirus, dose 1
+
+- At 10 weeks | Oral polio (OPV), dose 2; Pentavalent (DTP + Hep B + Hib), dose 2; Pneumococcal (PCV), dose 2; Rotavirus, dose 2
+
+- At 14 weeks | Oral polio (OPV), dose 3; Pentavalent (DTP + Hep B + Hib), dose 3; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 1
+
+- At 9 months | Typhoid conjugate (TCV); MR (measles-rubella), dose 1; Injectable polio (IPV), dose 2
+
+- At 15 months | MR (measles-rubella), dose 2
+
+- At 4 years | DPT booster (Punjab) · only in some areas · recommended up to 5 years
+
+- At 9 years | HPV, single dose (girls aged 9, where introduced) · for girls · only in some areas · recommended up to 10 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=pakistan)
+
+## Sources
+
+- [web.archive.org › Vaccination_Schedule_2023.jpeg](https://web.archive.org/web/20250918011132/https://www.epi.gov.pk/wp-content/uploads/2023/10/Vaccination_Schedule_2023.jpeg)
+- [web.archive.org › NationalImmunizationPolicy2022-compressed.pdf](https://web.archive.org/web/20240630021140/https://www.epi.gov.pk/wp-content/uploads/2023/01/NationalImmunizationPolicy2022-compressed.pdf)
+- [emro.who.int › pakistan-joins-150-countries-to-protect-13-million-girls…](https://www.emro.who.int/pak/pakistan-news/pakistan-joins-150-countries-to-protect-13-million-girls-from-cervical-cancer-with-who-prequalified-vaccine.html)
+- [web.archive.org › immunization-schedule](https://web.archive.org/web/20251203092620/https://www.epi.gov.pk/immunization-schedule/)
+- [web.archive.org › hpv-vaccination-campaign-15-27-september-2025](https://web.archive.org/web/20250917125358/https://www.epi.gov.pk/hpv-vaccination-campaign-15-27-september-2025/)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27PAK%27)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [India](https://ayumitra.app/vaccines/india.md)
+- [Bangladesh](https://ayumitra.app/vaccines/bangladesh.md)
+- [Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md)
+- [Nepal](https://ayumitra.app/vaccines/nepal.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Bangladesh vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/bangladesh.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Bangladesh
+
+# Vaccination schedule in Bangladesh (2026)
+
+The childhood vaccination schedule in Bangladesh by age, from Expanded Programme on Immunization, Directorate General of Health Services, Ministry of Health and Family Welfare, Government of Bangladesh ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Expanded Programme on Immunization: routine schedule (Bangladesh)
+
+**Published by**
+Expanded Programme on Immunization, Directorate General of Health Services, Ministry of Health and Family Welfare, Government of Bangladesh
+
+**Version**
+DGHS "EPI Vaccine Schedule" (children's routine schedule, file dated January 2018, posted on dghs.gov.bd December 2024) with: HPV single dose for all girls aged 10 from July 2025 (DGHS EPI letter of 28 July 2025); TCV at 15 months from 1 August 2026 (DGHS EPI notice of July 2026 as reported by BSS, and the Civil Surgeon's Office, Sylhet, notice of 15 July 2026). Cross-checked with WHO Immunization Data (2025 schedule, retrieved 2026-10-18).
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG
+
+- At 6 weeks | Pentavalent (DTP + Hep B + Hib), dose 1; Pneumococcal (PCV), dose 1; Oral polio (bOPV), dose 1; Injectable polio (fractional IPV), dose 1
+
+- At 10 weeks | Pentavalent (DTP + Hep B + Hib), dose 2; Pneumococcal (PCV), dose 2; Oral polio (bOPV), dose 2
+
+- At 14 weeks | Pentavalent (DTP + Hep B + Hib), dose 3; Pneumococcal (PCV), dose 3; Oral polio (bOPV), dose 3; Injectable polio (fractional IPV), dose 2
+
+- At 9 months | MR (measles-rubella), dose 1
+
+- At 15 months | MR (measles-rubella), dose 2; Typhoid conjugate (TCV)
+
+- At 10 years | HPV, single dose (girls aged 10) · for girls · recommended up to 11 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=bangladesh)
+
+## Sources
+
+- [objectstorage.ap-dcc-gazipur-1.oraclecloud15.com › 3b811fba71cb410a8e6f…](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/3b811fba71cb410a8e6f7cf463ef84c1.pdf)
+- [dghs.gov.bd › 6922df2f933eb65569e2070b](https://dghs.gov.bd/pages/static-pages/6922df2f933eb65569e2070b)
+- [objectstorage.ap-dcc-gazipur-1.oraclecloud15.com › 13866bebf48e41679349…](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-health-kachua-chandpur/2024/12/13866bebf48e4167934918c7d41c1f14.pdf)
+- [cs.sylhet.gov.bd › 6a57097612674831010f707c](https://cs.sylhet.gov.bd/pages/notices/6a57097612674831010f707c)
+- [prothomalo.com › suvw9iukl6](https://www.prothomalo.com/bangladesh/suvw9iukl6)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27BGD%27)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [India](https://ayumitra.app/vaccines/india.md)
+- [Pakistan](https://ayumitra.app/vaccines/pakistan.md)
+- [Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md)
+- [Nepal](https://ayumitra.app/vaccines/nepal.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Sri Lanka vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/sri-lanka.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Sri Lanka
+
+# Vaccination schedule in Sri Lanka (2026)
+
+The childhood vaccination schedule in Sri Lanka by age, from Epidemiology Unit, Ministry of Health, Sri Lanka ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## National Immunization Programme: schedule (Sri Lanka)
+
+**Published by**
+Epidemiology Unit, Ministry of Health, Sri Lanka
+
+**Version**
+"Updated National Immunization Schedule - 2026" (Epidemiology Unit poster, file last modified 31 March 2026), with fIPV moved to 4 and 9 months as recommended by the National Immunization Summit 2025 (report of 18 August 2025). Cross-checked with WHO Immunization Data (2025 schedule, retrieved 2026-10-18).
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG
+
+- At 2 months | Oral polio (OPV), dose 1; Pentavalent (DTP + Hep B + Hib), dose 1
+
+- At 4 months | Oral polio (OPV), dose 2; Pentavalent (DTP + Hep B + Hib), dose 2; Injectable polio (fractional IPV), dose 1
+
+- At 6 months | Oral polio (OPV), dose 3; Pentavalent (DTP + Hep B + Hib), dose 3; BCG, second dose (only if no scar) · optional
+
+- At 9 months | MMR, dose 1; Injectable polio (fractional IPV), dose 2
+
+- At 12 months | Japanese encephalitis (JE, live), single dose
+
+- At 18 months | Oral polio (OPV), dose 4; DTP, dose 4
+
+- At 3 years | MMR, dose 2
+
+- At 5 years | Oral polio (OPV), dose 5; DT (diphtheria-tetanus), dose 5
+
+- At 10 years | HPV, dose 1 (girls, Grade 6) · for girls
+
+- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+
+- At 11 years | aTd (adult tetanus-diphtheria), Grade 7
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=sri-lanka)
+
+## Sources
+
+- [epid.gov.lk › Updated National Immunization Schedule - 2026.jpg.jpeg](https://www.epid.gov.lk/storage/post/images/Updated%20National%20Immunization%20Schedule%20-%202026.jpg.jpeg)
+- [epid.gov.lk › immunization-programme-implementation](https://www.epid.gov.lk/immunization-programme-implementation/immunization-programme-implementation)
+- [epid.gov.lk › en_68a7e565a6832_FINAL NIS 2025 Report - 18.08.2025_compr…](https://www.epid.gov.lk/storage/post/pdfs/en_68a7e565a6832_FINAL%20NIS%202025%20Report%20-%2018.08.2025_compressed.pdf)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27LKA%27)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [India](https://ayumitra.app/vaccines/india.md)
+- [Pakistan](https://ayumitra.app/vaccines/pakistan.md)
+- [Bangladesh](https://ayumitra.app/vaccines/bangladesh.md)
+- [Nepal](https://ayumitra.app/vaccines/nepal.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Nepal vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/nepal.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Nepal
+
+# Vaccination schedule in Nepal (2026)
+
+The childhood vaccination schedule in Nepal by age, from Family Welfare Division, Department of Health Services, Ministry of Health and Population, Government of Nepal ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## National Immunization Programme: routine schedule (Nepal)
+
+**Published by**
+Family Welfare Division, Department of Health Services, Ministry of Health and Population, Government of Nepal
+
+**Version**
+NIP Reference Manual for Health Workers 2079 ("Final Revised 2023", posted by FWD 22 December 2023; schedule pp. 9–10, Delay Schedule p. 11) with: fIPV at 14 weeks and 9 months from 20 Kartik 2079 (FWD letters of November 2022); single-dose HPV for grade 6 girls and out-of-school girls aged 10, routine from FY 2082/83 (HPV Vaccine Service Guideline 2081, December 2024). Cross-checked with WHO Immunization Data (2025 schedule, retrieved 2026-10-18) and the DoHS Annual Health Report 2081/82 (June 2026).
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG
+
+- At 6 weeks | Oral polio (bOPV), dose 1; Pentavalent (DTP + Hep B + Hib), dose 1; Pneumococcal (PCV10), dose 1; Rotavirus (Rotarix), dose 1
+
+- At 10 weeks | Oral polio (bOPV), dose 2; Pentavalent (DTP + Hep B + Hib), dose 2; Pneumococcal (PCV10), dose 2; Rotavirus (Rotarix), dose 2
+
+- At 14 weeks | Oral polio (bOPV), dose 3; Pentavalent (DTP + Hep B + Hib), dose 3; Injectable polio (fractional IPV), dose 1
+
+- At 9 months | MR (measles-rubella), dose 1; Pneumococcal (PCV10), dose 3; Injectable polio (fractional IPV), dose 2
+
+- At 12 months | Japanese encephalitis (JE, live), single dose
+
+- At 15 months | MR (measles-rubella), dose 2; Typhoid conjugate (TCV)
+
+- At 10 years | HPV, single dose (girls, grade 6 or aged 10) · for girls · recommended up to 11 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=nepal)
+
+## Sources
+
+- [fwd.gov.np › 4.-HW-refernce-manual-Final-Revised-2023-Grand-Final-1.pdf](https://fwd.gov.np/site_uploads/2023/12/4.-HW-refernce-manual-Final-Revised-2023-Grand-Final-1.pdf)
+- [fwd.gov.np › Letter-regarding-fIPV-vaccination-schedule-change.pdf](https://fwd.gov.np/site_uploads/2022/11/Letter-regarding-fIPV-vaccination-schedule-change.pdf)
+- [fwd.gov.np › Final-fIPV-vaccine-reschedule-with-site-change.jpg](https://fwd.gov.np/site_uploads/2022/11/Final-fIPV-vaccine-reschedule-with-site-change.jpg)
+- [fwd.gov.np › HPV-Guideline-Final-Print-Ready-6-12-24_compressed-1.pdf](https://fwd.gov.np/site_uploads/2024/12/HPV-Guideline-Final-Print-Ready-6-12-24_compressed-1.pdf)
+- [fwd.gov.np › Final-Revised-Typhoid-Guideline-Final-for-web-2022-03-18.p…](https://fwd.gov.np/site_uploads/2022/03/Final-Revised-Typhoid-Guideline-Final-for-web-2022-03-18.pdf)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27NPL%27)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [India](https://ayumitra.app/vaccines/india.md)
+- [Pakistan](https://ayumitra.app/vaccines/pakistan.md)
+- [Bangladesh](https://ayumitra.app/vaccines/bangladesh.md)
+- [Sri Lanka](https://ayumitra.app/vaccines/sri-lanka.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Thailand vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/thailand.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Thailand
+
+# Vaccination schedule in Thailand (2026)
+
+The childhood vaccination schedule in Thailand by age, from Department of Disease Control (กรมควบคุมโรค), Ministry of Public Health, Thailand ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Thailand EPI
+
+**Published by**
+Department of Disease Control (กรมควบคุมโรค), Ministry of Public Health, Thailand
+
+**Version**
+กำหนดการให้วัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรค ปี 2566 (DDC, 2023), with 2 IPV + 3 OPV from 1 July 2023 (EPI Operations Standard 2568), PCV at 2, 4 and 12 months from 2 March 2026 (NHSO announcement No. 11/2569, in force 1 October 2026) and influenza for children 6 months to under 5 years (influenza guideline 2569); as of 18 October 2026
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Hepatitis B, birth dose
+
+- At 2 months | DTP (DTP-HB-Hib), dose 1; Hib (DTP-HB-Hib), dose 1; Hepatitis B (DTP-HB-Hib), dose 2; Injectable polio (IPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1
+
+- At 4 months | DTP (DTP-HB-Hib), dose 2; Hib (DTP-HB-Hib), dose 2; Hepatitis B (DTP-HB-Hib), dose 3; Injectable polio (IPV), dose 2; Rotavirus, dose 2; Pneumococcal (PCV), dose 2
+
+- At 6 months | DTP (DTP-HB-Hib), dose 3; Hib (DTP-HB-Hib), dose 3; Hepatitis B (DTP-HB-Hib), dose 4; Oral polio (OPV), polio dose 3; Rotavirus, dose 3 (not after Rotarix) · depends on the vaccine used; Influenza, first season dose 1 · recommended up to 5 years
+
+- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before; HPV, dose 2 (girls) · for girls · 6 months after the dose before
+
+- At 9 months | MMR, dose 1 · recommended up to 12 months
+
+- At 12 months | Japanese encephalitis (live JE), dose 1; Pneumococcal (PCV), dose 3 (booster)
+
+- At 18 months | DTP, dose 4 (booster); Oral polio (OPV), polio dose 4; MMR, dose 2
+
+- At 30 months | Japanese encephalitis (live JE), dose 2
+
+- At 4 years | DTP, dose 5 (booster) · recommended up to 6 years; Oral polio (OPV), polio dose 5 · recommended up to 6 years
+
+- At 10 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years
+
+- At 11 years | dT (tetanus and adult-type diphtheria) · recommended up to 13 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=thailand)
+
+## Sources
+
+- [ddc.moph.go.th › 1_Vaccine Schedule 2566_V3.pdf](https://ddc.moph.go.th/uploads/ckeditor2/dcd/files/1_Vaccine%20Schedule%202566_V3.pdf)
+- [ddc.moph.go.th › 1660220250103030656.pdf](https://ddc.moph.go.th/uploads/publish/1660220250103030656.pdf)
+- [ddc.moph.go.th › Sequential Regimen_26 Jul 2023(2).pdf](https://ddc.moph.go.th/uploads/ckeditor2/dcd/files/Sequential%20Regimen_26%20Jul%202023(2).pdf)
+- [ddc.moph.go.th › 1580620250527025632.pdf](https://www.ddc.moph.go.th/uploads/publish/1580620250527025632.pdf)
+- [ddc.moph.go.th › 1260620230308032551.pdf](https://ddc.moph.go.th/uploads/publish/1260620230308032551.pdf)
+- [hfocus.org › 38863](https://www.hfocus.org/content/2026/07/38863)
+- [ddc.moph.go.th › 1_ Influenza Manual yr 2569_V5.pdf](https://ddc.moph.go.th/uploads/ckeditor2/dcd/files/1_%20Influenza%20Manual%20%20yr%202569_V5.pdf)
+- [ddc.moph.go.th › 1607620240902103035.pdf](https://ddc.moph.go.th/uploads/publish/1607620240902103035.pdf)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Malaysia](https://ayumitra.app/vaccines/malaysia.md)
+- [Singapore](https://ayumitra.app/vaccines/singapore.md)
+- [Indonesia](https://ayumitra.app/vaccines/indonesia.md)
+- [Philippines](https://ayumitra.app/vaccines/philippines.md)
+- [Vietnam](https://ayumitra.app/vaccines/vietnam.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Malaysia vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/malaysia.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Malaysia
+
+# Vaccination schedule in Malaysia (2026)
+
+The childhood vaccination schedule in Malaysia by age, from Ministry of Health Malaysia (Kementerian Kesihatan Malaysia), National Immunisation Programme ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Malaysia NIP
+
+**Published by**
+Ministry of Health Malaysia (Kementerian Kesihatan Malaysia), National Immunisation Programme
+
+**Version**
+Jadual Imunisasi Kebangsaan, KKM, as published on the MyGOV portal (page updated 28 January 2026); HPV single dose since 2023 (NITG); PCV schedule from the KKM PCV implementation manual (2020); as of 18 October 2026
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Hepatitis B, birth dose
+
+- At 2 months | DTaP (6-in-1), dose 1; Injectable polio (6-in-1), dose 1; Hib (6-in-1), dose 1; Hepatitis B (6-in-1), dose 2
+
+- At 3 months | DTaP (6-in-1), dose 2; Injectable polio (6-in-1), dose 2; Hib (6-in-1), dose 2; Hepatitis B (6-in-1), dose 3
+
+- At 4 months | Pneumococcal (PCV), dose 1
+
+- At 5 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 4
+
+- At 6 months | Pneumococcal (PCV), dose 2; Measles, early dose (Sabah only) · only in some areas
+
+- At 9 months | MMR, dose 1; Japanese encephalitis (JE), dose 1 (Sarawak only) · only in some areas
+
+- At 12 months | MMR, dose 2
+
+- At 15 months | Pneumococcal (PCV), booster
+
+- At 18 months | DTaP (6-in-1), booster; Injectable polio (6-in-1), booster; Hib (6-in-1), booster; Hepatitis B (6-in-1), booster
+
+- At 21 months | Japanese encephalitis (JE), booster (Sarawak only) · only in some areas
+
+- At 7 years | DT (diphtheria, tetanus), booster at 7 years
+
+- At 12 years | HPV, single dose (girls) · for girls · recommended up to 14 years
+
+- At 15 years | Tetanus toxoid (TT), booster at 15 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=malaysia)
+
+## Sources
+
+- [malaysia.gov.my › program-imunisasi-bayi-dan-kanak-kanak](https://www.malaysia.gov.my/my/personas/ibu-hamil/postnatal-care/program-imunisasi-bayi-dan-kanak-kanak)
+- [sentang.malaysia.gov.my › GOSG Infografik Jadual Imunisasi Bayi KKM (Ba…](https://sentang.malaysia.gov.my/api/media/file/GOSG%20Infografik%20Jadual%20Imunisasi%20Bayi%20KKM%20(Bahasa)-01.jpg)
+- [hq.moh.gov.my › 3_manual_pelaksanaan_program_imunisasi_pneumokokal_untu…](https://hq.moh.gov.my/bpkk/images/3.Penerbitan/2.Orang_Awam/8.Kesihatan_Kanak_Kanak/2.PDF/3_manual_pelaksanaan_program_imunisasi_pneumokokal_untuk_kanak-kanak_dalam_program_imunisasi_kebangsaan.pdf)
+- [malaysia.gov.my › secondary-school-health-screening](https://www.malaysia.gov.my/en/topics/secondary-school-health-screening)
+- [stophpv.org › Malaysia_CountryFlyer.pdf](https://stophpv.org/wp-content/uploads/2024/10/Malaysia_CountryFlyer.pdf)
+- [jknkl.moh.gov.my › suntikan-imunisasi](https://jknkl.moh.gov.my/jkwpklp/ms/perkhidmatan/informasi-kesihatan/suntikan-imunisasi)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Thailand](https://ayumitra.app/vaccines/thailand.md)
+- [Singapore](https://ayumitra.app/vaccines/singapore.md)
+- [Indonesia](https://ayumitra.app/vaccines/indonesia.md)
+- [Philippines](https://ayumitra.app/vaccines/philippines.md)
+- [Vietnam](https://ayumitra.app/vaccines/vietnam.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Singapore vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/singapore.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Singapore
+
+# Vaccination schedule in Singapore (2026)
+
+The childhood vaccination schedule in Singapore by age, from Ministry of Health Singapore and the Communicable Diseases Agency (CDA); school-based doses by the Health Promotion Board ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Singapore NCIS
+
+**Published by**
+Ministry of Health Singapore and the Communicable Diseases Agency (CDA); school-based doses by the Health Promotion Board
+
+**Version**
+National Childhood Immunisation Schedule (from birth to age 17 years), updated 12 October 2026, with "Details of the vaccinations recommended under the NCIS"
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Hepatitis B, birth dose
+
+- At 2 months | DTaP (6-in-1), dose 1; Injectable polio (6-in-1), dose 1; Hib (6-in-1), dose 1; Hepatitis B (6-in-1), dose 2
+
+- At 4 months | DTaP (5-in-1), dose 2; Injectable polio (5-in-1), dose 2; Hib (5-in-1), dose 2; Pneumococcal (PCV13), dose 1
+
+- At 6 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV13), dose 2; Influenza, first season dose 1 · recommended up to 5 years
+
+- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before
+
+- At 12 months | Pneumococcal (PCV13), booster; MMR, dose 1; Chickenpox (varicella), dose 1
+
+- At 15 months | MMR, dose 2 (as MMRV); Chickenpox (varicella), dose 2 (as MMRV)
+
+- At 18 months | DTaP (5-in-1), booster 1; Injectable polio (5-in-1), booster 1; Hib (5-in-1), booster 1
+
+- At 10 years | Tdap (Tdap-IPV), booster 2 · recommended up to 11 years; Injectable polio (Tdap-IPV), booster 2 · recommended up to 11 years
+
+- At 12 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years
+
+- At 13 years | HPV, dose 2 (girls) · for girls · recommended up to 14 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=singapore)
+
+## Sources
+
+- [cda.gov.sg › vaccinations](https://www.cda.gov.sg/public/vaccinations/)
+- [isomer-user-content.by.gov.sg › NCIS_October 2026.pdf](https://isomer-user-content.by.gov.sg/18/34009f97-7100-4624-8eba-89fd5a2b4e3d/NCIS_October%202026.pdf)
+- [isomer-user-content.by.gov.sg › NCIS_1 Apr 2026.pdf](https://isomer-user-content.by.gov.sg/18/9459eb0d-6797-466d-8d85-274916ebd27e/NCIS_1%20Apr%202026.pdf)
+- [moh.gov.sg › subsidised-vaccine-list](https://www.moh.gov.sg/others/subsidised-vaccine-list/)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Thailand](https://ayumitra.app/vaccines/thailand.md)
+- [Malaysia](https://ayumitra.app/vaccines/malaysia.md)
+- [Indonesia](https://ayumitra.app/vaccines/indonesia.md)
+- [Philippines](https://ayumitra.app/vaccines/philippines.md)
+- [Vietnam](https://ayumitra.app/vaccines/vietnam.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Indonesia vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/indonesia.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Indonesia
+
+# Vaccination schedule in Indonesia (2026)
+
+The childhood vaccination schedule in Indonesia by age, from Kementerian Kesehatan Republik Indonesia (Ministry of Health) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Indonesia: Imunisasi Rutin Lengkap (national programme)
+
+**Published by**
+Kementerian Kesehatan Republik Indonesia (Ministry of Health)
+
+**Version**
+Keputusan Menteri Kesehatan HK.01.07/MENKES/1098/2024 tentang Jenis dan Jadwal Imunisasi Program (ditetapkan 1 Juli 2024), as amended by KMK HK.01.07/MENKES/35/2025 (21 January 2025: single-dose HPV); cross-checked with the Kemenkes release of 21 March 2025 and the Kemenkes hexavalent release of 22 December 2025
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | Hepatitis B, birth dose; BCG · recommended up to 1 month; Oral polio (OPV), dose 1 · recommended up to 1 month
+
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 2; Pneumococcal (PCV), dose 1; Rotavirus, dose 1
+
+- At 3 months | DTP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Hepatitis B, dose 2; Oral polio (OPV), dose 3; Pneumococcal (PCV), dose 2; Rotavirus, dose 2
+
+- At 4 months | DTP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3; Hepatitis B, dose 3; Oral polio (OPV), dose 4; Injectable polio (IPV), dose 1; Rotavirus, dose 3
+
+- At 9 months | MR (measles-rubella), dose 1; Injectable polio (IPV), dose 2
+
+- At 10 months | Japanese encephalitis (JE) · only in some areas
+
+- At 12 months | Pneumococcal (PCV), dose 3
+
+- At 18 months | DTP, booster; Hib, booster; Hepatitis B, dose 4; MR (measles-rubella), dose 2
+
+- At 7 years | MR (measles-rubella), grade 1 · recommended up to 8 years; DT (diphtheria-tetanus), grade 1 · recommended up to 8 years
+
+- At 8 years | Td (tetanus and adult diphtheria), grade 2 · recommended up to 9 years
+
+- At 11 years | Td (tetanus and adult diphtheria), grade 5 · recommended up to 12 years; HPV, single dose (girls aged 11) · for girls · recommended up to 12 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=indonesia)
+
+## Sources
+
+- [docs.paralegal.id › KEPMENKES-HK-01-07-MENKES-1098-2024.pdf](https://docs.paralegal.id/PERMEN/PERMENKES/KEPMENKES/2024/KEPMENKES-HK-01-07-MENKES-1098-2024.pdf)
+- [pdf2.sumselgo.id › 73813861-KMK No. HK.01.07-MENKES-35-2025 ttg Perubah…](https://pdf2.sumselgo.id/ppiddinkes/unggah/2025/73813861-KMK%20No.%20HK.01.07-MENKES-35-2025%20ttg%20Perubahan%20Atas%20KMK%20No.%20HK.01.07-MENKES-1908-2024%20ttg%20Jenis%20dan%20Jadwal%20Imunisasi%20Program-signed.pdf)
+- [kemkes.go.id › pekan-imunisasi-dunia-2025-ayo-lengkapi-imunisasi-untuk-…](https://kemkes.go.id/id/pekan-imunisasi-dunia-2025-ayo-lengkapi-imunisasi-untuk-generasi-sehat-menuju-indonesia-emas)
+- [ayosehat.kemkes.go.id › seputar-imunisasi](https://ayosehat.kemkes.go.id/1000-hari-pertama-kehidupan/seputar-imunisasi)
+- [kemkes.go.id › pemerintah-perkuat-perlindungan-anak-melalui-imunisasi-h…](https://www.kemkes.go.id/id/pemerintah-perkuat-perlindungan-anak-melalui-imunisasi-heksavalen)
+- [immunizationdata.who.int › vaccination-schedule-for-indonesia](https://immunizationdata.who.int/global/wiise-detail-page/vaccination-schedule-for-indonesia?ISO_3_CODE=IDN&TARGETPOP_GENERAL=)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Thailand](https://ayumitra.app/vaccines/thailand.md)
+- [Malaysia](https://ayumitra.app/vaccines/malaysia.md)
+- [Singapore](https://ayumitra.app/vaccines/singapore.md)
+- [Philippines](https://ayumitra.app/vaccines/philippines.md)
+- [Vietnam](https://ayumitra.app/vaccines/vietnam.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Philippines vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/philippines.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Philippines
+
+# Vaccination schedule in the Philippines (2026)
+
+The childhood vaccination schedule in the Philippines by age, from Department of Health, Republic of the Philippines (National Immunization Program) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Philippines: National Immunization Program (DOH)
+
+**Published by**
+Department of Health, Republic of the Philippines (National Immunization Program)
+
+**Version**
+Schedule reported by the Philippines for 2025 (WHO/UNICEF Joint Reporting Form), WHO Immunization Data portal, data committed 30 April 2026, retrieved 18 October 2026; NIP catch-up limits and minimum ages from the PPS/PIDSP/PFV Childhood Immunization Schedule 2026 (November 2025)
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | BCG; Hepatitis B, birth dose
+
+- At 6 weeks | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 2; Oral polio (OPV), dose 1; Pneumococcal (PCV), dose 1
+
+- At 10 weeks | DTP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Hepatitis B, dose 3; Oral polio (OPV), dose 2; Pneumococcal (PCV), dose 2
+
+- At 14 weeks | DTP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3; Hepatitis B, dose 4; Oral polio (OPV), dose 3; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 1
+
+- At 9 months | MMR, dose 1; Injectable polio (IPV), dose 2
+
+- At 12 months | MMR, dose 2
+
+- At 6 years | MR (measles-rubella), grade 1 · recommended up to 8 years; Td (tetanus and adult diphtheria), grade 1 · recommended up to 8 years
+
+- At 9 years | HPV, dose 1 (girls) · for girls · recommended up to 10 years
+
+- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+
+- At 12 years | MR (measles-rubella), grade 7 · recommended up to 14 years; Td (tetanus and adult diphtheria), grade 7 · recommended up to 14 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=philippines)
+
+## Sources
+
+- [immunizationdata.who.int › vaccination-schedule-for-philippines](https://immunizationdata.who.int/global/wiise-detail-page/vaccination-schedule-for-philippines?ISO_3_CODE=PHL&TARGETPOP_GENERAL=)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27PHL%27)
+- [pidsphil.org › 2026-PIDSP-Immunization-Calendar.pdf](https://www.pidsphil.org/home/wp-content/uploads/2025/11/2026-PIDSP-Immunization-Calendar.pdf)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Thailand](https://ayumitra.app/vaccines/thailand.md)
+- [Malaysia](https://ayumitra.app/vaccines/malaysia.md)
+- [Singapore](https://ayumitra.app/vaccines/singapore.md)
+- [Indonesia](https://ayumitra.app/vaccines/indonesia.md)
+- [Vietnam](https://ayumitra.app/vaccines/vietnam.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Vietnam vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/vietnam.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Vietnam
+
+# Vaccination schedule in Vietnam (2026)
+
+The childhood vaccination schedule in Vietnam by age, from Bộ Y tế (Ministry of Health), Viet Nam; Cục Phòng bệnh ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Vietnam: Chương trình Tiêm chủng mở rộng (EPI)
+
+**Published by**
+Bộ Y tế (Ministry of Health), Viet Nam; Cục Phòng bệnh
+
+**Version**
+Thông tư 52/2025/TT-BYT ban hành danh mục bệnh truyền nhiễm, đối tượng và phạm vi phải sử dụng vắc xin, sinh phẩm y tế bắt buộc (31 December 2025; in force 15 February 2026; replaces Thông tư 10/2024/TT-BYT), Điều 1 and Điều 3; month ages of doses 2–3 from the schedule Viet Nam reported to WHO for 2025 (WHO Immunization Data portal, data committed 6 July 2026)
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | Hepatitis B, birth dose; BCG · recommended up to 1 month
+
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1 · only in some areas
+
+- At 3 months | DTP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Hepatitis B, dose 2; Oral polio (OPV), dose 2; Rotavirus, dose 2
+
+- At 4 months | DTP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3; Hepatitis B, dose 3; Oral polio (OPV), dose 3
+
+- After an earlier dose | Pneumococcal (PCV), dose 2 · only in some areas · 2 months after the dose before; Japanese encephalitis (JE), dose 2 · 1 week after the dose before
+
+- At 5 months | Injectable polio (IPV), dose 1
+
+- At 9 months | Measles, dose 1; Injectable polio (IPV), dose 2
+
+- At 1 year | Japanese encephalitis (JE), dose 1
+
+- At 18 months | DTP, booster 1; MR (measles-rubella)
+
+- At 2 years | Japanese encephalitis (JE), dose 3
+
+- At 7 years | Td (tetanus and reduced diphtheria), booster 2
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=vietnam)
+
+## Sources
+
+- [cmsapi.tiemchungmorong.vn › e5510aa2-618f-499a-8da6-7f4bbe05f33e](https://cmsapi.tiemchungmorong.vn/assets/e5510aa2-618f-499a-8da6-7f4bbe05f33e)
+- [immunizationdata.who.int › vaccination-schedule-for-viet-nam](https://immunizationdata.who.int/global/wiise-detail-page/vaccination-schedule-for-viet-nam?ISO_3_CODE=VNM&TARGETPOP_GENERAL=)
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27VNM%27)
+- [baochinhphu.vn › nam-2026-co-them-hai-loai-vaccine-moi-trong-chuong-tri…](https://baochinhphu.vn/nam-2026-co-them-hai-loai-vaccine-moi-trong-chuong-trinh-tiem-chung-mo-rong-1022512261509265.htm)
+- [dantri.com.vn › nhieu-vac-xin-moi-duoc-dua-vao-chuong-trinh-tiem-chung-…](https://dantri.com.vn/suc-khoe/nhieu-vac-xin-moi-duoc-dua-vao-chuong-trinh-tiem-chung-mo-rong-20260930153429712.htm)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Thailand](https://ayumitra.app/vaccines/thailand.md)
+- [Malaysia](https://ayumitra.app/vaccines/malaysia.md)
+- [Singapore](https://ayumitra.app/vaccines/singapore.md)
+- [Indonesia](https://ayumitra.app/vaccines/indonesia.md)
+- [Philippines](https://ayumitra.app/vaccines/philippines.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Germany vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/germany.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Germany
+
+# Vaccination schedule in Germany (2026)
+
+The childhood vaccination schedule in Germany by age, from Ständige Impfkommission (STIKO) beim Robert Koch-Institut ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Germany STIKO
+
+**Published by**
+Ständige Impfkommission (STIKO) beim Robert Koch-Institut
+
+**Version**
+STIKO recommendations 2026, Epidemiologisches Bulletin 4/2026 (22 January 2026), Table 1 "Impfkalender 2026"; RKI edoc version 6 of 10 September 2026 (doi:10.25646/13636.6)
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 6 weeks | Rotavirus, dose 1 · recommended up to 2 months
+
+- At 2 months | DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Meningococcal B (MenB), dose 1
+
+- At 3 months | Rotavirus, dose 2
+
+- At 4 months | DTaP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2; Meningococcal B (MenB), dose 2; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used
+
+- At 11 months | DTaP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 3; Pneumococcal (PCV), dose 3; MMR, dose 1; Chickenpox (varicella), dose 1
+
+- At 12 months | Meningococcal B (MenB), dose 3
+
+- At 15 months | MMR, dose 2; Chickenpox (varicella), dose 2
+
+- At 5 years | Tdap, booster 1 · recommended up to 6 years
+
+- At 9 years | Tdap, booster 2 · recommended up to 16 years; Injectable polio (IPV), booster · recommended up to 16 years; HPV, dose 1 · recommended up to 14 years; HPV, dose 2 · recommended up to 14 years
+
+- At 12 years | Meningococcal ACWY · recommended up to 14 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=germany)
+
+## Sources
+
+- [doi.org › 13636.6](https://doi.org/10.25646/13636.6)
+- [edoc.rki.de › 13181.6](https://edoc.rki.de/handle/176904/13181.6)
+- [rki.de › impfkalender-node.html](https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Impfkalender/impfkalender-node.html)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Switzerland vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/switzerland.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Switzerland
+
+# Vaccination schedule in Switzerland (2026)
+
+The childhood vaccination schedule in Switzerland by age, from Bundesamt für Gesundheit (BAG) and Eidgenössische Kommission für Impffragen (EKIF) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Switzerland BAG/EKIF
+
+**Published by**
+Bundesamt für Gesundheit (BAG) and Eidgenössische Kommission für Impffragen (EKIF)
+
+**Version**
+Schweizerischer Impfplan 2026, Stand Februar 2026 (published 23 February 2026; corrected version 16 April 2026), Table 1 "Synopsis" and chapters 1–3
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 2 months | DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Rotavirus, dose 1 (complementary) · optional
+
+- At 3 months | Meningococcal B (MenB), dose 1 (complementary) · optional
+
+- At 4 months | DTaP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2; Rotavirus, dose 2 (complementary) · optional
+
+- At 5 months | Meningococcal B (MenB), dose 2 (complementary) · optional
+
+- At 9 months | MMR, dose 1; Chickenpox (varicella), dose 1
+
+- At 12 months | DTaP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 3; Pneumococcal (PCV), dose 3; MMR, dose 2; Chickenpox (varicella), dose 2; Meningococcal B (MenB), dose 3 (complementary) · optional · recommended up to 18 months; Meningococcal ACWY, small child (complementary) · optional · recommended up to 18 months
+
+- At 3 years | Tick-borne encephalitis (TBE), dose 1 (risk areas) · only in some areas
+
+- After an earlier dose | Tick-borne encephalitis (TBE), dose 2 (risk areas) · only in some areas · 1 month after the dose before; Tick-borne encephalitis (TBE), dose 3 (risk areas) · only in some areas · 6 months after the dose before; Tick-borne encephalitis (TBE), booster (risk areas) · only in some areas · 10 years after the dose before; HPV, dose 2 · 6 months after the dose before
+
+- At 4 years | DTaP-IPV booster (diphtheria, tetanus, pertussis) · recommended up to 7 years; Injectable polio (IPV), booster · recommended up to 7 years
+
+- At 11 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 15 years; HPV, dose 1 · recommended up to 14 years; Meningococcal ACWY, adolescent (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 1 (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 2 (complementary) · optional · recommended up to 15 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=switzerland)
+
+## Sources
+
+- [bag.admin.ch › schweizerischer-impfplan](https://www.bag.admin.ch/de/schweizerischer-impfplan)
+- [bag.admin.ch › Schweizerischer Impfplan_2026_DE_Web_final (3).pdf](https://www.bag.admin.ch/dam/de/sd-web/Oj0BSN-w-Ggs/Schweizerischer%20Impfplan_2026_DE_Web_final%20(3).pdf)
+- [bag.admin.ch › Plan de vaccination suisse_2026_FR_Web_final (3).pdf](https://www.bag.admin.ch/dam/fr/sd-web/Oj0BSN-w-Ggs/Plan%20de%20vaccination%20suisse_2026_FR_Web_final%20(3).pdf)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Netherlands vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/netherlands.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Netherlands
+
+# Vaccination schedule in the Netherlands (2026)
+
+The childhood vaccination schedule in the Netherlands by age, from Rijksinstituut voor Volksgezondheid en Milieu (RIVM), Rijksvaccinatieprogramma ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Netherlands RVP
+
+**Published by**
+Rijksinstituut voor Volksgezondheid en Milieu (RIVM), Rijksvaccinatieprogramma
+
+**Version**
+RVP vaccination schedule from 2025 (Gezondheidsraad advice); professional guideline "Uitvoering Rijksvaccinatieprogramma 2026", published 31 December 2025, chapters 7 and 10
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 6 weeks | Rotavirus, dose 1 · recommended up to 9 weeks; DTaP (diphtheria, tetanus, pertussis), extra dose · optional · recommended up to 9 weeks; Injectable polio (IPV), extra dose · optional · recommended up to 9 weeks; Hib, extra dose · optional · recommended up to 9 weeks; Hepatitis B, extra dose · optional · recommended up to 9 weeks
+
+- At 3 months | Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1
+
+- At 5 months | DTaP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2
+
+- At 12 months | DTaP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 3; Pneumococcal (PCV), dose 3
+
+- At 14 months | MMR, dose 1 · recommended up to 15 months; Meningococcal ACWY, toddler · recommended up to 15 months
+
+- At 30 months | MMR, dose 2 · recommended up to 43 months
+
+- At 5 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 6 years
+
+- At 9 years | HPV, dose 1 · recommended up to 11 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 13 years | Meningococcal ACWY, teenager · recommended up to 15 years
+
+- At 14 years | Td-IPV booster (diphtheria, tetanus, polio); Injectable polio (IPV), booster
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=netherlands)
+
+## Sources
+
+- [rijksvaccinatieprogramma.nl › vaccinatieschema](https://rijksvaccinatieprogramma.nl/vaccinaties/vaccinatieschema)
+- [rijksvaccinatieprogramma.nl › veranderingen-vanaf-2025](https://rijksvaccinatieprogramma.nl/vaccinaties/veranderingen-vanaf-2025)
+- [rijksvaccinatieprogramma.nl › 7-tijdstip-van-vaccinaties](https://rijksvaccinatieprogramma.nl/professionals/richtlijnen/uitvoering/7-tijdstip-van-vaccinaties)
+- [rijksvaccinatieprogramma.nl › 10-inhaalschemas](https://rijksvaccinatieprogramma.nl/professionals/richtlijnen/uitvoering/10-inhaalschemas)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Austria vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/austria.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Austria
+
+# Vaccination schedule in Austria (2026)
+
+The childhood vaccination schedule in Austria by age, from Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (BMASGPK) with the Nationales Impfgremium ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Austria Impfplan
+
+**Published by**
+Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (BMASGPK) with the Nationales Impfgremium
+
+**Version**
+Impfplan Österreich 2026/2027, Version 1.1 of 14 October 2026 (Version 1.0 of 17 September 2026), and its table "Impfplan Österreich 2026/2027", Version 1.1
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 6 weeks | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1 · recommended up to 3 months; Injectable polio (IPV), dose 1 · recommended up to 3 months; Hib, dose 1 · recommended up to 3 months; Hepatitis B, dose 1 · recommended up to 3 months; Pneumococcal (PCV), dose 1
+
+- After an earlier dose | Rotavirus, dose 2 · 4 weeks after the dose before; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used · 4 weeks after the dose before; DTaP (diphtheria, tetanus, pertussis), dose 2 · 2 months after the dose before; Injectable polio (IPV), dose 2 · 2 months after the dose before; Hib, dose 2 · 2 months after the dose before; Hepatitis B, dose 2 · 2 months after the dose before; Pneumococcal (PCV), dose 2 · 8 weeks after the dose before; Meningococcal B (MenB), dose 2 · 2 months after the dose before; Chickenpox (varicella), dose 2 · 6 weeks after the dose before; Tick-borne encephalitis (TBE), dose 2 · 1 month after the dose before; Tick-borne encephalitis (TBE), dose 3 · 5 months after the dose before; Tick-borne encephalitis (TBE), booster 1 · 3 years after the dose before; Tick-borne encephalitis (TBE), booster 2 · 5 years after the dose before; Tick-borne encephalitis (TBE), booster 3 · 5 years after the dose before; HPV, dose 2 · 6 months after the dose before
+
+- At 2 months | Meningococcal B (MenB), dose 1
+
+- At 9 months | MMR, dose 1
+
+- At 10 months | DTaP (diphtheria, tetanus, pertussis), dose 3 · recommended up to 12 months; Injectable polio (IPV), dose 3 · recommended up to 12 months; Hib, dose 3 · recommended up to 12 months; Hepatitis B, dose 3 · recommended up to 12 months
+
+- At 11 months | Pneumococcal (PCV), dose 3 · recommended up to 15 months
+
+- At 12 months | MMR, dose 2; Meningococcal B (MenB), dose 3 · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 13 months; Chickenpox (varicella), dose 1 · recommended up to 2 years; Tick-borne encephalitis (TBE), dose 1
+
+- At 5 years | Tdap-IPV booster 1 (diphtheria, tetanus, pertussis) · recommended up to 6 years; Injectable polio (IPV), booster 1 · recommended up to 6 years
+
+- At 7 years | Hepatitis B, booster · recommended up to 15 years
+
+- At 9 years | HPV, dose 1 · recommended up to 12 years
+
+- At 10 years | Tdap-IPV booster 2 (diphtheria, tetanus, pertussis) · recommended up to 15 years; Injectable polio (IPV), booster 2 · recommended up to 15 years; Meningococcal ACWY, school age · recommended up to 13 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=austria)
+
+## Sources
+
+- [sozialministerium.gv.at › impfplan.html](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html)
+- [broschuerenservice.sozialministerium.gv.at › Download](https://broschuerenservice.sozialministerium.gv.at/Home/Download?publicationId=420&attachmentName=Impfplan_Oesterreich_2026_2027.pdf)
+- [broschuerenservice.sozialministerium.gv.at › Download](https://broschuerenservice.sozialministerium.gv.at/Home/Download?publicationId=427&attachmentName=Impfplan_Oesterreich_2026_2027_Plakat_A3.pdf)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Belgium vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/belgium.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Belgium
+
+# Vaccination schedule in Belgium (2026)
+
+The childhood vaccination schedule in Belgium by age, from Conseil Supérieur de la Santé / Hoge Gezondheidsraad (Superior Health Council of Belgium); carried out by the Flemish Community (Departement Zorg, Kind en Gezin) and the Wallonia-Brussels Federation (ONE) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Belgium SHC (CSS/HGR)
+
+**Published by**
+Conseil Supérieur de la Santé / Hoge Gezondheidsraad (Superior Health Council of Belgium); carried out by the Flemish Community (Departement Zorg, Kind en Gezin) and the Wallonia-Brussels Federation (ONE)
+
+**Version**
+Advice 9761 "Calendrier vaccinal de base (2025)", validated 3 December 2025, published April 2026 (annex calendar); community calendars: Flanders "Basisvaccinatieschema voor kinderen" (2026), Wallonia-Brussels "Calendrier de vaccination 2025-2026" and "2026-2027" (from 1 November 2026)
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 8 weeks | DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Rotavirus, dose 1
+
+- At 12 weeks | Rotavirus, dose 2
+
+- At 16 weeks | DTaP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2; Rotavirus, dose 3 (3-dose vaccine only) · depends on the vaccine used
+
+- At 12 months | DTaP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 3; MMR, dose 1
+
+- At 13 months | Pneumococcal (PCV), booster · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 15 months
+
+- At 5 years | DTaP-IPV booster (diphtheria, tetanus, pertussis) · recommended up to 6 years; Injectable polio (IPV), booster · recommended up to 6 years
+
+- At 7 years | MMR, dose 2 · recommended up to 9 years
+
+- At 11 years | HPV, dose 1 · recommended up to 13 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 15 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 16 years; Meningococcal ACWY, adolescent · recommended up to 16 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=belgium)
+
+## Sources
+
+- [hgr-css.be](https://www.hgr-css.be)
+- [nitag-resource.org › Belgium_Basic Immunization schedule_FR.pdf](https://www.nitag-resource.org/sites/default/files/2026-06/Belgium_Basic%20Immunization%20schedule_FR.pdf)
+- [departementzorg.be › vaccinaties-voor-kinderen](https://www.departementzorg.be/nl/alles-over-vaccineren/vaccinaties-voor-kinderen)
+- [vaccination-info.be › calendrier-de-vaccination](https://www.vaccination-info.be/calendrier-de-vaccination/)
+- [vaccination-info.be › calendrier-de-vaccination-2025-2026.pdf](https://www.vaccination-info.be/wp-content/uploads/2026/09/calendrier-de-vaccination-2025-2026.pdf)
+- [vaccination-info.be › image-calendrier-2026-2027.png](https://www.vaccination-info.be/wp-content/uploads/2026/09/image-calendrier-2026-2027.png)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Sweden vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/sweden.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Sweden
+
+# Vaccination schedule in Sweden (2026)
+
+The childhood vaccination schedule in Sweden by age, from Folkhälsomyndigheten (Public Health Agency of Sweden) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Barnvaccinationsprogrammet (Sweden): national childhood programme
+
+**Published by**
+Folkhälsomyndigheten (Public Health Agency of Sweden)
+
+**Version**
+HSLF-FS 2016:51 consolidated with HSLF-FS 2019:17 and 2020:25 (in force from 1 August 2020); programme page "Barnvaccinationsprogram", updated 16 April 2026; guidance "Vaccination av barn och ungdomar", 7th edition, art. no. 25173, updated 23 September 2025. Retrieved 2026-10-18.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 6 weeks | BCG (tuberculosis), risk groups only · optional; Rotavirus, dose 1
+
+- At 3 months | Rotavirus, dose 2; DTP (diphtheria, tetanus, pertussis), dose 1; Polio, dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1
+
+- At 5 months | Rotavirus, dose 3 (three-dose vaccine only) · depends on the vaccine used; DTP (diphtheria, tetanus, pertussis), dose 2; Polio, dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2
+
+- At 12 months | DTP, dose 3 (booster); Polio, dose 3 (booster); Hib, dose 3 (booster); Hepatitis B, dose 3; Pneumococcal (PCV), dose 3 (booster)
+
+- At 18 months | MMR (MPR), dose 1
+
+- At 5 years | DTP, dose 4 (booster, with polio); Polio, dose 4 (booster)
+
+- At 7 years | MMR (MPR), dose 2 · recommended up to 9 years
+
+- At 11 years | HPV, dose 1 · recommended up to 12 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 14 years | dTp, dose 5 (reduced-dose booster) · recommended up to 16 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=sweden)
+
+## Sources
+
+- [folkhalsomyndigheten.se › barnvaccinationsprogram](https://www.folkhalsomyndigheten.se/vara-amnesomraden/vaccinationer/nationella-vaccinationsprogram/barnvaccinationsprogram/)
+- [folkhalsomyndigheten.se › vaccinationsschema-for-barnvaccinationsprogra…](https://www.folkhalsomyndigheten.se/globalassets/smittskydd-sjukdomar/vaccinationer/vaccinationsschema-for-barnvaccinationsprogrammet.pdf)
+- [folkhalsomyndigheten.se › konsoliderad-version-av-hslf-fs-2016-51-folkh…](https://www.folkhalsomyndigheten.se/publikationer-och-material/publikationsarkiv/k/konsoliderad-version-av-hslf-fs-2016-51-folkhalsomyndighetens-foreskrifter/)
+- [folkhalsomyndigheten.se › vaccination-av-barn-och-ungdomar](https://www.folkhalsomyndigheten.se/publikationer-och-material/publikationsarkiv/v/vaccination-av-barn-och-ungdomar/)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Norway vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/norway.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Norway
+
+# Vaccination schedule in Norway (2026)
+
+The childhood vaccination schedule in Norway by age, from Folkehelseinstituttet (Norwegian Institute of Public Health), for the Ministry of Health and Care Services ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Barnevaksinasjonsprogrammet (Norway): childhood immunisation programme
+
+**Published by**
+Folkehelseinstituttet (Norwegian Institute of Public Health), for the Ministry of Health and Care Services
+
+**Version**
+FHI Vaksinasjonshåndboka: "Barnevaksinasjonsprogrammet" (last changed 16.06.2026), "Innhentingsvaksinasjon ved avvik fra det norske barnevaksinasjonsprogrammet" (26.05.2025), "Intervaller mellom vaksinedoser" (26.05.2025), rotavirus (26.05.2025) and HPV (13.03.2025) chapters. Retrieved 2026-10-18.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 6 weeks | BCG (tuberculosis), risk groups only · optional; Rotavirus, dose 1
+
+- At 3 months | Rotavirus, dose 2; DTP (diphtheria, tetanus, pertussis), dose 1; Polio, dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1
+
+- At 5 months | DTP (diphtheria, tetanus, pertussis), dose 2; Polio, dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2
+
+- At 12 months | DTP, dose 3; Polio, dose 3; Hib, dose 3; Hepatitis B, dose 3; Pneumococcal (PCV), dose 3
+
+- At 15 months | MMR, dose 1
+
+- At 7 years | DTP, booster 1 (with polio) · recommended up to 8 years; Polio, booster 1 · recommended up to 8 years
+
+- At 11 years | MMR, dose 2 · recommended up to 12 years
+
+- At 12 years | HPV, dose 1 · recommended up to 13 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 15 years | dTP, booster 2 (reduced dose, with polio) · recommended up to 16 years; Polio, booster 2 · recommended up to 16 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=norway)
+
+## Sources
+
+- [fhi.no › barnevaksinasjonsprogrammet](https://www.fhi.no/va/vaksinasjonshandboka/vaksinasjon/barnevaksinasjonsprogrammet/)
+- [fhi.no › barnevaksinasjonsprogram-i-ulike-land-og-tilpasning-til-norsk-…](https://www.fhi.no/va/vaksinasjonshandboka/vaksinasjon/barnevaksinasjonsprogram-i-ulike-land-og-tilpasning-til-norsk-program/)
+- [fhi.no › intervaller-mellom-vaksinedoser](https://www.fhi.no/va/vaksinasjonshandboka/vaksinasjon/intervaller-mellom-vaksinedoser/)
+- [fhi.no › rotavirusvaksinasjon](https://www.fhi.no/va/vaksinasjonshandboka/vaksiner-mot-de-enkelte-sykdommene/rotavirusvaksinasjon/)
+- [fhi.no › hpv-vaksinasjon](https://www.fhi.no/va/vaksinasjonshandboka/vaksiner-mot-de-enkelte-sykdommene/hpv-vaksinasjon/)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Denmark vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/denmark.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Denmark
+
+# Vaccination schedule in Denmark (2026)
+
+The childhood vaccination schedule in Denmark by age, from Sundhedsstyrelsen (Danish Health Authority), with Statens Serum Institut ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Børnevaccinationsprogrammet (Denmark): childhood vaccination programme
+
+**Published by**
+Sundhedsstyrelsen (Danish Health Authority), with Statens Serum Institut
+
+**Version**
+Vejledning om gratis vaccination mod visse smitsomme sygdomme m.v., VEJ nr 9956 af 26/09/2025 (in force; under BEK nr 1139 af 17/09/2025); SSI "Det danske børnevaccinationsprogram" (edited 28 May 2026) with Tabel 1 (intervals); SSI vaccine pages (Pentavac 23 May 2025, Boostrix Polio 27 June 2024, Gardasil 9 11 February 2025) and "Rejsevaccination af børn". Retrieved 2026-10-18.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 3 months | DTP (diphtheria, tetanus, pertussis), dose 1; Polio, dose 1; Hib, dose 1; Pneumococcal (PCV), dose 1
+
+- At 5 months | DTP (diphtheria, tetanus, pertussis), dose 2; Polio, dose 2; Hib, dose 2; Pneumococcal (PCV), dose 2
+
+- At 12 months | DTP, dose 3; Polio, dose 3; Hib, dose 3; Pneumococcal (PCV), dose 3
+
+- At 15 months | MMR (MFR), dose 1
+
+- At 4 years | MMR (MFR), dose 2
+
+- At 5 years | DTP, booster (with polio); Polio, booster
+
+- At 12 years | HPV, dose 1 · recommended up to 13 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=denmark)
+
+## Sources
+
+- [retsinformation.dk › pdf](https://www.retsinformation.dk/eli/retsinfo/2025/9956/pdf)
+- [retsinformation.dk › pdf](https://www.retsinformation.dk/eli/lta/2025/1139/pdf)
+- [ssi.dk › boernevaccination](https://www.ssi.dk/vaccinationer/boernevaccination)
+- [ssi.dk › difteri-tetanus-kighoste-polio-hib-vaccine](https://www.ssi.dk/vaccinationer/vaccineleksikon/d/difteri-tetanus-kighoste-polio-hib-vaccine)
+- [ssi.dk › difteri-tetanus-kighoste-polio-vaccine-boostrix-polio](https://www.ssi.dk/vaccinationer/vaccineleksikon/d/difteri-tetanus-kighoste-polio-vaccine-boostrix-polio)
+- [ssi.dk › human-papillomavirus-vaccine-gardasil9](https://www.ssi.dk/vaccinationer/vaccineleksikon/h/human-papillomavirus-vaccine-gardasil9)
+- [rejse.ssi.dk › rejsevaccination-af-boern](https://rejse.ssi.dk/rejsevaccination-af-boern)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Finland vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/finland.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Finland
+
+# Vaccination schedule in Finland (2026)
+
+The childhood vaccination schedule in Finland by age, from Terveyden ja hyvinvoinnin laitos (THL, Finnish Institute for Health and Welfare) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Kansallinen rokotusohjelma (Finland): national vaccination programme for children and adolescents
+
+**Published by**
+Terveyden ja hyvinvoinnin laitos (THL, Finnish Institute for Health and Welfare)
+
+**Version**
+WHO Immunization Data, Finland vaccination schedule for 2025 (rows committed 19 May and 24 August 2026), cross-checked with THL's programme overview and THL professional guidance pages as quoted in search results (thl.fi blocked direct retrieval). Retrieved 2026-10-18.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 2 months | Rotavirus, dose 1
+
+- At 3 months | Rotavirus, dose 2; DTP (diphtheria, tetanus, pertussis), dose 1; Polio, dose 1; Hib, dose 1; Pneumococcal (PCV), dose 1
+
+- At 5 months | Rotavirus, dose 3; DTP (diphtheria, tetanus, pertussis), dose 2; Polio, dose 2; Hib, dose 2; Pneumococcal (PCV), dose 2
+
+- At 12 months | DTP, dose 3; Polio, dose 3; Hib, dose 3; Pneumococcal (PCV), dose 3; MMR (MPR), dose 1 · recommended up to 18 months
+
+- At 18 months | Chickenpox (varicella), dose 1
+
+- At 4 years | DTP, booster 1 (with polio); Polio, booster
+
+- At 6 years | MMR (as MMRV), dose 2; Chickenpox (as MMRV), dose 2
+
+- At 10 years | HPV, dose 1 · recommended up to 13 years
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 14 years | dtap, booster 2 (reduced dose) · recommended up to 16 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=finland)
+
+## Sources
+
+- [xmart-api-public.who.int › MT_AD_SCHEDULER](https://xmart-api-public.who.int/WIISE/MT_AD_SCHEDULER?$filter=ISO_3_CODE%20eq%20%27FIN%27)
+- [immunizationdata.who.int › vaccination-schedule-for-finland](https://immunizationdata.who.int/global/wiise-detail-page/vaccination-schedule-for-finland?ISO_3_CODE=FIN)
+- [thl.fi › finnish-national-vaccination-programme-which-vaccines-are-reco…](https://thl.fi/en/our-view/it-s-important-to-keep-vaccination-coverage-high/finnish-national-vaccination-programme-which-vaccines-are-recommended-for-different-age-groups-)
+- [thl.fi › rotavirusrokote](https://thl.fi/ohjeita-ammattilaisille/rotavirusrokote)
+- [thl.fi › viitosrokote-eli-dtap-ipv-hib-rokote](https://thl.fi/ohjeita-ammattilaisille/viitosrokote-eli-dtap-ipv-hib-rokote)
+- [thl.fi › pneumokokkikonjugaattirokote-eli-pcv](https://thl.fi/ohjeita-ammattilaisille/pneumokokkikonjugaattirokote-eli-pcv)
+- [thl.fi › hib-rokote](https://thl.fi/ohjeita-ammattilaisille/hib-rokote)
+- [thl.fi › mpr-eli-tuhkarokko-sikotauti-ja-vihurirokkorokote](https://thl.fi/ohjeita-ammattilaisille/mpr-eli-tuhkarokko-sikotauti-ja-vihurirokkorokote)
+- [thl.fi › vesirokkorokote](https://thl.fi/ohjeita-ammattilaisille/vesirokkorokote)
+- [thl.fi › nelosrokote-eli-dtap-ipv-rokote](https://thl.fi/ohjeita-ammattilaisille/nelosrokote-eli-dtap-ipv-rokote)
+- [thl.fi › hpv-rokote](https://thl.fi/ohjeita-ammattilaisille/hpv-rokote)
+- [thl.fi › maahanmuuttaneiden-rokotukset](https://thl.fi/ohjeita-ammattilaisille/maahanmuuttaneiden-rokotukset)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: United Kingdom vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/united-kingdom.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) United Kingdom
+
+# Vaccination schedule in the United Kingdom (2026)
+
+The childhood vaccination schedule in the United Kingdom by age, from UK Health Security Agency (UKHSA) and NHS England, on the advice of the Joint Committee on Vaccination and Immunisation (JCVI) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## UK NHS
+
+**Published by**
+UK Health Security Agency (UKHSA) and NHS England, on the advice of the Joint Committee on Vaccination and Immunisation (JCVI)
+
+**Version**
+Complete routine immunisation schedule from 1 September 2026 (UKHSA, updated 24 September 2026); children born on or after 1 January 2025
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 8 weeks | DTaP (6-in-1), dose 1; Injectable polio (6-in-1), dose 1; Hib (6-in-1), dose 1; Hepatitis B (6-in-1), dose 1; Meningococcal B, dose 1; Rotavirus, dose 1
+
+- At 12 weeks | DTaP (6-in-1), dose 2; Injectable polio (6-in-1), dose 2; Hib (6-in-1), dose 2; Hepatitis B (6-in-1), dose 2; Meningococcal B, dose 2; Rotavirus, dose 2
+
+- At 16 weeks | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV), dose 1
+
+- At 1 year | Pneumococcal (PCV), booster; Meningococcal B, booster; MMR (as MMRV), dose 1; Chickenpox (as MMRV), dose 1
+
+- At 18 months | DTaP (6-in-1), dose 4; Injectable polio (6-in-1), dose 4; Hib (6-in-1), booster; Hepatitis B (6-in-1), dose 4; MMR (as MMRV), dose 2; Chickenpox (as MMRV), dose 2
+
+- At 40 months | DTaP pre-school booster (4-in-1); Polio pre-school booster (4-in-1)
+
+- At 12 years | HPV, single dose · recommended up to 14 years
+
+- At 14 years | Td teenage booster (3-in-1) · recommended up to 15 years; Polio teenage booster (3-in-1) · recommended up to 15 years; Meningococcal ACWY · recommended up to 15 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=united-kingdom)
+
+## Sources
+
+- [gov.uk › the-complete-routine-immunisation-schedule](https://www.gov.uk/government/publications/the-complete-routine-immunisation-schedule)
+- [gov.uk › complete-routine-immunisation-schedule-from-1-july-2026](https://www.gov.uk/government/publications/the-complete-routine-immunisation-schedule/complete-routine-immunisation-schedule-from-1-july-2026)
+- [gov.uk › routine-childhood-immunisation-schedule](https://www.gov.uk/government/publications/routine-childhood-immunisation-schedule)
+- [gov.uk › childhood-schedule-changes-from-1-july-2025-information-for-he…](https://www.gov.uk/government/publications/childhood-schedule-changes-from-1-july-2025-information-for-healthcare-practitioners)
+- [gov.uk › mmrv-programme-information-for-healthcare-practitioners](https://www.gov.uk/government/publications/mmrv-programme-information-for-healthcare-practitioners)
+- [gov.uk › vaccination-of-individuals-with-uncertain-or-incomplete-immuni…](https://www.gov.uk/government/publications/vaccination-of-individuals-with-uncertain-or-incomplete-immunisation)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: France vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/france.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) France
+
+# Vaccination schedule in France (2026)
+
+The childhood vaccination schedule in France by age, from Ministère chargé de la santé (France), after the opinion of the Haute Autorité de santé ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Calendrier des vaccinations 2026 (France): enfants et adolescents
+
+**Published by**
+Ministère chargé de la santé (France), after the opinion of the Haute Autorité de santé
+
+**Version**
+Calendrier des vaccinations et recommandations vaccinales 2026, July 2026 edition (93 pages; file 2026_07_calendrier_vaccinal-2026_a4_93p_v11.pdf): tableau 4.1, section 2 chapters and catch-up tableau 4.5.1
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | RSV antibody (nirsevimab), first RSV season · optional
+
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Rotavirus, dose 1
+
+- At 3 months | Rotavirus, dose 2; Meningococcal B (MenB), dose 1
+
+- At 4 months | DTP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used
+
+- At 5 months | Meningococcal B (MenB), dose 2
+
+- At 6 months | Meningococcal ACWY, dose 1
+
+- At 11 months | DTP, booster 1; Injectable polio (IPV), booster 1; Hib, booster; Hepatitis B, dose 3; Pneumococcal (PCV), booster
+
+- At 12 months | MMR, dose 1; Meningococcal B (MenB), booster · recommended up to 15 months; Meningococcal ACWY, dose 2
+
+- At 16 months | MMR, dose 2 · recommended up to 18 months
+
+- At 6 years | DTP, booster 2; Injectable polio (IPV), booster 2
+
+- At 11 years | DTP, booster 3 (reduced-dose dTcaP) · recommended up to 13 years; Injectable polio (IPV), booster 3 · recommended up to 13 years; HPV, dose 1 · recommended up to 15 years; Meningococcal ACWY, adolescent dose · recommended up to 15 years
+
+- After an earlier dose | HPV, dose 2 · 5 months after the dose before
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=france)
+
+## Sources
+
+- [sante.gouv.fr › 2026_07_calendrier_vaccinal-2026_a4_93p_v11.pdf](https://sante.gouv.fr/IMG/pdf/2026_07_calendrier_vaccinal-2026_a4_93p_v11.pdf)
+- [sante.gouv.fr › calendrier-vaccinal](https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/vaccination/calendrier-vaccinal)
+- [sante.fr › le-calendrier-des-vaccinations](https://www.sante.fr/le-calendrier-des-vaccinations)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Italy vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/italy.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Italy
+
+# Vaccination schedule in Italy (2026)
+
+The childhood vaccination schedule in Italy by age, from Ministero della Salute (Italy); Intesa Governo, Regioni e Province autonome ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Calendario nazionale vaccinale, PNPV 2023–2025 (Italy): children and adolescents
+
+**Published by**
+Ministero della Salute (Italy); Intesa Governo, Regioni e Province autonome
+
+**Version**
+Calendario nazionale vaccinale, Intesa Rep. atti n. 193/CSR of 2 August 2023 (G.U. Serie Generale n. 194, 21 August 2023, pp. 62–65). PNPV 2023–2025 extended to 31 December 2026 by Intesa Rep. atti n. 243/CSR of 18 December 2025; no newer national calendar found on 18 October 2026.
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Rotavirus, dose 1 · recommended up to 5 months; Rotavirus, dose 2 · recommended up to 5 months; Rotavirus, dose 3 (three-dose vaccine only) · depends on the vaccine used · recommended up to 5 months
+
+- At 3 months | Meningococcal B (MenB), dose 1
+
+- At 4 months | DTP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2
+
+- At 5 months | Meningococcal B (MenB), dose 2
+
+- At 10 months | DTP, booster 1; Injectable polio (IPV), booster 1; Hib, booster; Hepatitis B, dose 3; Pneumococcal (PCV), booster
+
+- At 12 months | MMR, dose 1; Chickenpox (varicella), dose 1; Meningococcal ACWY
+
+- At 13 months | Meningococcal B (MenB), booster · recommended up to 15 months
+
+- At 5 years | DTP, booster 2; Injectable polio (IPV), booster 2; MMR, dose 2; Chickenpox (varicella), dose 2
+
+- At 11 years | HPV, dose 1
+
+- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+
+- At 12 years | DTP, booster 3 (adult-type dTaP) · recommended up to 18 years; Injectable polio (IPV), booster 3 · recommended up to 18 years; Meningococcal ACWY, adolescent dose · recommended up to 18 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=italy)
+
+## Sources
+
+- [gazzettaufficiale.it › pdf](https://www.gazzettaufficiale.it/eli/gu/2023/08/21/194/sg/pdf)
+- [trovanorme.salute.gov.it › dettaglioAtto](https://www.trovanorme.salute.gov.it/norme/dettaglioAtto?id=95963&completo=true)
+- [statoregioni.it › p-3-csr-atto-rep-n29-18marzo2026.pdf](https://www.statoregioni.it/media/eqpdiws2/p-3-csr-atto-rep-n29-18marzo2026.pdf)
+- [epicentro.iss.it › piano-nazionale-vaccini-2023-2025](https://www.epicentro.iss.it/vaccini/piano-nazionale-vaccini-2023-2025)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Spain](https://ayumitra.app/vaccines/spain.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: Spain vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/spain.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) Spain
+
+# Vaccination schedule in Spain (2026)
+
+The childhood vaccination schedule in Spain by age, from Consejo Interterritorial del Sistema Nacional de Salud; Ministerio de Sanidad (Spain) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## Calendario común de vacunación e inmunización 2026 (Spain): children and adolescents
+
+**Published by**
+Consejo Interterritorial del Sistema Nacional de Salud; Ministerio de Sanidad (Spain)
+
+**Version**
+Calendario común de vacunación e inmunización a lo largo de toda la vida, calendario recomendado año 2026, approved by the CISNS on 12 December 2025 (PDF dated December 2025). Rotavirus product details from the Ministry's "Recomendaciones de vacunación frente a rotavirus" (approved 18 January 2024, updated 29 February 2024).
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | RSV antibody (nirsevimab), first RSV season · optional
+
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 1; Hib, dose 1; Hepatitis B, dose 1; Pneumococcal (PCV), dose 1; Meningococcal B (MenB), dose 1; Rotavirus, dose 1 · recommended up to 6 months; Rotavirus, dose 2 · recommended up to 6 months; Rotavirus, dose 3 (RV5 courses only) · depends on the vaccine used · recommended up to 6 months
+
+- At 4 months | DTP (diphtheria, tetanus, pertussis), dose 2; Injectable polio (IPV), dose 2; Hib, dose 2; Hepatitis B, dose 2; Pneumococcal (PCV), dose 2; Meningococcal B (MenB), dose 2; Meningococcal C (MenC), dose 1
+
+- At 11 months | DTP, booster 1; Injectable polio (IPV), booster 1; Hib, booster; Hepatitis B, dose 3; Pneumococcal (PCV), booster
+
+- At 12 months | MMR, dose 1; Meningococcal B (MenB), booster; Meningococcal C (MenC), dose 2
+
+- At 15 months | Chickenpox (varicella), dose 1
+
+- At 3 years | MMR, dose 2 · recommended up to 5 years; Chickenpox (varicella), dose 2 · recommended up to 5 years
+
+- At 6 years | DTP, booster 2; Injectable polio (IPV), booster 2
+
+- At 12 years | HPV, single dose; Meningococcal ACWY, 12 years
+
+- At 14 years | Td (tetanus, diphtheria), 14 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=spain)
+
+## Sources
+
+- [sanidad.gob.es › CalendarioVacunacion_Todalavida.pdf](https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/docs/CalendarioVacunacion_Todalavida.pdf)
+- [sanidad.gob.es › home.htm](https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/home.htm)
+- [sanidad.gob.es › Rotavirus_Recomendaciones2024.pdf](https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/comoTrabajamos/docs/Rotavirus_Recomendaciones2024.pdf)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+- [Germany](https://ayumitra.app/vaccines/germany.md)
+- [Switzerland](https://ayumitra.app/vaccines/switzerland.md)
+- [Netherlands](https://ayumitra.app/vaccines/netherlands.md)
+- [Austria](https://ayumitra.app/vaccines/austria.md)
+- [Belgium](https://ayumitra.app/vaccines/belgium.md)
+- [Sweden](https://ayumitra.app/vaccines/sweden.md)
+- [Norway](https://ayumitra.app/vaccines/norway.md)
+- [Denmark](https://ayumitra.app/vaccines/denmark.md)
+- [Finland](https://ayumitra.app/vaccines/finland.md)
+- [United Kingdom](https://ayumitra.app/vaccines/united-kingdom.md)
+- [France](https://ayumitra.app/vaccines/france.md)
+- [Italy](https://ayumitra.app/vaccines/italy.md)
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)
+
+
+---
+
+Title: United States vaccination schedule (2026) · Ayumitra
+URL: https://ayumitra.app/vaccines/united-states.html
+
+[Home](https://ayumitra.app/index.md) [Vaccination schedules](https://ayumitra.app/vaccines/index.md) United States
+
+# Vaccination schedule in the United States (2026)
+
+The childhood vaccination schedule in the United States by age, from U.S. Centers for Disease Control and Prevention (CDC), Advisory Committee on Immunization Practices (ACIP) ([sources]). In Ayumitra you can choose it for each child.
+
+Last checked 18 October 2026.
+
+This page is general information, not medical advice. Follow your child’s doctor and your national vaccination programme.
+
+## USA CDC
+
+**Published by**
+U.S. Centers for Disease Control and Prevention (CDC), Advisory Committee on Immunization Practices (ACIP)
+
+**Version**
+Child and Adolescent Immunization Schedule by Age, Recommendations for Ages 18 Years or Younger, United States, 2025 (Addendum updated July 2, 2025); the version on cdc.gov on 18 October 2026
+
+**Last checked**
+18 October 2026
+
+- Age | Vaccines
+
+- At birth | Hepatitis B, birth dose
+
+- At 1 month | Hepatitis B, dose 2 · recommended up to 2 months
+
+- At 2 months | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Pneumococcal (PCV), dose 1; Injectable polio (IPV), dose 1
+
+- At 4 months | Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Pneumococcal (PCV), dose 2; Injectable polio (IPV), dose 2
+
+- At 6 months | Hepatitis B, dose 3 · recommended up to 18 months; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used; DTaP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3 (not needed after PedvaxHIB) · depends on the vaccine used; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 3 · recommended up to 18 months; Influenza, first season dose 1
+
+- After an earlier dose | Influenza, first season dose 2 (under 9 years) · 4 weeks after the dose before; HPV, dose 2 · 6 months after the dose before; Meningococcal B, dose 2 (shared decision) · optional · 6 months after the dose before
+
+- At 12 months | Hib, booster · recommended up to 15 months; Pneumococcal (PCV), dose 4 · recommended up to 15 months; MMR, dose 1 · recommended up to 15 months; Chickenpox (varicella), dose 1 · recommended up to 15 months; Hepatitis A, dose 1 · recommended up to 23 months
+
+- At 15 months | DTaP, dose 4 (booster) · recommended up to 18 months
+
+- At 18 months | Hepatitis A, dose 2 · recommended up to 23 months
+
+- At 4 years | DTaP, dose 5 (booster) · recommended up to 6 years; Injectable polio (IPV), dose 4 · recommended up to 6 years; MMR, dose 2 · recommended up to 6 years; Chickenpox (varicella), dose 2 · recommended up to 6 years
+
+- At 11 years | Tdap (adolescent booster) · recommended up to 12 years; HPV, dose 1 · recommended up to 12 years; Meningococcal ACWY, dose 1 · recommended up to 12 years
+
+- At 16 years | Meningococcal ACWY, dose 2 (booster); Meningococcal B, dose 1 (shared decision) · optional · recommended up to 18 years
+
+## Keep your child’s vaccines in Ayumitra
+
+Add your child, choose this schedule, and Ayumitra shows which vaccines are due and which are coming up. Record each dose when it’s given.
+
+**iPhone and iPad** Coming soon to the App Store
+
+[**Android** Get it on Google Play](https://play.google.com/store/apps/details?id=app.ayumitra.ayumitra&utm_source=ayumitra.app&utm_medium=vaccine_page&utm_campaign=united-states)
+
+## Sources
+
+- [cdc.gov › child-adolescent-age.html](https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-age.html)
+- [cdc.gov › child-adolescent-notes.html](https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-notes.html)
+- [cdc.gov › child-adolescent-catch-up.html](https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-catch-up.html)
+- [cdc.gov › child-adolescent-addendum.html](https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-addendum.html)
+- [cdc.gov › timing-spacing-immunobiologics.html](https://www.cdc.gov/vaccines/hcp/imz-best-practices/timing-spacing-immunobiologics.html)
+
+Checked against them on 18 October 2026.
+
+## Other countries
+
+[All 25 countries’ schedules](https://ayumitra.app/vaccines/index.md)

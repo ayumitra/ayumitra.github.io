@@ -4,8 +4,8 @@
 .ac-card { margin: 20px 0 24px; padding: 24px 22px 26px; border: 1px solid var(--line-strong); border-radius: 20px; background: var(--surface); max-width: 520px; }
 .ac-card [hidden] { display: none !important; }
 .ac-form { margin: 0; }
-.ac-step h3 { margin: 0 0 12px; font-family: var(--display); font-weight: 560; font-size: 22px; line-height: 1.2; }
-.ac-step h3:focus { outline: none; }
+.ac-step h2, .ac-step h3 { margin: 0 0 12px; font-family: var(--display); font-weight: 560; font-size: 22px; line-height: 1.2; }
+.ac-step h2:focus, .ac-step h3:focus { outline: none; }
 .ac-count { margin: 0 0 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
 .ac-step p { overflow-wrap: anywhere; }
 

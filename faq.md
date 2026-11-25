@@ -60,3 +60,5 @@ Only when you tap Import and allow it, the app reads your readings into the prof
 ## Is Ayumitra a medical device?
 
 No. It explains your records and helps you prepare for visits. It doesn’t diagnose or treat, and it never suggests a medicine or a dose. In an emergency, call your local emergency number.
+
+See [how Ayumitra checks every answer](https://ayumitra.app/safety.md).
