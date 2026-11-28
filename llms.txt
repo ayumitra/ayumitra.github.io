@@ -11,7 +11,7 @@ Key facts, as of the pages linked below:
 - **Languages:** English, Hindi, German, French, Spanish and Dutch: screens, reminders and answers.
 - **Privacy:** there's no account and no Ayumitra server holding health records. Records, photos and conversations are kept in an encrypted vault on the phone. Cloud AI (OpenAI, Anthropic, Google Gemini or OpenRouter, with the person's own key) stays off until they agree and turn it on; family names are swapped for made-up ones first. Health Connect and Apple Health are read only.
 - **Safety:** the app checks every question before and after the AI answers. Warning signs get an urgent-care card with the country's emergency number; thoughts of self-harm get the country's crisis line. Doses, and advice to start, stop or change a medicine, are taken out of answers. The checks lower the risk; they can't catch everything.
-- **Contact:** support@ayumitra.app.
+- **Contact:** support@ayumitra.app. On X: [@ayumitraai](https://x.com/ayumitraai).
 
 Each page below is also available as plain Markdown: add `.md` to its address, as in the links. Every page is in one file at https://ayumitra.app/llms-full.txt.
 

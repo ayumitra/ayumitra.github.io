@@ -38,9 +38,7 @@ HSLF-FS 2016:51 consolidated with HSLF-FS 2019:17 and 2020:25 (in force from 1 A
 
 - At 7 years | MMR (MPR), dose 2 · recommended up to 9 years
 
-- At 11 years | HPV, dose 1 · recommended up to 12 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 14 years | dTp, dose 5 (reduced-dose booster) · recommended up to 16 years
 

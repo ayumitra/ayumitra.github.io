@@ -26,19 +26,17 @@ Thông tư 52/2025/TT-BYT ban hành danh mục bệnh truyền nhiễm, đối t
 
 - At birth | Hepatitis B, birth dose; BCG · recommended up to 1 month
 
-- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1 · only in some areas
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1 · only in some areas; Pneumococcal (PCV), dose 2 · only in some areas · 2 months after Pneumococcal (PCV), dose 1
 
 - At 3 months | DTP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Hepatitis B, dose 2; Oral polio (OPV), dose 2; Rotavirus, dose 2
 
 - At 4 months | DTP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3; Hepatitis B, dose 3; Oral polio (OPV), dose 3
 
-- After an earlier dose | Pneumococcal (PCV), dose 2 · only in some areas · 2 months after the dose before; Japanese encephalitis (JE), dose 2 · 1 week after the dose before
-
 - At 5 months | Injectable polio (IPV), dose 1
 
 - At 9 months | Measles, dose 1; Injectable polio (IPV), dose 2
 
-- At 1 year | Japanese encephalitis (JE), dose 1
+- At 1 year | Japanese encephalitis (JE), dose 1; Japanese encephalitis (JE), dose 2 · 1 week after Japanese encephalitis (JE), dose 1
 
 - At 18 months | DTP, booster 1; MR (measles-rubella)
 

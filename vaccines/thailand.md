@@ -30,9 +30,7 @@ Department of Disease Control (กรมควบคุมโรค), Ministry o
 
 - At 4 months | DTP (DTP-HB-Hib), dose 2; Hib (DTP-HB-Hib), dose 2; Hepatitis B (DTP-HB-Hib), dose 3; Injectable polio (IPV), dose 2; Rotavirus, dose 2; Pneumococcal (PCV), dose 2
 
-- At 6 months | DTP (DTP-HB-Hib), dose 3; Hib (DTP-HB-Hib), dose 3; Hepatitis B (DTP-HB-Hib), dose 4; Oral polio (OPV), polio dose 3; Rotavirus, dose 3 (not after Rotarix) · depends on the vaccine used; Influenza, first season dose 1 · recommended up to 5 years
-
-- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before; HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 6 months | DTP (DTP-HB-Hib), dose 3; Hib (DTP-HB-Hib), dose 3; Hepatitis B (DTP-HB-Hib), dose 4; Oral polio (OPV), polio dose 3; Rotavirus, dose 3 (not after Rotarix) · depends on the vaccine used; Influenza, first season dose 1 · recommended up to 5 years; Influenza, first season dose 2 · 4 weeks after Influenza, first season dose 1
 
 - At 9 months | MMR, dose 1 · recommended up to 12 months
 
@@ -44,7 +42,7 @@ Department of Disease Control (กรมควบคุมโรค), Ministry o
 
 - At 4 years | DTP, dose 5 (booster) · recommended up to 6 years; Oral polio (OPV), polio dose 5 · recommended up to 6 years
 
-- At 10 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years
+- At 10 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls)
 
 - At 11 years | dT (tetanus and adult-type diphtheria) · recommended up to 13 years
 

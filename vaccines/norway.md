@@ -38,9 +38,7 @@ FHI Vaksinasjonshåndboka: "Barnevaksinasjonsprogrammet" (last changed 16.06.202
 
 - At 11 years | MMR, dose 2 · recommended up to 12 years
 
-- At 12 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 12 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 15 years | dTP, booster 2 (reduced dose, with polio) · recommended up to 16 years; Polio, booster 2 · recommended up to 16 years
 

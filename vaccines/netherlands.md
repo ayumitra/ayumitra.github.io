@@ -38,9 +38,7 @@ RVP vaccination schedule from 2025 (Gezondheidsraad advice); professional guidel
 
 - At 5 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 6 years
 
-- At 9 years | HPV, dose 1 · recommended up to 11 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 9 years | HPV, dose 1 · recommended up to 11 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 13 years | Meningococcal ACWY, teenager · recommended up to 15 years
 

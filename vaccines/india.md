@@ -48,9 +48,7 @@ Indian Academy of Pediatrics, Advisory Committee on Vaccines and Immunization Pr
 
 - At 4 years | DTP, booster 2 · recommended up to 6 years; Injectable polio (IPV), booster 2 · recommended up to 6 years; MMR, dose 3 · recommended up to 6 years
 
-- At 9 years | HPV, dose 1 · recommended up to 15 years
-
-- After an earlier dose | HPV, dose 2 (boys) · for boys · 6 months after the dose before
+- At 9 years | HPV, dose 1 · recommended up to 15 years; HPV, dose 2 (boys) · for boys · 6 months after HPV, dose 1
 
 - At 10 years | Tdap · recommended up to 12 years
 

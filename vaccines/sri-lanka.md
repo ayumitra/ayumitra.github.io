@@ -42,9 +42,7 @@ Epidemiology Unit, Ministry of Health, Sri Lanka
 
 - At 5 years | Oral polio (OPV), dose 5; DT (diphtheria-tetanus), dose 5
 
-- At 10 years | HPV, dose 1 (girls, Grade 6) · for girls
-
-- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 10 years | HPV, dose 1 (girls, Grade 6) · for girls; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls, Grade 6)
 
 - At 11 years | aTd (adult tetanus-diphtheria), Grade 7
 

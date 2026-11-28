@@ -44,9 +44,7 @@ Calendrier des vaccinations et recommandations vaccinales 2026, July 2026 editio
 
 - At 6 years | DTP, booster 2; Injectable polio (IPV), booster 2
 
-- At 11 years | DTP, booster 3 (reduced-dose dTcaP) · recommended up to 13 years; Injectable polio (IPV), booster 3 · recommended up to 13 years; HPV, dose 1 · recommended up to 15 years; Meningococcal ACWY, adolescent dose · recommended up to 15 years
-
-- After an earlier dose | HPV, dose 2 · 5 months after the dose before
+- At 11 years | DTP, booster 3 (reduced-dose dTcaP) · recommended up to 13 years; Injectable polio (IPV), booster 3 · recommended up to 13 years; HPV, dose 1 · recommended up to 15 years; HPV, dose 2 · 5 months after HPV, dose 1; Meningococcal ACWY, adolescent dose · recommended up to 15 years
 
 ## Keep your child’s vaccines in Ayumitra
 

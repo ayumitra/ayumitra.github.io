@@ -40,9 +40,7 @@ Calendario nazionale vaccinale, Intesa Rep. atti n. 193/CSR of 2 August 2023 (G.
 
 - At 5 years | DTP, booster 2; Injectable polio (IPV), booster 2; MMR, dose 2; Chickenpox (varicella), dose 2
 
-- At 11 years | HPV, dose 1
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 12 years | DTP, booster 3 (adult-type dTaP) · recommended up to 18 years; Injectable polio (IPV), booster 3 · recommended up to 18 years; Meningococcal ACWY, adolescent dose · recommended up to 18 years
 

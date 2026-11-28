@@ -32,9 +32,7 @@ Child and Adolescent Immunization Schedule by Age, Recommendations for Ages 18 Y
 
 - At 4 months | Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Pneumococcal (PCV), dose 2; Injectable polio (IPV), dose 2
 
-- At 6 months | Hepatitis B, dose 3 · recommended up to 18 months; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used; DTaP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3 (not needed after PedvaxHIB) · depends on the vaccine used; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 3 · recommended up to 18 months; Influenza, first season dose 1
-
-- After an earlier dose | Influenza, first season dose 2 (under 9 years) · 4 weeks after the dose before; HPV, dose 2 · 6 months after the dose before; Meningococcal B, dose 2 (shared decision) · optional · 6 months after the dose before
+- At 6 months | Hepatitis B, dose 3 · recommended up to 18 months; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used; DTaP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3 (not needed after PedvaxHIB) · depends on the vaccine used; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 3 · recommended up to 18 months; Influenza, first season dose 1; Influenza, first season dose 2 (under 9 years) · 4 weeks after Influenza, first season dose 1
 
 - At 12 months | Hib, booster · recommended up to 15 months; Pneumococcal (PCV), dose 4 · recommended up to 15 months; MMR, dose 1 · recommended up to 15 months; Chickenpox (varicella), dose 1 · recommended up to 15 months; Hepatitis A, dose 1 · recommended up to 23 months
 
@@ -44,9 +42,9 @@ Child and Adolescent Immunization Schedule by Age, Recommendations for Ages 18 Y
 
 - At 4 years | DTaP, dose 5 (booster) · recommended up to 6 years; Injectable polio (IPV), dose 4 · recommended up to 6 years; MMR, dose 2 · recommended up to 6 years; Chickenpox (varicella), dose 2 · recommended up to 6 years
 
-- At 11 years | Tdap (adolescent booster) · recommended up to 12 years; HPV, dose 1 · recommended up to 12 years; Meningococcal ACWY, dose 1 · recommended up to 12 years
+- At 11 years | Tdap (adolescent booster) · recommended up to 12 years; HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1; Meningococcal ACWY, dose 1 · recommended up to 12 years
 
-- At 16 years | Meningococcal ACWY, dose 2 (booster); Meningococcal B, dose 1 (shared decision) · optional · recommended up to 18 years
+- At 16 years | Meningococcal ACWY, dose 2 (booster); Meningococcal B, dose 1 (shared decision) · optional · recommended up to 18 years; Meningococcal B, dose 2 (shared decision) · optional · 6 months after Meningococcal B, dose 1 (shared decision)
 
 ## Keep your child’s vaccines in Ayumitra
 

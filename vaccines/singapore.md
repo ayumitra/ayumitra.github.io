@@ -30,9 +30,7 @@ National Childhood Immunisation Schedule (from birth to age 17 years), updated 1
 
 - At 4 months | DTaP (5-in-1), dose 2; Injectable polio (5-in-1), dose 2; Hib (5-in-1), dose 2; Pneumococcal (PCV13), dose 1
 
-- At 6 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV13), dose 2; Influenza, first season dose 1 · recommended up to 5 years
-
-- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before
+- At 6 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV13), dose 2; Influenza, first season dose 1 · recommended up to 5 years; Influenza, first season dose 2 · 4 weeks after Influenza, first season dose 1
 
 - At 12 months | Pneumococcal (PCV13), booster; MMR, dose 1; Chickenpox (varicella), dose 1
 

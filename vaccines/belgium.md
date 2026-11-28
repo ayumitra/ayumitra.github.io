@@ -38,9 +38,7 @@ Advice 9761 "Calendrier vaccinal de base (2025)", validated 3 December 2025, pub
 
 - At 7 years | MMR, dose 2 · recommended up to 9 years
 
-- At 11 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 15 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 16 years; Meningococcal ACWY, adolescent · recommended up to 16 years
 

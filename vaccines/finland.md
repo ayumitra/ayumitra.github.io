@@ -38,9 +38,7 @@ WHO Immunization Data, Finland vaccination schedule for 2025 (rows committed 19 
 
 - At 6 years | MMR (as MMRV), dose 2; Chickenpox (as MMRV), dose 2
 
-- At 10 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 10 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 14 years | dtap, booster 2 (reduced dose) · recommended up to 16 years
 

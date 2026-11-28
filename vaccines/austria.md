@@ -24,11 +24,9 @@ Impfplan Österreich 2026/2027, Version 1.1 of 14 October 2026 (Version 1.0 of 1
 
 - Age | Vaccines
 
-- At 6 weeks | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1 · recommended up to 3 months; Injectable polio (IPV), dose 1 · recommended up to 3 months; Hib, dose 1 · recommended up to 3 months; Hepatitis B, dose 1 · recommended up to 3 months; Pneumococcal (PCV), dose 1
+- At 6 weeks | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1 · recommended up to 3 months; Injectable polio (IPV), dose 1 · recommended up to 3 months; Hib, dose 1 · recommended up to 3 months; Hepatitis B, dose 1 · recommended up to 3 months; Pneumococcal (PCV), dose 1; Rotavirus, dose 2 · 4 weeks after Rotavirus, dose 1; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used · 4 weeks after Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 2 · 2 months after DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 2 · 2 months after Injectable polio (IPV), dose 1; Hib, dose 2 · 2 months after Hib, dose 1; Hepatitis B, dose 2 · 2 months after Hepatitis B, dose 1; Pneumococcal (PCV), dose 2 · 8 weeks after Pneumococcal (PCV), dose 1
 
-- After an earlier dose | Rotavirus, dose 2 · 4 weeks after the dose before; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used · 4 weeks after the dose before; DTaP (diphtheria, tetanus, pertussis), dose 2 · 2 months after the dose before; Injectable polio (IPV), dose 2 · 2 months after the dose before; Hib, dose 2 · 2 months after the dose before; Hepatitis B, dose 2 · 2 months after the dose before; Pneumococcal (PCV), dose 2 · 8 weeks after the dose before; Meningococcal B (MenB), dose 2 · 2 months after the dose before; Chickenpox (varicella), dose 2 · 6 weeks after the dose before; Tick-borne encephalitis (TBE), dose 2 · 1 month after the dose before; Tick-borne encephalitis (TBE), dose 3 · 5 months after the dose before; Tick-borne encephalitis (TBE), booster 1 · 3 years after the dose before; Tick-borne encephalitis (TBE), booster 2 · 5 years after the dose before; Tick-borne encephalitis (TBE), booster 3 · 5 years after the dose before; HPV, dose 2 · 6 months after the dose before
-
-- At 2 months | Meningococcal B (MenB), dose 1
+- At 2 months | Meningococcal B (MenB), dose 1; Meningococcal B (MenB), dose 2 · 2 months after Meningococcal B (MenB), dose 1
 
 - At 9 months | MMR, dose 1
 
@@ -36,13 +34,13 @@ Impfplan Österreich 2026/2027, Version 1.1 of 14 October 2026 (Version 1.0 of 1
 
 - At 11 months | Pneumococcal (PCV), dose 3 · recommended up to 15 months
 
-- At 12 months | MMR, dose 2; Meningococcal B (MenB), dose 3 · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 13 months; Chickenpox (varicella), dose 1 · recommended up to 2 years; Tick-borne encephalitis (TBE), dose 1
+- At 12 months | MMR, dose 2; Meningococcal B (MenB), dose 3 · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 13 months; Chickenpox (varicella), dose 1 · recommended up to 2 years; Chickenpox (varicella), dose 2 · 6 weeks after Chickenpox (varicella), dose 1; Tick-borne encephalitis (TBE), dose 1; Tick-borne encephalitis (TBE), dose 2 · 1 month after Tick-borne encephalitis (TBE), dose 1; Tick-borne encephalitis (TBE), dose 3 · 5 months after Tick-borne encephalitis (TBE), dose 2; Tick-borne encephalitis (TBE), booster 1 · 3 years after Tick-borne encephalitis (TBE), dose 3; Tick-borne encephalitis (TBE), booster 2 · 5 years after Tick-borne encephalitis (TBE), booster 1; Tick-borne encephalitis (TBE), booster 3 · 5 years after Tick-borne encephalitis (TBE), booster 2
 
 - At 5 years | Tdap-IPV booster 1 (diphtheria, tetanus, pertussis) · recommended up to 6 years; Injectable polio (IPV), booster 1 · recommended up to 6 years
 
 - At 7 years | Hepatitis B, booster · recommended up to 15 years
 
-- At 9 years | HPV, dose 1 · recommended up to 12 years
+- At 9 years | HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 10 years | Tdap-IPV booster 2 (diphtheria, tetanus, pertussis) · recommended up to 15 years; Injectable polio (IPV), booster 2 · recommended up to 15 years; Meningococcal ACWY, school age · recommended up to 13 years
 

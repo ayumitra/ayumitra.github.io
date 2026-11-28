@@ -36,9 +36,7 @@ Vejledning om gratis vaccination mod visse smitsomme sygdomme m.v., VEJ nr 9956 
 
 - At 5 years | DTP, booster (with polio); Polio, booster
 
-- At 12 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 12 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 ## Keep your child’s vaccines in Ayumitra
 

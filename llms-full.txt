@@ -11,7 +11,7 @@ Key facts, as of the pages linked below:
 - **Languages:** English, Hindi, German, French, Spanish and Dutch: screens, reminders and answers.
 - **Privacy:** there's no account and no Ayumitra server holding health records. Records, photos and conversations are kept in an encrypted vault on the phone. Cloud AI (OpenAI, Anthropic, Google Gemini or OpenRouter, with the person's own key) stays off until they agree and turn it on; family names are swapped for made-up ones first. Health Connect and Apple Health are read only.
 - **Safety:** the app checks every question before and after the AI answers. Warning signs get an urgent-care card with the country's emergency number; thoughts of self-harm get the country's crisis line. Doses, and advice to start, stop or change a medicine, are taken out of answers. The checks lower the risk; they can't catch everything.
-- **Contact:** support@ayumitra.app.
+- **Contact:** support@ayumitra.app. On X: [@ayumitraai](https://x.com/ayumitraai).
 
 Each page below is also available as plain Markdown: add `.md` to its address, as in the links. Every page is in one file at https://ayumitra.app/llms-full.txt.
 
@@ -1289,6 +1289,8 @@ Ayumitra Pro is one plan, sold in the app. For everything else, such as Pro for 
 
 A question about using the app? Simply email [support@ayumitra.app](mailto:support@ayumitra.app).
 
+We’re also on X: [@ayumitraai](https://x.com/ayumitraai). Please don’t share health details there.
+
 This form needs JavaScript. Without it, write to [support@ayumitra.app](mailto:support@ayumitra.app).
 
 
@@ -1578,9 +1580,7 @@ Indian Academy of Pediatrics, Advisory Committee on Vaccines and Immunization Pr
 
 - At 4 years | DTP, booster 2 · recommended up to 6 years; Injectable polio (IPV), booster 2 · recommended up to 6 years; MMR, dose 3 · recommended up to 6 years
 
-- At 9 years | HPV, dose 1 · recommended up to 15 years
-
-- After an earlier dose | HPV, dose 2 (boys) · for boys · 6 months after the dose before
+- At 9 years | HPV, dose 1 · recommended up to 15 years; HPV, dose 2 (boys) · for boys · 6 months after HPV, dose 1
 
 - At 10 years | Tdap · recommended up to 12 years
 
@@ -1844,9 +1844,7 @@ Epidemiology Unit, Ministry of Health, Sri Lanka
 
 - At 5 years | Oral polio (OPV), dose 5; DT (diphtheria-tetanus), dose 5
 
-- At 10 years | HPV, dose 1 (girls, Grade 6) · for girls
-
-- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 10 years | HPV, dose 1 (girls, Grade 6) · for girls; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls, Grade 6)
 
 - At 11 years | aTd (adult tetanus-diphtheria), Grade 7
 
@@ -1984,9 +1982,7 @@ Department of Disease Control (กรมควบคุมโรค), Ministry o
 
 - At 4 months | DTP (DTP-HB-Hib), dose 2; Hib (DTP-HB-Hib), dose 2; Hepatitis B (DTP-HB-Hib), dose 3; Injectable polio (IPV), dose 2; Rotavirus, dose 2; Pneumococcal (PCV), dose 2
 
-- At 6 months | DTP (DTP-HB-Hib), dose 3; Hib (DTP-HB-Hib), dose 3; Hepatitis B (DTP-HB-Hib), dose 4; Oral polio (OPV), polio dose 3; Rotavirus, dose 3 (not after Rotarix) · depends on the vaccine used; Influenza, first season dose 1 · recommended up to 5 years
-
-- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before; HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 6 months | DTP (DTP-HB-Hib), dose 3; Hib (DTP-HB-Hib), dose 3; Hepatitis B (DTP-HB-Hib), dose 4; Oral polio (OPV), polio dose 3; Rotavirus, dose 3 (not after Rotarix) · depends on the vaccine used; Influenza, first season dose 1 · recommended up to 5 years; Influenza, first season dose 2 · 4 weeks after Influenza, first season dose 1
 
 - At 9 months | MMR, dose 1 · recommended up to 12 months
 
@@ -1998,7 +1994,7 @@ Department of Disease Control (กรมควบคุมโรค), Ministry o
 
 - At 4 years | DTP, dose 5 (booster) · recommended up to 6 years; Oral polio (OPV), polio dose 5 · recommended up to 6 years
 
-- At 10 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years
+- At 10 years | HPV, dose 1 (girls) · for girls · recommended up to 13 years; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls)
 
 - At 11 years | dT (tetanus and adult-type diphtheria) · recommended up to 13 years
 
@@ -2154,9 +2150,7 @@ National Childhood Immunisation Schedule (from birth to age 17 years), updated 1
 
 - At 4 months | DTaP (5-in-1), dose 2; Injectable polio (5-in-1), dose 2; Hib (5-in-1), dose 2; Pneumococcal (PCV13), dose 1
 
-- At 6 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV13), dose 2; Influenza, first season dose 1 · recommended up to 5 years
-
-- After an earlier dose | Influenza, first season dose 2 · 4 weeks after the dose before
+- At 6 months | DTaP (6-in-1), dose 3; Injectable polio (6-in-1), dose 3; Hib (6-in-1), dose 3; Hepatitis B (6-in-1), dose 3; Pneumococcal (PCV13), dose 2; Influenza, first season dose 1 · recommended up to 5 years; Influenza, first season dose 2 · 4 weeks after Influenza, first season dose 1
 
 - At 12 months | Pneumococcal (PCV13), booster; MMR, dose 1; Chickenpox (varicella), dose 1
 
@@ -2320,9 +2314,7 @@ Schedule reported by the Philippines for 2025 (WHO/UNICEF Joint Reporting Form),
 
 - At 6 years | MR (measles-rubella), grade 1 · recommended up to 8 years; Td (tetanus and adult diphtheria), grade 1 · recommended up to 8 years
 
-- At 9 years | HPV, dose 1 (girls) · for girls · recommended up to 10 years
-
-- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 9 years | HPV, dose 1 (girls) · for girls · recommended up to 10 years; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls)
 
 - At 12 years | MR (measles-rubella), grade 7 · recommended up to 14 years; Td (tetanus and adult diphtheria), grade 7 · recommended up to 14 years
 
@@ -2383,19 +2375,17 @@ Thông tư 52/2025/TT-BYT ban hành danh mục bệnh truyền nhiễm, đối t
 
 - At birth | Hepatitis B, birth dose; BCG · recommended up to 1 month
 
-- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1 · only in some areas
+- At 2 months | DTP (diphtheria, tetanus, pertussis), dose 1; Hib, dose 1; Hepatitis B, dose 1; Oral polio (OPV), dose 1; Rotavirus, dose 1; Pneumococcal (PCV), dose 1 · only in some areas; Pneumococcal (PCV), dose 2 · only in some areas · 2 months after Pneumococcal (PCV), dose 1
 
 - At 3 months | DTP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Hepatitis B, dose 2; Oral polio (OPV), dose 2; Rotavirus, dose 2
 
 - At 4 months | DTP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3; Hepatitis B, dose 3; Oral polio (OPV), dose 3
 
-- After an earlier dose | Pneumococcal (PCV), dose 2 · only in some areas · 2 months after the dose before; Japanese encephalitis (JE), dose 2 · 1 week after the dose before
-
 - At 5 months | Injectable polio (IPV), dose 1
 
 - At 9 months | Measles, dose 1; Injectable polio (IPV), dose 2
 
-- At 1 year | Japanese encephalitis (JE), dose 1
+- At 1 year | Japanese encephalitis (JE), dose 1; Japanese encephalitis (JE), dose 2 · 1 week after Japanese encephalitis (JE), dose 1
 
 - At 18 months | DTP, booster 1; MR (measles-rubella)
 
@@ -2554,13 +2544,11 @@ Schweizerischer Impfplan 2026, Stand Februar 2026 (published 23 February 2026; c
 
 - At 12 months | DTaP (diphtheria, tetanus, pertussis), dose 3; Injectable polio (IPV), dose 3; Hib, dose 3; Hepatitis B, dose 3; Pneumococcal (PCV), dose 3; MMR, dose 2; Chickenpox (varicella), dose 2; Meningococcal B (MenB), dose 3 (complementary) · optional · recommended up to 18 months; Meningococcal ACWY, small child (complementary) · optional · recommended up to 18 months
 
-- At 3 years | Tick-borne encephalitis (TBE), dose 1 (risk areas) · only in some areas
-
-- After an earlier dose | Tick-borne encephalitis (TBE), dose 2 (risk areas) · only in some areas · 1 month after the dose before; Tick-borne encephalitis (TBE), dose 3 (risk areas) · only in some areas · 6 months after the dose before; Tick-borne encephalitis (TBE), booster (risk areas) · only in some areas · 10 years after the dose before; HPV, dose 2 · 6 months after the dose before
+- At 3 years | Tick-borne encephalitis (TBE), dose 1 (risk areas) · only in some areas; Tick-borne encephalitis (TBE), dose 2 (risk areas) · only in some areas · 1 month after Tick-borne encephalitis (TBE), dose 1 (risk areas); Tick-borne encephalitis (TBE), dose 3 (risk areas) · only in some areas · 6 months after Tick-borne encephalitis (TBE), dose 2 (risk areas); Tick-borne encephalitis (TBE), booster (risk areas) · only in some areas · 10 years after Tick-borne encephalitis (TBE), dose 3 (risk areas)
 
 - At 4 years | DTaP-IPV booster (diphtheria, tetanus, pertussis) · recommended up to 7 years; Injectable polio (IPV), booster · recommended up to 7 years
 
-- At 11 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 15 years; HPV, dose 1 · recommended up to 14 years; Meningococcal ACWY, adolescent (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 1 (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 2 (complementary) · optional · recommended up to 15 years
+- At 11 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 15 years; HPV, dose 1 · recommended up to 14 years; HPV, dose 2 · 6 months after HPV, dose 1; Meningococcal ACWY, adolescent (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 1 (complementary) · optional · recommended up to 15 years; Meningococcal B (MenB), adolescent dose 2 (complementary) · optional · recommended up to 15 years
 
 ## Keep your child’s vaccines in Ayumitra
 
@@ -2638,9 +2626,7 @@ RVP vaccination schedule from 2025 (Gezondheidsraad advice); professional guidel
 
 - At 5 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 6 years
 
-- At 9 years | HPV, dose 1 · recommended up to 11 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 9 years | HPV, dose 1 · recommended up to 11 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 13 years | Meningococcal ACWY, teenager · recommended up to 15 years
 
@@ -2709,11 +2695,9 @@ Impfplan Österreich 2026/2027, Version 1.1 of 14 October 2026 (Version 1.0 of 1
 
 - Age | Vaccines
 
-- At 6 weeks | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1 · recommended up to 3 months; Injectable polio (IPV), dose 1 · recommended up to 3 months; Hib, dose 1 · recommended up to 3 months; Hepatitis B, dose 1 · recommended up to 3 months; Pneumococcal (PCV), dose 1
+- At 6 weeks | Rotavirus, dose 1; DTaP (diphtheria, tetanus, pertussis), dose 1 · recommended up to 3 months; Injectable polio (IPV), dose 1 · recommended up to 3 months; Hib, dose 1 · recommended up to 3 months; Hepatitis B, dose 1 · recommended up to 3 months; Pneumococcal (PCV), dose 1; Rotavirus, dose 2 · 4 weeks after Rotavirus, dose 1; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used · 4 weeks after Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 2 · 2 months after DTaP (diphtheria, tetanus, pertussis), dose 1; Injectable polio (IPV), dose 2 · 2 months after Injectable polio (IPV), dose 1; Hib, dose 2 · 2 months after Hib, dose 1; Hepatitis B, dose 2 · 2 months after Hepatitis B, dose 1; Pneumococcal (PCV), dose 2 · 8 weeks after Pneumococcal (PCV), dose 1
 
-- After an earlier dose | Rotavirus, dose 2 · 4 weeks after the dose before; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used · 4 weeks after the dose before; DTaP (diphtheria, tetanus, pertussis), dose 2 · 2 months after the dose before; Injectable polio (IPV), dose 2 · 2 months after the dose before; Hib, dose 2 · 2 months after the dose before; Hepatitis B, dose 2 · 2 months after the dose before; Pneumococcal (PCV), dose 2 · 8 weeks after the dose before; Meningococcal B (MenB), dose 2 · 2 months after the dose before; Chickenpox (varicella), dose 2 · 6 weeks after the dose before; Tick-borne encephalitis (TBE), dose 2 · 1 month after the dose before; Tick-borne encephalitis (TBE), dose 3 · 5 months after the dose before; Tick-borne encephalitis (TBE), booster 1 · 3 years after the dose before; Tick-borne encephalitis (TBE), booster 2 · 5 years after the dose before; Tick-borne encephalitis (TBE), booster 3 · 5 years after the dose before; HPV, dose 2 · 6 months after the dose before
-
-- At 2 months | Meningococcal B (MenB), dose 1
+- At 2 months | Meningococcal B (MenB), dose 1; Meningococcal B (MenB), dose 2 · 2 months after Meningococcal B (MenB), dose 1
 
 - At 9 months | MMR, dose 1
 
@@ -2721,13 +2705,13 @@ Impfplan Österreich 2026/2027, Version 1.1 of 14 October 2026 (Version 1.0 of 1
 
 - At 11 months | Pneumococcal (PCV), dose 3 · recommended up to 15 months
 
-- At 12 months | MMR, dose 2; Meningococcal B (MenB), dose 3 · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 13 months; Chickenpox (varicella), dose 1 · recommended up to 2 years; Tick-borne encephalitis (TBE), dose 1
+- At 12 months | MMR, dose 2; Meningococcal B (MenB), dose 3 · recommended up to 15 months; Meningococcal ACWY, small child · recommended up to 13 months; Chickenpox (varicella), dose 1 · recommended up to 2 years; Chickenpox (varicella), dose 2 · 6 weeks after Chickenpox (varicella), dose 1; Tick-borne encephalitis (TBE), dose 1; Tick-borne encephalitis (TBE), dose 2 · 1 month after Tick-borne encephalitis (TBE), dose 1; Tick-borne encephalitis (TBE), dose 3 · 5 months after Tick-borne encephalitis (TBE), dose 2; Tick-borne encephalitis (TBE), booster 1 · 3 years after Tick-borne encephalitis (TBE), dose 3; Tick-borne encephalitis (TBE), booster 2 · 5 years after Tick-borne encephalitis (TBE), booster 1; Tick-borne encephalitis (TBE), booster 3 · 5 years after Tick-borne encephalitis (TBE), booster 2
 
 - At 5 years | Tdap-IPV booster 1 (diphtheria, tetanus, pertussis) · recommended up to 6 years; Injectable polio (IPV), booster 1 · recommended up to 6 years
 
 - At 7 years | Hepatitis B, booster · recommended up to 15 years
 
-- At 9 years | HPV, dose 1 · recommended up to 12 years
+- At 9 years | HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 10 years | Tdap-IPV booster 2 (diphtheria, tetanus, pertussis) · recommended up to 15 years; Injectable polio (IPV), booster 2 · recommended up to 15 years; Meningococcal ACWY, school age · recommended up to 13 years
 
@@ -2807,9 +2791,7 @@ Advice 9761 "Calendrier vaccinal de base (2025)", validated 3 December 2025, pub
 
 - At 7 years | MMR, dose 2 · recommended up to 9 years
 
-- At 11 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 15 years | Tdap booster (diphtheria, tetanus, pertussis) · recommended up to 16 years; Meningococcal ACWY, adolescent · recommended up to 16 years
 
@@ -2892,9 +2874,7 @@ HSLF-FS 2016:51 consolidated with HSLF-FS 2019:17 and 2020:25 (in force from 1 A
 
 - At 7 years | MMR (MPR), dose 2 · recommended up to 9 years
 
-- At 11 years | HPV, dose 1 · recommended up to 12 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 14 years | dTp, dose 5 (reduced-dose booster) · recommended up to 16 years
 
@@ -2975,9 +2955,7 @@ FHI Vaksinasjonshåndboka: "Barnevaksinasjonsprogrammet" (last changed 16.06.202
 
 - At 11 years | MMR, dose 2 · recommended up to 12 years
 
-- At 12 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 12 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 15 years | dTP, booster 2 (reduced dose, with polio) · recommended up to 16 years; Polio, booster 2 · recommended up to 16 years
 
@@ -3057,9 +3035,7 @@ Vejledning om gratis vaccination mod visse smitsomme sygdomme m.v., VEJ nr 9956 
 
 - At 5 years | DTP, booster (with polio); Polio, booster
 
-- At 12 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 12 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 ## Keep your child’s vaccines in Ayumitra
 
@@ -3141,9 +3117,7 @@ WHO Immunization Data, Finland vaccination schedule for 2025 (rows committed 19 
 
 - At 6 years | MMR (as MMRV), dose 2; Chickenpox (as MMRV), dose 2
 
-- At 10 years | HPV, dose 1 · recommended up to 13 years
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 10 years | HPV, dose 1 · recommended up to 13 years; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 14 years | dtap, booster 2 (reduced dose) · recommended up to 16 years
 
@@ -3319,9 +3293,7 @@ Calendrier des vaccinations et recommandations vaccinales 2026, July 2026 editio
 
 - At 6 years | DTP, booster 2; Injectable polio (IPV), booster 2
 
-- At 11 years | DTP, booster 3 (reduced-dose dTcaP) · recommended up to 13 years; Injectable polio (IPV), booster 3 · recommended up to 13 years; HPV, dose 1 · recommended up to 15 years; Meningococcal ACWY, adolescent dose · recommended up to 15 years
-
-- After an earlier dose | HPV, dose 2 · 5 months after the dose before
+- At 11 years | DTP, booster 3 (reduced-dose dTcaP) · recommended up to 13 years; Injectable polio (IPV), booster 3 · recommended up to 13 years; HPV, dose 1 · recommended up to 15 years; HPV, dose 2 · 5 months after HPV, dose 1; Meningococcal ACWY, adolescent dose · recommended up to 15 years
 
 ## Keep your child’s vaccines in Ayumitra
 
@@ -3401,9 +3373,7 @@ Calendario nazionale vaccinale, Intesa Rep. atti n. 193/CSR of 2 August 2023 (G.
 
 - At 5 years | DTP, booster 2; Injectable polio (IPV), booster 2; MMR, dose 2; Chickenpox (varicella), dose 2
 
-- At 11 years | HPV, dose 1
-
-- After an earlier dose | HPV, dose 2 · 6 months after the dose before
+- At 11 years | HPV, dose 1; HPV, dose 2 · 6 months after HPV, dose 1
 
 - At 12 years | DTP, booster 3 (adult-type dTaP) · recommended up to 18 years; Injectable polio (IPV), booster 3 · recommended up to 18 years; Meningococcal ACWY, adolescent dose · recommended up to 18 years
 
@@ -3560,9 +3530,7 @@ Child and Adolescent Immunization Schedule by Age, Recommendations for Ages 18 Y
 
 - At 4 months | Rotavirus, dose 2; DTaP (diphtheria, tetanus, pertussis), dose 2; Hib, dose 2; Pneumococcal (PCV), dose 2; Injectable polio (IPV), dose 2
 
-- At 6 months | Hepatitis B, dose 3 · recommended up to 18 months; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used; DTaP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3 (not needed after PedvaxHIB) · depends on the vaccine used; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 3 · recommended up to 18 months; Influenza, first season dose 1
-
-- After an earlier dose | Influenza, first season dose 2 (under 9 years) · 4 weeks after the dose before; HPV, dose 2 · 6 months after the dose before; Meningococcal B, dose 2 (shared decision) · optional · 6 months after the dose before
+- At 6 months | Hepatitis B, dose 3 · recommended up to 18 months; Rotavirus, dose 3 (RotaTeq only) · depends on the vaccine used; DTaP (diphtheria, tetanus, pertussis), dose 3; Hib, dose 3 (not needed after PedvaxHIB) · depends on the vaccine used; Pneumococcal (PCV), dose 3; Injectable polio (IPV), dose 3 · recommended up to 18 months; Influenza, first season dose 1; Influenza, first season dose 2 (under 9 years) · 4 weeks after Influenza, first season dose 1
 
 - At 12 months | Hib, booster · recommended up to 15 months; Pneumococcal (PCV), dose 4 · recommended up to 15 months; MMR, dose 1 · recommended up to 15 months; Chickenpox (varicella), dose 1 · recommended up to 15 months; Hepatitis A, dose 1 · recommended up to 23 months
 
@@ -3572,9 +3540,9 @@ Child and Adolescent Immunization Schedule by Age, Recommendations for Ages 18 Y
 
 - At 4 years | DTaP, dose 5 (booster) · recommended up to 6 years; Injectable polio (IPV), dose 4 · recommended up to 6 years; MMR, dose 2 · recommended up to 6 years; Chickenpox (varicella), dose 2 · recommended up to 6 years
 
-- At 11 years | Tdap (adolescent booster) · recommended up to 12 years; HPV, dose 1 · recommended up to 12 years; Meningococcal ACWY, dose 1 · recommended up to 12 years
+- At 11 years | Tdap (adolescent booster) · recommended up to 12 years; HPV, dose 1 · recommended up to 12 years; HPV, dose 2 · 6 months after HPV, dose 1; Meningococcal ACWY, dose 1 · recommended up to 12 years
 
-- At 16 years | Meningococcal ACWY, dose 2 (booster); Meningococcal B, dose 1 (shared decision) · optional · recommended up to 18 years
+- At 16 years | Meningococcal ACWY, dose 2 (booster); Meningococcal B, dose 1 (shared decision) · optional · recommended up to 18 years; Meningococcal B, dose 2 (shared decision) · optional · 6 months after Meningococcal B, dose 1 (shared decision)
 
 ## Keep your child’s vaccines in Ayumitra
 

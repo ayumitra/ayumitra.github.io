@@ -9,4 +9,6 @@ Ayumitra Pro is one plan, sold in the app. For everything else, such as Pro for 
 
 A question about using the app? Simply email [support@ayumitra.app](mailto:support@ayumitra.app).
 
+We’re also on X: [@ayumitraai](https://x.com/ayumitraai). Please don’t share health details there.
+
 This form needs JavaScript. Without it, write to [support@ayumitra.app](mailto:support@ayumitra.app).

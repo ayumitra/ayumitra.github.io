@@ -38,9 +38,7 @@ Schedule reported by the Philippines for 2025 (WHO/UNICEF Joint Reporting Form),
 
 - At 6 years | MR (measles-rubella), grade 1 · recommended up to 8 years; Td (tetanus and adult diphtheria), grade 1 · recommended up to 8 years
 
-- At 9 years | HPV, dose 1 (girls) · for girls · recommended up to 10 years
-
-- After an earlier dose | HPV, dose 2 (girls) · for girls · 6 months after the dose before
+- At 9 years | HPV, dose 1 (girls) · for girls · recommended up to 10 years; HPV, dose 2 (girls) · for girls · 6 months after HPV, dose 1 (girls)
 
 - At 12 years | MR (measles-rubella), grade 7 · recommended up to 14 years; Td (tetanus and adult diphtheria), grade 7 · recommended up to 14 years
 
